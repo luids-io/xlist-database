@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "voipbl.org",
+        "class": "file",
+        "name": "VoIP Blacklist",
+        "web": "http://www.voipbl.org",
+        "category": "blacklist",
+        "tags": [
+            "fraud",
+            "voip"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'voipbl.org'"
+        }
+    }
+]

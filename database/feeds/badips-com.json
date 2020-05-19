@@ -1,0 +1,17 @@
+[
+    {
+        "disabled": true,
+        "id": "badips.com",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://www.badips.com/get/list/any/2?age=7d",
+                "filename": "last7d.txt"
+            }
+        ],
+        "update": "24h"
+    }
+]

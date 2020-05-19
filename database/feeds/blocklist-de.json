@@ -1,0 +1,79 @@
+[
+    {
+        "disabled": true,
+        "id": "blocklist.de",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://lists.blocklist.de/lists/ssh.txt"
+            },
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://lists.blocklist.de/lists/mail.txt"
+            },
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://lists.blocklist.de/lists/apache.txt"
+            },
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://lists.blocklist.de/lists/imap.txt"
+            },
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://lists.blocklist.de/lists/ftp.txt"
+            },
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://lists.blocklist.de/lists/sip.txt"
+            },
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://lists.blocklist.de/lists/bots.txt"
+            },
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://lists.blocklist.de/lists/strongips.txt"
+            },
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://lists.blocklist.de/lists/ircbot.txt"
+            },
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://lists.blocklist.de/lists/bruteforcelogin.txt"
+            }
+        ],
+        "update": "12h"
+    }
+]

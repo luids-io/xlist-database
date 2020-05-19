@@ -1,0 +1,23 @@
+[
+    {
+        "disabled": true,
+        "id": "stopforumspam.com",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://www.stopforumspam.com/downloads/toxic_ip_cidr.txt"
+            },
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://www.stopforumspam.com/downloads/toxic_domains_whole.txt"
+            }
+        ],
+        "update": "24h"
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "s5h.net",
+        "class": "dnsxl",
+        "name": "s5h.net RBL",
+        "web": "http://www.usenix.org.uk/wiki/RBL",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4",
+            "ip6"
+        ],
+        "source": "all.s5h.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

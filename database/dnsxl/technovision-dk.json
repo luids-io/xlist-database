@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "technovision.dk",
+        "class": "dnsxl",
+        "name": "TechnoVision SpamTrap",
+        "web": "http://st.technovision.dk/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "st.technovision.dk",
+        "opts": {
+            "halfping": true,
+            "resolvreason": true
+        }
+    }
+]

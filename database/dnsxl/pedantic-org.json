@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "pedantic.org",
+        "class": "dnsxl",
+        "name": "Pedantic.org spam",
+        "web": "http://www.pedantic.org/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "spam.pedantic.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

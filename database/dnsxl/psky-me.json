@@ -1,0 +1,23 @@
+[
+    {
+        "disabled": true,
+        "id": "psky.me",
+        "class": "dnsxl",
+        "name": "Protected SKY",
+        "web": "http://www.psky.me/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "bad.psky.me",
+        "opts": {
+            "dnscodes": {
+                "127.0.0.2": "The IP address in question has been seen with a high rate of spam.",
+                "127.0.0.3": "The IP address in question has been seen to have a very high rate of spam."
+            }
+        }
+    }
+]

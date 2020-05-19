@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "dshield.org",
+        "class": "file",
+        "name": "DShield Top10",
+        "web": "https://www.dshield.org",
+        "category": "blacklist",
+        "tags": [
+            "malware"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'dshield.org'"
+        }
+    }
+]

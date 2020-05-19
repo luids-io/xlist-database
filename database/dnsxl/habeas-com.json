@@ -1,0 +1,68 @@
+[
+    {
+        "disabled": true,
+        "id": "habeas.com",
+        "class": "dnsxl",
+        "name": "Habeas SafeList",
+        "web": "http://www.habeas.com/",
+        "category": "whitelist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "accredit.habeas.com",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "habeas.com-sa",
+        "class": "dnsxl",
+        "name": "Habeas SafeList (for SpamAssassin)",
+        "web": "http://www.habeas.com/",
+        "category": "whitelist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "sa-accredit.habeas.com",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "habeas.com-hul",
+        "class": "dnsxl",
+        "name": "Habeas User List",
+        "web": "http://www.habeas.com/",
+        "category": "whitelist",
+        "resources": [
+            "ip4"
+        ],
+        "source": "hul.habeas.com",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "habeas.com-sohul",
+        "class": "dnsxl",
+        "name": "Habeas User List (including Non-Verified-Optin)",
+        "web": "http://www.habeas.com/",
+        "category": "whitelist",
+        "resources": [
+            "ip4"
+        ],
+        "source": "sohul.habeas.com",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

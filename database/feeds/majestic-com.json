@@ -1,0 +1,44 @@
+[
+    {
+        "disabled": true,
+        "id": "majestic.com",
+        "sources": [
+            {
+                "format": "csv",
+                "formatopts": {
+                    "header": true,
+                    "indexes": [
+                        2
+                    ]
+                },
+                "resources": [
+                    "domain"
+                ],
+                "limit": 100000,
+                "uri": "http://downloads.majestic.com/majestic_million.csv"
+            }
+        ],
+        "update": "48h"
+    },
+    {
+        "disabled": true,
+        "id": "majestic.com-1000",
+        "sources": [
+            {
+                "format": "csv",
+                "formatopts": {
+                    "header": true,
+                    "indexes": [
+                        2
+                    ]
+                },
+                "resources": [
+                    "domain"
+                ],
+                "limit": 1000,
+                "uri": "http://downloads.majestic.com/majestic_million.csv"
+            }
+        ],
+        "update": "48h"
+    }
+]

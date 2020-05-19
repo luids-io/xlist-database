@@ -1,0 +1,59 @@
+[
+    {
+        "disabled": true,
+        "id": "cymru.com-bogons",
+        "class": "dnsxl",
+        "name": "Cymru Bogon List",
+        "web": "http://www.team-cymru.com/bogon-reference.html",
+        "category": "blacklist",
+        "tags": [
+            "bogon"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "bogons.cymru.com",
+        "opts": {
+            "halfping": true,
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "cymru.com-fullbogons4",
+        "class": "dnsxl",
+        "name": "Cymru Fullbogon IPv4 List",
+        "web": "http://www.team-cymru.com/bogon-reference.html",
+        "category": "blacklist",
+        "tags": [
+            "bogon"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "v4.fullbogons.cymru.com",
+        "opts": {
+            "halfping": true,
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "cymru.com-fullbogons6",
+        "class": "dnsxl",
+        "name": "Cymru Fullbogon IPv6 List",
+        "web": "http://www.team-cymru.com/bogon-reference.html",
+        "category": "blacklist",
+        "tags": [
+            "bogon"
+        ],
+        "resources": [
+            "ip6"
+        ],
+        "source": "v6.fullbogons.cymru.com",
+        "opts": {
+            "halfping": true,
+            "resolvreason": true
+        }
+    }
+]

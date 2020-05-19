@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "wpbl.info",
+        "class": "dnsxl",
+        "name": "WPBL - Weighted Private Block List",
+        "web": "http://www.wpbl.info/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "db.wpbl.info",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

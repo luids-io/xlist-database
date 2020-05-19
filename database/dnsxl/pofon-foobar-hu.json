@@ -1,0 +1,60 @@
+[
+    {
+        "disabled": true,
+        "id": "pofon.foobar.hu",
+        "class": "dnsxl",
+        "name": "pofon.foobar.hu IP Blacklist",
+        "web": "https://rbl.foobar.hu/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4",
+            "ip6"
+        ],
+        "source": "pofon.foobar.hu",
+        "opts": {
+            "pingdns": "pofon.foobar.hu",
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "pofon.foobar.hu-uribl",
+        "class": "dnsxl",
+        "name": "pofon.foobar.hu URI Blacklist",
+        "web": "https://rbl.foobar.hu/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "uribl.pofon.foobar.hu",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "pofon.foobar.hu-ispmx",
+        "class": "dnsxl",
+        "name": "pofon.foobar.hu ISP mail relay whitelist",
+        "web": "https://rbl.foobar.hu/",
+        "category": "whitelist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4",
+            "ip6"
+        ],
+        "source": "ispmx.pofon.foobar.hu",
+        "opts": {
+            "pingdns": "pofon.foobar.hu",
+            "resolvreason": true
+        }
+    }
+]

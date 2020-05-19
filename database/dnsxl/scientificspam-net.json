@@ -1,0 +1,38 @@
+[
+    {
+        "disabled": true,
+        "id": "scientificspam.net-domain",
+        "class": "dnsxl",
+        "name": "scientificspam.net Domain list",
+        "web": "http://www.scientificspam.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "rhsbl.scientificspam.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "scientificspam.net-ip",
+        "class": "dnsxl",
+        "name": "scientificspam.net IP list",
+        "web": "http://www.scientificspam.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "bl.scientificspam.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

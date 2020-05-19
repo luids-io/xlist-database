@@ -1,0 +1,18 @@
+[
+    {
+        "disabled": true,
+        "id": "urlvir.com",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4",
+                    "domain"
+                ],
+                "uri": "http://www.urlvir.com/export-hosts/",
+                "filename": "urlvir.txt"
+            }
+        ],
+        "update": "24h"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "justspam.org",
+        "class": "dnsxl",
+        "name": "JustSpam.org",
+        "web": "http://www.justspam.org/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dnsbl.justspam.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

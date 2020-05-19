@@ -1,0 +1,56 @@
+[
+    {
+        "disabled": true,
+        "id": "stopspam.org-block",
+        "class": "dnsxl",
+        "name": "StopSpam.org block",
+        "web": "http://www.stopspam.org/rblcheck/index.php",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "block.stopspam.org",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "stopspam.org-badhost",
+        "class": "dnsxl",
+        "name": "StopSpam.org badhost",
+        "web": "http://www.stopspam.org/rblcheck/index.php",
+        "category": "blacklist",
+        "tags": [
+            "noptr"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "badhost.stopspam.org",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "stopspam.org-dul",
+        "class": "dnsxl",
+        "name": "StopSpam.org dynamic",
+        "web": "http://www.stopspam.org/rblcheck/index.php",
+        "category": "blacklist",
+        "tags": [
+            "dynamic"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dul.pacifier.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

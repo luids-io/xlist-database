@@ -1,0 +1,225 @@
+[
+    {
+        "disabled": true,
+        "id": "spameatingmonkey.net-originasn",
+        "class": "dnsxl",
+        "name": "Spam Eating Monkey SEM-ASN-ORIGIN",
+        "web": "http://spameatingmonkey.com/",
+        "category": "infolist",
+        "tags": [
+            "info"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "origin.asn.spameatingmonkey.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "spameatingmonkey.net-backscatter",
+        "class": "dnsxl",
+        "name": "Spam Eating Monkey SEM-BACKSCATTER",
+        "web": "http://spameatingmonkey.com/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "backscatter.spameatingmonkey.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "spameatingmonkey.net",
+        "class": "dnsxl",
+        "name": "Spam Eating Monkey SEM-BLACK",
+        "web": "http://spameatingmonkey.com/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "bl.spameatingmonkey.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "spameatingmonkey.net-netbl",
+        "class": "dnsxl",
+        "name": "Spam Eating Monkey SEM-NETBLACK",
+        "web": "http://spameatingmonkey.com/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "netbl.spameatingmonkey.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "spameatingmonkey.net-ip6",
+        "class": "dnsxl",
+        "name": "Spam Eating Monkey SEM-IPV6BL",
+        "web": "http://spameatingmonkey.com/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip6"
+        ],
+        "source": "bl.ipv6.spameatingmonkey.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "spameatingmonkey.net-uri",
+        "class": "dnsxl",
+        "name": "Spam Eating Monkey SEM-URI",
+        "web": "http://spameatingmonkey.com/",
+        "tags": [
+            "spam"
+        ],
+        "category": "blacklist",
+        "resources": [
+            "domain"
+        ],
+        "source": "uribl.spameatingmonkey.net",
+        "opts": {
+            "pingdns": "_DNSBL_.test.uribl.spameatingmonkey.net",
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "spameatingmonkey.net-urired",
+        "class": "dnsxl",
+        "name": "Spam Eating Monkey SEM-URIRED",
+        "web": "http://spameatingmonkey.com/",
+        "tags": [
+            "spam"
+        ],
+        "category": "blacklist",
+        "resources": [
+            "domain"
+        ],
+        "source": "urired.spameatingmonkey.net",
+        "opts": {
+            "pingdns": "_DNSBL_.test.urired.spameatingmonkey.net",
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "spameatingmonkey.net-freshzero",
+        "class": "dnsxl",
+        "name": "Spam Eating Monkey SEM-FRESHZERO",
+        "web": "http://spameatingmonkey.com/",
+        "tags": [
+            "fresh"
+        ],
+        "category": "blacklist",
+        "resources": [
+            "domain"
+        ],
+        "source": "freshzero.spameatingmonkey.net",
+        "opts": {
+            "pingdns": "_DNSBL_.test.freshzero.spameatingmonkey.net",
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "spameatingmonkey.net-fresh",
+        "class": "dnsxl",
+        "name": "Spam Eating Monkey SEM-FRESH",
+        "web": "http://spameatingmonkey.com/",
+        "tags": [
+            "fresh"
+        ],
+        "category": "blacklist",
+        "resources": [
+            "domain"
+        ],
+        "source": "fresh.spameatingmonkey.net",
+        "opts": {
+            "pingdns": "_DNSBL_.test.fresh.spameatingmonkey.net",
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "spameatingmonkey.net-fresh10",
+        "class": "dnsxl",
+        "name": "Spam Eating Monkey SEM-FRESH10",
+        "web": "http://spameatingmonkey.com/",
+        "tags": [
+            "fresh"
+        ],
+        "category": "blacklist",
+        "resources": [
+            "domain"
+        ],
+        "source": "fresh10.spameatingmonkey.net",
+        "opts": {
+            "pingdns": "_DNSBL_.test.fresh10.spameatingmonkey.net",
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "spameatingmonkey.net-fresh15",
+        "class": "dnsxl",
+        "name": "Spam Eating Monkey SEM-FRESH15",
+        "web": "http://spameatingmonkey.com/",
+        "tags": [
+            "fresh"
+        ],
+        "category": "blacklist",
+        "resources": [
+            "domain"
+        ],
+        "source": "fresh15.spameatingmonkey.net",
+        "opts": {
+            "pingdns": "_DNSBL_.test.fresh15.spameatingmonkey.net",
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "spameatingmonkey.net-fresh30",
+        "class": "dnsxl",
+        "name": "Spam Eating Monkey SEM-FRESH30",
+        "web": "http://spameatingmonkey.com/",
+        "tags": [
+            "fresh"
+        ],
+        "category": "blacklist",
+        "resources": [
+            "domain"
+        ],
+        "source": "fresh30.spameatingmonkey.net",
+        "opts": {
+            "pingdns": "_DNSBL_.test.fresh30.spameatingmonkey.net",
+            "resolvreason": true
+        }
+    }
+]

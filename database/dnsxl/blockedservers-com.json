@@ -1,0 +1,76 @@
+[
+    {
+        "disabled": true,
+        "id": "blockedservers.com-netscan",
+        "class": "dnsxl",
+        "name": "BlockedServers NetScan RBL",
+        "web": "http://www.blockedservers.com/",
+        "category": "blacklist",
+        "tags": [
+            "netscan"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "netscan.rbl.blockedservers.com",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "blockedservers.com-spam",
+        "class": "dnsxl",
+        "name": "BlockedServers Spam RBL",
+        "web": "http://www.blockedservers.com/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "spam.rbl.blockedservers.com",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "blockedservers.com-torexit",
+        "class": "dnsxl",
+        "name": "BlockedServers Torexit RBL",
+        "web": "http://www.blockedservers.com/",
+        "category": "blacklist",
+        "tags": [
+            "torexit"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "torexit.rbl.blockedservers.com",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "blockedservers.com",
+        "class": "dnsxl",
+        "name": "BlockedServers RBL",
+        "web": "http://www.blockedservers.com/",
+        "category": "blacklist",
+        "tags": [
+            "spam",
+            "netscan",
+            "torexit"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "rbl.blockedservers.com",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

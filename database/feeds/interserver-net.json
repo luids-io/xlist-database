@@ -1,0 +1,16 @@
+[
+    {
+        "disabled": true,
+        "id": "interserver.net",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "http://rbl.interserver.net/iprbl.txt"
+            }
+        ],
+        "update": "12h"
+    }
+]

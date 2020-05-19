@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "isc.sans.edu-domains",
+        "class": "file",
+        "name": "SANS Internet Storm Center suspicious domains",
+        "web": "https://isc.sans.edu",
+        "category": "blacklist",
+        "tags": [
+            "reputation"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'isc.sans.edu-domains'"
+        }
+    }
+]

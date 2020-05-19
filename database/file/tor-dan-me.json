@@ -1,0 +1,38 @@
+[
+    {
+        "disabled": true,
+        "id": "dan.me.uk-tor",
+        "class": "file",
+        "name": "dan.me.uk (all tor nodes)",
+        "web": "https://www.dan.me.uk/tornodes",
+        "category": "blacklist",
+        "tags": [
+            "torexit"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'dan.me.uk-tor'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "dan.me.uk-torexit",
+        "class": "file",
+        "name": "dan.me.uk (only tor exit nodes)",
+        "web": "https://www.dan.me.uk/tornodes",
+        "category": "blacklist",
+        "tags": [
+            "torexit"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'dan.me.uk-torexit'"
+        }
+    }
+]

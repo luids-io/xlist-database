@@ -1,0 +1,23 @@
+[
+    {
+        "disabled": true,
+        "id": "turris.cz",
+        "sources": [
+            {
+                "format": "csv",
+                "formatopts": {
+                    "header": true,
+                    "indexes": [
+                        0
+                    ]
+                },
+                "resources": [
+                    "ip4",
+                    "ip6"
+                ],
+                "uri": "https://project.turris.cz/greylist-data/greylist-latest.csv"
+            }
+        ],
+        "update": "24h"
+    }
+]

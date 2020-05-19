@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "spamgrouper.to",
+        "class": "dnsxl",
+        "name": "Spam Grouper Net block list",
+        "web": "http://www.spamgrouper.to/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "netblockbl.spamgrouper.to",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

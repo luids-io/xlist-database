@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "sarbl.org",
+        "class": "dnsxl",
+        "name": "SARBL",
+        "web": "https://www.sarbl.org/Main",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "public.sarbl.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

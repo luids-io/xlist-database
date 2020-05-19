@@ -1,0 +1,32 @@
+[
+    {
+        "disabled": true,
+        "id": "majestic.com",
+        "class": "file",
+        "name": "majestic The planet's largest Link Index database",
+        "web": "https://majestic.com/",
+        "category": "whitelist",
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'majestic.com'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "majestic.com-1000",
+        "class": "file",
+        "name": "majestic The planet's largest Link Index database (top 1000)",
+        "web": "https://majestic.com/",
+        "category": "whitelist",
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'majestic.com'"
+        }
+    }
+]

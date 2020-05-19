@@ -1,0 +1,17 @@
+[
+    {
+        "disabled": true,
+        "id": "isx.fr",
+        "class": "dnsxl",
+        "name": "dnsbl.isx.fr",
+        "web": "https://bl.isx.fr/",
+        "category": "blacklist",
+        "resources": [
+            "ip4"
+        ],
+        "source": "dnsbl.isx.fr",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "disabled": true,
+        "id": "isc.sans.edu-domains",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://isc.sans.edu/feeds/suspiciousdomains_Low.txt"
+            }
+        ],
+        "update": "8h"
+    }
+]

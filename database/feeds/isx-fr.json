@@ -1,0 +1,17 @@
+[
+    {
+        "disabled": true,
+        "id": "isx.fr",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://bl.isx.fr/raw",
+                "filename": "isx-ips.txt"
+            }
+        ],
+        "update": "1h"
+    }
+]

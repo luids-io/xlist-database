@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "blocklist.de",
+        "class": "dnsxl",
+        "name": "blocklist.de Fail2Ban Reporting Service",
+        "web": "http://www.blocklist.de/",
+        "category": "blacklist",
+        "tags": [
+            "bruteforce"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "bl.blocklist.de",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

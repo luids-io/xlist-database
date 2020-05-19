@@ -1,0 +1,39 @@
+[
+    {
+        "disabled": true,
+        "id": "anticaptcha.net-dnsbl",
+        "class": "dnsxl",
+        "name": "AntiCaptcha.NET IPv4",
+        "web": "http://anticaptcha.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dnsbl.anticaptcha.net",
+        "opts": {
+            "halfping": true,
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "anticaptcha.net-dnsbl6",
+        "class": "dnsxl",
+        "name": "AntiCaptcha.NET IPv6",
+        "web": "http://anticaptcha.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip6"
+        ],
+        "source": "dnsbl6.anticaptcha.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

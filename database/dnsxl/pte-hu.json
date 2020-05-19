@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "pte.hu",
+        "class": "dnsxl",
+        "name": "SINGULARis Spam/scam blocklist",
+        "web": "http://singular.ttk.pte.hu/en/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "singular.ttk.pte.hu",
+        "opts": {
+            "halfping": true,
+            "resolvreason": true
+        }
+    }
+]

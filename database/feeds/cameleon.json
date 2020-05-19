@@ -1,0 +1,16 @@
+[
+    {
+        "disabled": true,
+        "id": "cameleon",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "http://sysctl.org/cameleon/hosts"
+            }
+        ],
+        "update": "24h"
+    }
+]

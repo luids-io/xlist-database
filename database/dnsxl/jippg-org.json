@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "jippg.org",
+        "class": "dnsxl",
+        "name": "JIPPG's RBL Project (mail-abuse Listings)",
+        "web": "http://blacklist.jippg.org/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "mail-abuse.blacklist.jippg.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

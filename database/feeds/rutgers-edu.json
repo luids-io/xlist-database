@@ -1,0 +1,16 @@
+[
+    {
+        "disabled": true,
+        "id": "rutgers.edu",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "http://report.rutgers.edu/DROP/attackers"
+            }
+        ],
+        "update": "8h"
+    }
+]

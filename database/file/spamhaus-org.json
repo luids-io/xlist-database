@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "spamhaus.org-drop",
+        "class": "file",
+        "name": "Spamhaus Don't Route Or Peer Lists",
+        "web": "https://www.spamhaus.org/drop/",
+        "category": "blacklist",
+        "tags": [
+            "hijacked"
+        ],
+        "resources": [
+            "ip4",
+            "ip6"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'spamhaus.org-drop'"
+        }
+    }
+]

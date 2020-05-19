@@ -1,0 +1,86 @@
+[
+    {
+        "disabled": true,
+        "id": "hosts-file.net-adt",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://hosts-file.net/ad_servers.txt"
+            }
+        ],
+        "update": "48h"
+    },
+    {
+        "disabled": true,
+        "id": "hosts-file.net-emd",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://hosts-file.net/emd.txt"
+            }
+        ],
+        "update": "48h"
+    },
+    {
+        "disabled": true,
+        "id": "hosts-file.net-exp",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://hosts-file.net/exp.txt"
+            }
+        ],
+        "update": "48h"
+    },
+    {
+        "disabled": true,
+        "id": "hosts-file.net-fsa",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://hosts-file.net/fsa.txt"
+            }
+        ],
+        "update": "48h"
+    },
+    {
+        "disabled": true,
+        "id": "hosts-file.net-psh",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://hosts-file.net/psh.txt"
+            }
+        ],
+        "update": "48h"
+    },
+    {
+        "disabled": true,
+        "id": "hosts-file.net-pup",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://hosts-file.net/pup.txt"
+            }
+        ],
+        "update": "48h"
+    }
+]

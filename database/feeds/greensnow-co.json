@@ -1,0 +1,16 @@
+[
+    {
+        "disabled": true,
+        "id": "greensnow.co",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://blocklist.greensnow.co/greensnow.txt"
+            }
+        ],
+        "update": "8h"
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "surbl.org",
+        "class": "dnsxl",
+        "name": "SURBL URI Reputation Data",
+        "web": "http://www.surbl.org/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4",
+            "domain"
+        ],
+        "source": "multi.surbl.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

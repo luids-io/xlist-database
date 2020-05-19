@@ -1,0 +1,241 @@
+[
+    {
+        "disabled": true,
+        "id": "blocklist.site-ads",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://blocklist.site/app/dl/ads"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-crypto",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://blocklist.site/app/dl/crypto"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-drugs",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://blocklist.site/app/dl/drugs"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-fraud",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://blocklist.site/app/dl/fraud"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-fakenews",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://blocklist.site/app/dl/fakenews"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-gambling",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://blocklist.site/app/dl/gambling"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-malware",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4",
+                    "domain"
+                ],
+                "uri": "https://blocklist.site/app/dl/malware"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-phishing",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://blocklist.site/app/dl/phishing"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-piracy",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://blocklist.site/app/dl/piracy"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-porn",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://blocklist.site/app/dl/porn"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-proxy",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://blocklist.site/app/dl/proxy"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-ransomware",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://blocklist.site/app/dl/ransomware"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-redirect",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://blocklist.site/app/dl/redirect"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-scam",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://blocklist.site/app/dl/scam"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-spam",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://blocklist.site/app/dl/spam"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-torrent",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://blocklist.site/app/dl/torrent"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-tracking",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://blocklist.site/app/dl/tracking"
+            }
+        ],
+        "update": "24h"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "manitu.net",
+        "class": "dnsxl",
+        "name": "NiX Spam DNSBL",
+        "web": "http://www.dnsbl.manitu.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "ix.dnsbl.manitu.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

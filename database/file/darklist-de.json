@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "darklist.de",
+        "class": "file",
+        "name": "darklist.de",
+        "web": "https://darklist.de/",
+        "category": "blacklist",
+        "tags": [
+            "bruteforce",
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'darklist.de'"
+        }
+    }
+]

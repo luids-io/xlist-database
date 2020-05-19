@@ -1,0 +1,71 @@
+[
+    {
+        "disabled": true,
+        "id": "abuse.ch-feodo",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://feodotracker.abuse.ch/downloads/ipblocklist.txt"
+            }
+        ],
+        "update": "12h"
+    },
+    {
+        "disabled": true,
+        "id": "abuse.ch-urlhaus",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://urlhaus.abuse.ch/downloads/hostfile/",
+                "filename": "hostfile.txt"
+            }
+        ],
+        "update": "1h"
+    },
+    {
+        "disabled": true,
+        "id": "abuse.ch-ssl",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://sslbl.abuse.ch/blacklist/sslipblacklist.txt"
+            },
+            {
+                "format": "csv",
+                "formatopts": {
+                    "comments": true,
+                    "indexes": [
+                        0
+                    ]
+                },
+                "resources": [
+                    "md5"
+                ],
+                "uri": "https://sslbl.abuse.ch/blacklist/ja3_fingerprints.csv"
+            },
+            {
+                "format": "csv",
+                "formatopts": {
+                    "comments": true,
+                    "indexes": [
+                        1
+                    ]
+                },
+                "resources": [
+                    "sha1"
+                ],
+                "uri": "https://sslbl.abuse.ch/blacklist/sslblacklist.csv"
+            }
+        ],
+        "update": "12h"
+    }
+]

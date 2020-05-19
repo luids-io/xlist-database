@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "kempt.net",
+        "class": "dnsxl",
+        "name": "Kempt.net DNS Black List",
+        "web": "http://www.kempt.net/dnsbl/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dnsbl.kempt.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

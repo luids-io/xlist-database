@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "talosintelligence.com",
+        "class": "file",
+        "name": "talosintelligence.com CISCO ip blacklist",
+        "web": "https://www.talosintelligence.com",
+        "category": "blacklist",
+        "tags": [
+            "reputation"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'talosintelligence.com'"
+        }
+    }
+]

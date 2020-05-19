@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "rutgers.edu",
+        "class": "file",
+        "name": "rutgers.edu attackers",
+        "web": "https://www.rutgers.edu",
+        "category": "blacklist",
+        "tags": [
+            "bruteforce"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'rutgers.edu'"
+        }
+    }
+]

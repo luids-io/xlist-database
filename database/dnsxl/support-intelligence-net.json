@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "support-intelligence.net-dob",
+        "class": "dnsxl",
+        "name": "The Day Old Bread List (aka DOB)",
+        "web": "http://support-intelligence.com/dob/",
+        "category": "blacklist",
+        "tags": [
+            "fresh"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "dob.sibl.support-intelligence.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "disabled": true,
+        "id": "malc0de.com",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "http://malc0de.com/bl/IP_Blacklist.txt"
+            }
+        ],
+        "update": "24h"
+    }
+]

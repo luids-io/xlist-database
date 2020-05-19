@@ -1,0 +1,22 @@
+[
+    {
+        "disabled": true,
+        "id": "megarbl.net",
+        "class": "dnsxl",
+        "name": "MegaRBL.net",
+        "web": "https://www.megarbl.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "rbl.megarbl.net",
+        "opts": {
+            "dnscodes": {
+                "127.0.0.2": "IP listed in rbl.megarbl.net, spam source."
+            }
+        }
+    }
+]

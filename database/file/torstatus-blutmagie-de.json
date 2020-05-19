@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "torstatus.blutmagie.de",
+        "class": "file",
+        "name": "torstatus.blutmagie.de tor status",
+        "web": "https://torstatus.blutmagie.de",
+        "category": "blacklist",
+        "tags": [
+            "torexit"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'torstatus.blutmagie.de'"
+        }
+    }
+]

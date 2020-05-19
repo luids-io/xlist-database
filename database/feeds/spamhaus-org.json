@@ -1,0 +1,30 @@
+[
+    {
+        "disabled": true,
+        "id": "spamhaus.org-drop",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://www.spamhaus.org/drop/drop.txt"
+            },
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://www.spamhaus.org/drop/edrop.txt"
+            },
+            {
+                "format": "flat",
+                "resources": [
+                    "ip6"
+                ],
+                "uri": "https://www.spamhaus.org/drop/dropv6.txt"
+            }
+        ],
+        "update": "6h"
+    }
+]

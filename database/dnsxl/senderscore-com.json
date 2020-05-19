@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "senderscore.com",
+        "class": "dnsxl",
+        "name": "SenderScore Blacklist",
+        "web": "http://www.senderscore.org/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "bl.score.senderscore.com",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

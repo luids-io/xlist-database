@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "urlvir.com",
+        "class": "file",
+        "name": "urlvir database",
+        "web": "http://www.urlvir.com",
+        "category": "blacklist",
+        "tags": [
+            "malware"
+        ],
+        "resources": [
+            "ip4",
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'urlvir.com'"
+        }
+    }
+]

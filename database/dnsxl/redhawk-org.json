@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "redhawk.org",
+        "class": "dnsxl",
+        "name": "Redhawk.org",
+        "web": "https://www.redhawk.org/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "access.redhawk.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "disabled": true,
+        "id": "isx.fr",
+        "class": "file",
+        "name": "bl.isx.fr",
+        "web": "https://bl.isx.fr/",
+        "category": "blacklist",
+        "resources": [
+            "ip4"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'isx.fr'"
+        }
+    }
+]

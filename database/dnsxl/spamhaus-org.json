@@ -1,0 +1,185 @@
+[
+    {
+        "disabled": true,
+        "id": "spamhaus.org-dwl",
+        "class": "dnsxl",
+        "name": "Spamhaus DWL Domain Whitelist",
+        "web": "http://www.spamhauswhitelist.com/",
+        "category": "whitelist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "_vouch.dwl.spamhaus.org",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "spamhaus.org-swl",
+        "class": "dnsxl",
+        "name": "Spamhaus SWL IP Whitelist",
+        "web": "http://www.spamhauswhitelist.com/",
+        "category": "whitelist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4",
+            "ip6"
+        ],
+        "source": "swl.spamhaus.org",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "spamhaus.org-zen",
+        "class": "dnsxl",
+        "name": "Spamhaus ZEN Combined Block List",
+        "web": "http://www.spamhaus.org/zen/",
+        "category": "blacklist",
+        "tags": [
+            "spam",
+            "openproxy",
+            "malware",
+            "non-mta"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "zen.spamhaus.org",
+        "opts": {
+            "nsresolvers": true,
+            "dnscodes": {
+                "127.0.0.2": "ZEN2: Direct UBE sources, spam operations & spam services",
+                "127.0.0.3": "ZEN3: Direct snowshoe spam sources detected via automation",
+                "127.0.0.4": "ZEN4: CBL (3rd party exploits such as proxies, trojans, etc.)",
+                "127.0.0.5": "ZEN5: CBL (3rd party exploits such as proxies, trojans, etc.)",
+                "127.0.0.6": "ZEN6: CBL (3rd party exploits such as proxies, trojans, etc.)",
+                "127.0.0.7": "ZEN7: CBL (3rd party exploits such as proxies, trojans, etc.)",
+                "127.0.0.9": "ZEN9: All networks in DROP and EDROP",
+                "127.0.0.10": "ZEN10: End-user Non-MTA IP addresses set by ISP outbound mail policy",
+                "127.0.0.11": "ZEN11: End-user Non-MTA IP addresses set by ISP outbound mail policy"
+            }
+        }
+    },
+    {
+        "disabled": true,
+        "id": "spamhaus.org-dbl",
+        "class": "dnsxl",
+        "name": "Spamhaus DBL Domain Block List",
+        "web": "http://www.spamhaus.org/dbl/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "dbl.spamhaus.org",
+        "opts": {
+            "nsresolvers": true,
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "spamhaus.org-pbl",
+        "class": "dnsxl",
+        "name": "Spamhaus PBL Policy Block List",
+        "web": "http://www.spamhaus.org/pbl/",
+        "category": "blacklist",
+        "tags": [
+            "non-mta"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "pbl.spamhaus.org",
+        "opts": {
+            "nsresolvers": true,
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "spamhaus.org-sbl",
+        "class": "dnsxl",
+        "name": "Spamhaus SBL Spamhaus Block List",
+        "web": "http://www.spamhaus.org/sbl/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "sbl.spamhaus.org",
+        "opts": {
+            "nsresolvers": true,
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "spamhaus.org-sbl-xbl",
+        "class": "dnsxl",
+        "name": "Spamhaus SBL-XBL Combined Block List",
+        "web": "http://www.spamhaus.org/",
+        "category": "blacklist",
+        "tags": [
+            "spam",
+            "malware"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "sbl-xbl.spamhaus.org",
+        "opts": {
+            "nsresolvers": true,
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "spamhaus.org-xbl",
+        "class": "dnsxl",
+        "name": "Spamhaus XBL Exploits Block List",
+        "web": "http://www.spamhaus.org/xbl/",
+        "category": "blacklist",
+        "tags": [
+            "malware"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "xbl.spamhaus.org",
+        "opts": {
+            "nsresolvers": true,
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "abuseat.org-cbl",
+        "class": "dnsxl",
+        "name": "CBL",
+        "web": "https://www.abuseat.org/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "cbl.abuseat.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "disabled": true,
+        "id": "sblam.com",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "http://sblam.com/blacklist.txt"
+            }
+        ],
+        "update": "8h"
+    }
+]

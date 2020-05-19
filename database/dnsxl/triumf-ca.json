@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "triumf.ca",
+        "class": "dnsxl",
+        "name": "TRIUMF.ca DNSBL",
+        "web": "http://rbl2.triumf.ca/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "rbl2.triumf.ca",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

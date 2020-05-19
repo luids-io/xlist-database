@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "fabel.dk",
+        "class": "dnsxl",
+        "name": "Fabel Spamsources",
+        "web": "http://www.spamsources.fabel.dk/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "spamsources.fabel.dk",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

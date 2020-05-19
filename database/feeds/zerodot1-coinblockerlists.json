@@ -1,0 +1,30 @@
+[
+    {
+        "disabled": true,
+        "id": "zerodot1-coinblockerlists",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://zerodot1.gitlab.io/CoinBlockerLists/list.txt"
+            },
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://zerodot1.gitlab.io/CoinBlockerLists/list_browser.txt"
+            },
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://zerodot1.gitlab.io/CoinBlockerLists/list_optional.txt"
+            }
+        ],
+        "update": "24h"
+    }
+]

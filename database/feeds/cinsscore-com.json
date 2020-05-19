@@ -1,0 +1,16 @@
+[
+    {
+        "disabled": true,
+        "id": "cinsscore.com",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "http://cinsscore.com/list/ci-badguys.txt"
+            }
+        ],
+        "update": "24h"
+    }
+]

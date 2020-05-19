@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "backscatterer.org",
+        "class": "dnsxl",
+        "name": "Backscatterer.org",
+        "web": "http://www.backscatterer.org/",
+        "category": "blacklist",
+        "tags": [
+            "backscatter"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "ips.backscatterer.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

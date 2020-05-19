@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "gbudb.net",
+        "class": "dnsxl",
+        "name": "truncate.gbudb.net",
+        "web": "http://www.gbudb.com/truncate/index.jsp",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "truncate.gbudb.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "disabled": true,
+        "id": "interserver.net",
+        "class": "dnsxl",
+        "name": "InterServer BL",
+        "web": "http://rbl.interserver.net/",
+        "category": "blacklist",
+        "tags": [
+            "malware",
+            "spam",
+            "netscan"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "rbl.interserver.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

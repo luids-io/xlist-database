@@ -1,0 +1,38 @@
+[
+    {
+        "disabled": true,
+        "id": "v4bl.org-free",
+        "class": "dnsxl",
+        "name": "V4BL-FREE/DDNSBL-FREE",
+        "web": "http://v4bl.org/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "free.v4bl.org",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "v4bl.org-ip",
+        "class": "dnsxl",
+        "name": "V4BL/DDNSBL",
+        "web": "http://v4bl.org/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "ip.v4bl.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

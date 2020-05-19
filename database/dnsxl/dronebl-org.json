@@ -1,0 +1,24 @@
+[
+    {
+        "disabled": true,
+        "id": "dronebl.org",
+        "class": "dnsxl",
+        "name": "DroneBL",
+        "web": "http://www.dronebl.org/",
+        "category": "blacklist",
+        "tags": [
+            "spam",
+            "openproxy",
+            "torexit",
+            "drone"
+        ],
+        "resources": [
+            "ip4",
+            "ip6"
+        ],
+        "source": "dnsbl.dronebl.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

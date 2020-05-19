@@ -1,0 +1,16 @@
+[
+    {
+        "disabled": true,
+        "id": "talosintelligence.com",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "http://www.talosintelligence.com/feeds/ip-filter.blf"
+            }
+        ],
+        "update": "8h"
+    }
+]

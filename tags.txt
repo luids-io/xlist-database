@@ -1,0 +1,39 @@
+ads
+backscatter
+bogon -> non used networks
+bruteforce -> fail2ban, etc
+compliance -> some things bad in domain
+crypto -> cryptocoin minners
+drone -> irc bots, etc
+drugs
+dynamic -> dynamic ips
+exploit
+fakenews
+fraud
+fresh -> new domains
+gambling
+info -> databases: asn, country, contacts abuse, etc
+malware
+malware
+netscan
+non-mta
+noptr -> ips without a ptr register in the dns zone
+openproxy
+phising
+phising
+piracy
+porn
+proxy
+ransomware
+redirect -> redirectors
+reputation
+residential -> ips home users
+scam
+shortener -> domains used for short urls
+social
+spam
+spamvertized
+torexit
+torrent
+tracking
+voip

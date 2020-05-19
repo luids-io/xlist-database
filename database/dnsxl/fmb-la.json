@@ -1,0 +1,75 @@
+[
+    {
+        "disabled": true,
+        "id": "fmb.la",
+        "class": "dnsxl",
+        "name": "bl.fmb.la composite blacklist",
+        "web": "http://fmb.la/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4",
+            "domain"
+        ],
+        "source": "bl.fmb.la",
+        "opts": {
+            "halfping": true,
+            "dnscodes": {
+                "127.0.0.2": "Entry is blocked",
+                "127.0.1.2": "Level 2 block",
+                "127.0.2.2": "Level 3 block",
+                "127.0.1.24": "Spammy /24",
+                "127.0.1.25": "Spammy /25",
+                "127.0.1.26": "Spammy /26",
+                "127.0.1.27": "Spammy /27",
+                "127.0.1.28": "Spammy /28",
+                "127.1.1.2": "Bad bitcoin address"
+            }
+        }
+    },
+    {
+        "disabled": true,
+        "id": "fmb.la-short",
+        "class": "dnsxl",
+        "name": "short.fmb.la URL shortener",
+        "web": "http://fmb.la/",
+        "category": "blacklist",
+        "tags": [
+            "shortener"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "short.fmb.la",
+        "opts": {
+            "halfping": true,
+            "dnscodes": {
+                "127.0.0.2": "Domain hosts a URL shortener"
+            }
+        }
+    },
+    {
+        "disabled": true,
+        "id": "fmb.la-short",
+        "class": "dnsxl",
+        "name": "fresh.fmb.la FRESH domains",
+        "web": "http://fmb.la/",
+        "category": "blacklist",
+        "tags": [
+            "fresh"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "fresh.fmb.la",
+        "opts": {
+            "halfping": true,
+            "dnscodes": {
+                "127.0.0.2": "Domain registered in last 7 days",
+                "127.0.0.14": "Domain registered in last 7-14 days"
+            }
+        }
+    }
+]

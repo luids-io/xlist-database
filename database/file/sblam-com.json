@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "sblam.com",
+        "class": "file",
+        "name": "Sblam.com HTTP form spam",
+        "web": "https://sblam.com/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'sblam.com'"
+        }
+    }
+]

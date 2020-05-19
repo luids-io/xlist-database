@@ -1,0 +1,17 @@
+[
+    {
+        "disabled": true,
+        "id": "darklist.de",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "http://darklist.de/raw.php",
+                "filename": "darklist-ips.txt"
+            }
+        ],
+        "update": "24h"
+    }
+]

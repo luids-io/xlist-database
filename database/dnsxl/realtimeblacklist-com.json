@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "realtimeblacklist.com",
+        "class": "dnsxl",
+        "name": "realtimeBLACKLIST.COM",
+        "web": "https://realtimeblacklist.com/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "rbl.realtimeblacklist.com",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

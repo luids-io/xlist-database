@@ -1,0 +1,85 @@
+[
+    {
+        "disabled": true,
+        "id": "abuse.ro-rbl",
+        "class": "dnsxl",
+        "name": "abuse.ro (Romanian) IP RBL",
+        "web": "http://www.abuse.ro/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "rbl.abuse.ro",
+        "opts": {
+            "dnscodes": {
+                "127.0.0.2": "spam sending IP",
+                "127.0.0.3": "abused or infected IP",
+                "127.0.0.4": "spam sending class"
+            }
+        }
+    },
+    {
+        "disabled": true,
+        "id": "abuse.ro-pbl",
+        "class": "dnsxl",
+        "name": "abuse.ro (Romanian) IP non-mta, residential IPs",
+        "web": "http://www.abuse.ro/",
+        "category": "blacklist",
+        "tags": [
+            "non-mta",
+            "residential"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "pbl.abuse.ro",
+        "opts": {
+            "dnscodes": {
+                "127.0.0.9": "residential end-user IP block"
+            }
+        }
+    },
+    {
+        "disabled": true,
+        "id": "abuse.ro-uribl",
+        "class": "dnsxl",
+        "name": "abuse.ro (Romanian) URI RBL for spamvertized domains",
+        "web": "http://www.abuse.ro/",
+        "category": "blacklist",
+        "tags": [
+            "spamvertized"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "uribl.abuse.ro",
+        "opts": {
+            "dnscodes": {
+                "127.0.0.2": "heavily spamvertized domain",
+                "127.0.0.4": "spamvertized domain",
+                "127.0.0.9": "dynamic domain"
+            }
+        }
+    },
+    {
+        "disabled": true,
+        "id": "abuse.ro-dbl",
+        "class": "dnsxl",
+        "name": "abuse.ro (Romanian) URI RBL for spam domains",
+        "web": "http://www.abuse.ro/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "dbl.abuse.ro",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

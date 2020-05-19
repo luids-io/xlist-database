@@ -1,0 +1,16 @@
+[
+    {
+        "disabled": true,
+        "id": "dshield.org",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "http://feeds.dshield.org/top10-2.txt"
+            }
+        ],
+        "update": "8h"
+    }
+]

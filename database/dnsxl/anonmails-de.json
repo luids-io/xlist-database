@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "anonmails.de",
+        "class": "dnsxl",
+        "name": "anonmails.de DNSBL",
+        "web": "http://www.anonmails.de/dnsbl.php",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "spam.dnsbl.anonmails.de",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

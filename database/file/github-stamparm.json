@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "github-stamparm-blackbook",
+        "class": "file",
+        "name": "stamparm blackbook with historical malware domains",
+        "web": "https://github.com/stamparm/blackbook",
+        "category": "blacklist",
+        "tags": [
+            "malware"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'github-stamparm-blackbook'"
+        }
+    }
+]

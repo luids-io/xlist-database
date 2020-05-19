@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "stopforumspam.com",
+        "class": "file",
+        "name": "stop forum spam",
+        "web": "https://www.stopforumspam.com",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4",
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'stopforumspam.com'"
+        }
+    }
+]

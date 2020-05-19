@@ -1,0 +1,16 @@
+[
+    {
+        "disabled": true,
+        "id": "phishing.army",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://phishing.army/download/phishing_army_blocklist_extended.txt"
+            }
+        ],
+        "update": "6h"
+    }
+]

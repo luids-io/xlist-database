@@ -1,0 +1,44 @@
+[
+    {
+        "disabled": true,
+        "id": "uceprotect.net-level1",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "http://wget-mirrors.uceprotect.net/rbldnsd-all/dnsbl-1.uceprotect.net.gz"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "uceprotect.net-level2",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "http://wget-mirrors.uceprotect.net/rbldnsd-all/dnsbl-2.uceprotect.net.gz"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "uceprotect.net-level3",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "http://wget-mirrors.uceprotect.net/rbldnsd-all/dnsbl-3.uceprotect.net.gz"
+            }
+        ],
+        "update": "24h"
+    }
+]

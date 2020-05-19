@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "spamdown.org",
+        "class": "dnsxl",
+        "name": "Spamdown RBL spam emails in Persian",
+        "web": "https://www.spamdown.org/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "sbl.spamdown.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "darklist.de",
+        "class": "dnsxl",
+        "name": "darklist.de",
+        "web": "https://darklist.de/",
+        "category": "blacklist",
+        "tags": [
+            "bruteforce",
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dnsbl.darklist.de",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

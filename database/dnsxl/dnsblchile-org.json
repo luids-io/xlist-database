@@ -1,0 +1,26 @@
+[
+    {
+        "disabled": true,
+        "id": "dnsblchile.org",
+        "class": "dnsxl",
+        "name": "dnsblchile.org",
+        "web": "http://www.dnsblchile.org/",
+        "category": "mixedlist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dnsblchile.org",
+        "opts": {
+            "dnscodes": {
+                "127.0.0.10": "ver http://www.dnsblchile.org/ (IP dinamica nacional)",
+                "127.0.0.11": "ver http://www.dnsblchile.org/ (IP dinamica extranjera)",
+                "127.0.0.12": "ver http://www.dnsblchile.org/ (spam snowshoe)",
+                "127.0.0.13": "ver http://www.dnsblchile.org/ (IP estatica nacional)",
+                "127.0.0.14": "ver http://www.dnsblchile.org/ (IP estatica extranjera)"
+            }
+        }
+    }
+]

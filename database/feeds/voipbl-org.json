@@ -1,0 +1,17 @@
+[
+    {
+        "disabled": true,
+        "id": "voipbl.org",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "http://www.voipbl.org/update/",
+                "filename": "voipbl.txt"
+            }
+        ],
+        "update": "8h"
+    }
+]

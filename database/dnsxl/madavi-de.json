@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "madavi.de",
+        "class": "dnsxl",
+        "name": "Madavi:BL",
+        "web": "https://www.madavi.de/madavibl/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dnsbl.madavi.de",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

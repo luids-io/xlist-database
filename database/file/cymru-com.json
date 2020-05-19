@@ -1,0 +1,38 @@
+[
+    {
+        "disabled": true,
+        "id": "cymru.com-bogons",
+        "class": "file",
+        "name": "Cymru Bogon List",
+        "web": "http://www.team-cymru.com/bogon-reference.html",
+        "category": "blacklist",
+        "tags": [
+            "bogon"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'cymru.com-bogons'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "cymru.com-fullbogons4",
+        "class": "file",
+        "name": "Cymru Fullbogon IPv4 List",
+        "web": "http://www.team-cymru.com/bogon-reference.html",
+        "category": "blacklist",
+        "tags": [
+            "bogon"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'cymru.com-fullbogons4'"
+        }
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "disabled": true,
+        "id": "torstatus.blutmagie.de",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://torstatus.blutmagie.de/ip_list_all.php/Tor_ip_list_ALL.csv"
+            }
+        ],
+        "update": "8h"
+    }
+]

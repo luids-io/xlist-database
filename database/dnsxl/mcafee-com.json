@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "mcafee.com",
+        "class": "dnsxl",
+        "name": "McAfee RBL",
+        "web": "https://kc.mcafee.com/corporate/index?page=content&id=KB53783",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "cidr.bl.mcafee.com",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

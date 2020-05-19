@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "cobion.com",
+        "class": "dnsxl",
+        "name": "IBM DNS Blacklist",
+        "web": "http://filterdb.iss.net/dnsblinfo/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dnsbl.cobion.com",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

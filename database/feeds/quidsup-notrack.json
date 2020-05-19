@@ -1,0 +1,32 @@
+[
+    {
+        "disabled": true,
+        "id": "quidsup.net-notrack",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt",
+                "filename": "notrack-blocklist.txt"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "quidsup.net-malware",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt",
+                "filename": "notrack-malware.txt"
+            }
+        ],
+        "update": "24h"
+    }
+]

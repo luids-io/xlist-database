@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "unsubscore.com-ubl",
+        "class": "dnsxl",
+        "name": "Unsubscribe Blacklist UBL",
+        "web": "http://blacklist.lashback.com/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "ubl.unsubscore.com",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

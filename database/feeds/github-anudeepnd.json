@@ -1,0 +1,58 @@
+[
+    {
+        "disabled": true,
+        "id": "github-anudeepnd-ads",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "github-anudeepnd-crypto",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "github-anudeepnd-facebook",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "github-anudeepnd-whitelist",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt"
+            }
+        ],
+        "update": "24h"
+    }
+]

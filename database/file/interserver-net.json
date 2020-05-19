@@ -1,0 +1,22 @@
+[
+    {
+        "disabled": true,
+        "id": "interserver.net",
+        "class": "file",
+        "name": "InterServer BL",
+        "web": "http://rbl.interserver.net/",
+        "category": "blacklist",
+        "tags": [
+            "malware",
+            "spam",
+            "netscan"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'interserver.net'"
+        }
+    }
+]

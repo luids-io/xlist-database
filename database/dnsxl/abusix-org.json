@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "abusix.org-contacts",
+        "class": "dnsxl",
+        "name": "abusix.org Abuse Contact DB",
+        "web": "http://abusix.org/",
+        "category": "infolist",
+        "tags": [
+            "info"
+        ],
+        "resources": [
+            "ip4",
+            "ip6"
+        ],
+        "source": "abuse-contacts.abusix.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

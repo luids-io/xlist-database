@@ -1,0 +1,32 @@
+[
+    {
+        "disabled": true,
+        "id": "bondedsender.org",
+        "class": "dnsxl",
+        "name": "Bondedsender",
+        "web": "http://www.bondedsender.org/",
+        "category": "whitelist",
+        "resources": [
+            "ip4"
+        ],
+        "source": "query.bondedsender.org",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "bondedsender.org-plus",
+        "class": "dnsxl",
+        "name": "Bondedsender plus",
+        "web": "http://www.bondedsender.org/",
+        "category": "whitelist",
+        "resources": [
+            "ip4"
+        ],
+        "source": "plus.bondedsender.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

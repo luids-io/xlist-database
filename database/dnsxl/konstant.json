@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "konstant.no",
+        "class": "dnsxl",
+        "name": "KONSTANT DNSBL",
+        "web": "http://bl.konstant.no/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "bl.konstant.no",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

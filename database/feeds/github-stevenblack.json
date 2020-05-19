@@ -1,0 +1,89 @@
+[
+    {
+        "disabled": true,
+        "id": "github-stevenblack",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "github-stevenblack-fakenews",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://github.com/StevenBlack/hosts/raw/master/extensions/fakenews/hosts"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "github-stevenblack-gambling",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://github.com/StevenBlack/hosts/raw/master/extensions/gambling/hosts"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "github-stevenblack-porn",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://github.com/StevenBlack/hosts/raw/master/extensions/porn/clefspeare13/hosts",
+                "filename": "clefspeare13-hosts"
+            },
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://github.com/StevenBlack/hosts/raw/master/extensions/porn/sinfonietta-snuff/hosts",
+                "filename": "sinfonietta-snuff-hosts"
+            },
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://github.com/StevenBlack/hosts/raw/master/extensions/porn/sinfonietta/hosts",
+                "filename": "sinfonietta-hosts"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "github-stevenblack-social",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://github.com/StevenBlack/hosts/raw/master/extensions/social/hosts"
+            }
+        ],
+        "update": "24h"
+    }
+]

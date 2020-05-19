@@ -1,0 +1,92 @@
+[
+    {
+        "disabled": true,
+        "id": "github-stevenblack",
+        "class": "file",
+        "name": "StevenBlack Unified hosts",
+        "web": "https://github.com/StevenBlack/hosts",
+        "category": "blacklist",
+        "tags": [
+            "malware"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'github-stevenblack'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "github-stevenblack-fakenews",
+        "class": "file",
+        "name": "StevenBlack fakenews",
+        "web": "https://github.com/StevenBlack/hosts",
+        "category": "blacklist",
+        "tags": [
+            "fakenews"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'github-stevenblack-fakenews'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "github-stevenblack-gambling",
+        "class": "file",
+        "name": "StevenBlack gambling",
+        "web": "https://github.com/StevenBlack/hosts",
+        "category": "blacklist",
+        "tags": [
+            "gambling"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'github-stevenblack-gambling'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "github-stevenblack-porn",
+        "class": "file",
+        "name": "StevenBlack porn",
+        "web": "https://github.com/StevenBlack/hosts",
+        "category": "blacklist",
+        "tags": [
+            "porn"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'github-stevenblack-porn'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "github-stevenblack-social",
+        "class": "file",
+        "name": "StevenBlack social",
+        "web": "https://github.com/StevenBlack/hosts",
+        "category": "blacklist",
+        "tags": [
+            "social"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'github-stevenblack-social'"
+        }
+    }
+]

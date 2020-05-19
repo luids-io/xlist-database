@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "lugh.ch",
+        "class": "dnsxl",
+        "name": "lugh.ch DNSBL",
+        "web": "https://lugh.ch/dnsbl.html",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "rbl.lugh.ch",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

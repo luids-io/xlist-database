@@ -1,0 +1,22 @@
+[
+    {
+        "disabled": true,
+        "id": "github-stamparm-blackbook",
+        "sources": [
+            {
+                "format": "csv",
+                "formatopts": {
+                    "header": true,
+                    "indexes": [
+                        2
+                    ]
+                },
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.csv"
+            }
+        ],
+        "update": "24h"
+    }
+]

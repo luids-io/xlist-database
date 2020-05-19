@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "schulte.org",
+        "class": "dnsxl",
+        "name": "rbl.schulte.org",
+        "web": "http://rbl.schulte.org/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "rbl.schulte.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

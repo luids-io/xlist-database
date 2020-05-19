@@ -1,0 +1,399 @@
+[
+    {
+        "disabled": true,
+        "id": "sorbs.net-aspews",
+        "class": "dnsxl",
+        "name": "ASPEWS Listings",
+        "web": "http://www.aspews.org/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "aspews.ext.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "sorbs.net-spewsl1",
+        "class": "dnsxl",
+        "name": "SPEWS Level one listings",
+        "web": "http://www.sorbs.net/general/using.shtml",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "l1.spews.dnsbl.sorbs.net",
+        "opts": {
+            "nsresolver": true,
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "sorbs.net-spewsl2",
+        "class": "dnsxl",
+        "name": "SPEWS Level two listings",
+        "web": "http://www.sorbs.net/general/using.shtml",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "l2.spews.dnsbl.sorbs.net",
+        "opts": {
+            "nsresolver": true,
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "sorbs.net",
+        "class": "dnsxl",
+        "name": "SORBS Aggregate zone",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam",
+            "openproxy",
+            "exploit"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dnsbl.sorbs.net",
+        "opts": {
+            "dnscodes": {
+                "127.0.0.2": "http.dnsbl.sorbs.net",
+                "127.0.0.3": "socks.dnsbl.sorbs.net",
+                "127.0.0.4": "misc.dnsbl.sorbs.net",
+                "127.0.0.5": "smtp.dnsbl.sorbs.net",
+                "127.0.0.6": "spam.dnsbl.sorbs.net",
+                "127.0.0.7": "web.dnsbl.sorbs.net",
+                "127.0.0.8": "block.dnsbl.sorbs.net",
+                "127.0.0.9": "zombie.dnsbl.sorbs.net",
+                "127.0.0.10": "dul.dnsbl.sorbs.net",
+                "127.0.0.11": "badconf.rhsbl.sorbs.net",
+                "127.0.0.12": "nomail.rhsbl.sorbs.net",
+                "127.0.0.14": "noserver.dnsbl.sorbs.net"
+            }
+        }
+    },
+    {
+        "disabled": true,
+        "id": "sorbs.net-problems",
+        "class": "dnsxl",
+        "name": "SORBS Aggregate zone (problems)",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam",
+            "openproxy",
+            "exploit"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "problems.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "sorbs.net-proxies",
+        "class": "dnsxl",
+        "name": "SORBS Aggregate zone (proxies)",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "openproxy"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "proxies.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "sorbs.net-relays",
+        "class": "dnsxl",
+        "name": "SORBS Aggregate zone (relays)",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "openproxy"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "relays.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "sorbs.net-safe",
+        "class": "dnsxl",
+        "name": "SORBS Aggregate zone (safe)",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "safe.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "sorbs.net-dul",
+        "class": "dnsxl",
+        "name": "SORBS Dynamic IP Addresses",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "dynamic"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dul.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "sorbs.net-zombie",
+        "class": "dnsxl",
+        "name": "SORBS hijacked networks",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "exploit"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "zombie.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "sorbs.net-block",
+        "class": "dnsxl",
+        "name": "SORBS Hosts demanding never be tested by SORBS",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "block.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "sorbs.net-escalations",
+        "class": "dnsxl",
+        "name": "SORBS netblocks of spam supporting service providers",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "escalations.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "sorbs.net-http",
+        "class": "dnsxl",
+        "name": "SORBS Open HTTP Proxies",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "openproxy"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "http.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "sorbs.net-misc",
+        "class": "dnsxl",
+        "name": "SORBS Open other Proxies",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "openproxy"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "misc.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "sorbs.net-smtp",
+        "class": "dnsxl",
+        "name": "SORBS Open SMTP relays",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "smtp.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "sorbs.net-socks",
+        "class": "dnsxl",
+        "name": "SORBS Open SOCKS Proxies",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "openproxy"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "socks.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "sorbs.net-spam",
+        "class": "dnsxl",
+        "name": "SORBS Spamhost (any time)",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "spam.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "sorbs.net-recent",
+        "class": "dnsxl",
+        "name": "SORBS Spamhost (last 28 days)",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "recent.spam.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "sorbs.net-new",
+        "class": "dnsxl",
+        "name": "SORBS Spamhost (last 48 hours)",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "new.spam.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "sorbs.net-old",
+        "class": "dnsxl",
+        "name": "SORBS Spamhost (last year)",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "old.spam.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "sorbs.net-web",
+        "class": "dnsxl",
+        "name": "SORBS Vulnerable formmailers",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "openproxy"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "web.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

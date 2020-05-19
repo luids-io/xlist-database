@@ -1,0 +1,40 @@
+[
+    {
+        "disabled": true,
+        "id": "myip.ms",
+        "class": "file",
+        "name": "my-ip.ms ",
+        "web": "https://myip.ms",
+        "category": "blacklist",
+        "tags": [
+            "reputation"
+        ],
+        "resources": [
+            "ip4",
+            "ip6"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'myip.ms'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "myip.ms-full",
+        "class": "file",
+        "name": "my-ip.ms full database",
+        "web": "https://myip.ms",
+        "category": "blacklist",
+        "tags": [
+            "reputation"
+        ],
+        "resources": [
+            "ip4",
+            "ip6"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'myip.ms-full'"
+        }
+    }
+]

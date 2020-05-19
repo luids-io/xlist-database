@@ -1,0 +1,43 @@
+[
+    {
+        "disabled": true,
+        "id": "surgate.net-srn",
+        "class": "dnsxl",
+        "name": "SurGATE Reputation Network",
+        "web": "http://www.srntools.com/",
+        "category": "mixedlist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "srn.surgate.net",
+        "opts": {
+            "dnscodes": {
+                "127.0.0.2": "is blacklisted by KRN",
+                "127.0.0.42": "is promolisted by SRN",
+                "127.0.0.127": "is whitelisted by KRN",
+                "127.0.0.128": "is not greylisted by KRN"
+            }
+        }
+    },
+    {
+        "disabled": true,
+        "id": "surgate.net-srnblack",
+        "class": "dnsxl",
+        "name": "SurGATE Reputation Network Blacklist",
+        "web": "http://www.srntools.com/",
+        "category": "mixedlist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "srnblack.surgate.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

@@ -1,0 +1,191 @@
+[
+    {
+        "disabled": true,
+        "id": "dataplane.org-dnsrd",
+        "sources": [
+            {
+                "format": "csv",
+                "formatopts": {
+                    "comments": true,
+                    "comma": "|",
+                    "indexes": [
+                        2
+                    ]
+                },
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://dataplane.org/dnsrd.txt"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "dataplane.org-dnsrdany",
+        "sources": [
+            {
+                "format": "csv",
+                "formatopts": {
+                    "comments": true,
+                    "comma": "|",
+                    "indexes": [
+                        2
+                    ]
+                },
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://dataplane.org/dnsrdany.txt"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "dataplane.org-dnsversion",
+        "sources": [
+            {
+                "format": "csv",
+                "formatopts": {
+                    "comments": true,
+                    "comma": "|",
+                    "indexes": [
+                        2
+                    ]
+                },
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://dataplane.org/dnsversion.txt"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "dataplane.org-sipinvitation",
+        "sources": [
+            {
+                "format": "csv",
+                "formatopts": {
+                    "comments": true,
+                    "comma": "|",
+                    "indexes": [
+                        2
+                    ]
+                },
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://dataplane.org/sipinvitation.txt"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "dataplane.org-sipquery",
+        "sources": [
+            {
+                "format": "csv",
+                "formatopts": {
+                    "comments": true,
+                    "comma": "|",
+                    "indexes": [
+                        2
+                    ]
+                },
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://dataplane.org/sipquery.txt"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "dataplane.org-sipregistration",
+        "sources": [
+            {
+                "format": "csv",
+                "formatopts": {
+                    "comments": true,
+                    "comma": "|",
+                    "indexes": [
+                        2
+                    ]
+                },
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://dataplane.org/sipregistration.txt"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "dataplane.org-sshclient",
+        "sources": [
+            {
+                "format": "csv",
+                "formatopts": {
+                    "comments": true,
+                    "comma": "|",
+                    "indexes": [
+                        2
+                    ]
+                },
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://dataplane.org/sshclient.txt"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "dataplane.org-sshpwauth",
+        "sources": [
+            {
+                "format": "csv",
+                "formatopts": {
+                    "comments": true,
+                    "comma": "|",
+                    "indexes": [
+                        2
+                    ]
+                },
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://dataplane.org/sshpwauth.txt"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "dataplane.org-vncrfb",
+        "sources": [
+            {
+                "format": "csv",
+                "formatopts": {
+                    "comments": true,
+                    "comma": "|",
+                    "indexes": [
+                        2
+                    ]
+                },
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://dataplane.org/vncrfb.txt"
+            }
+        ],
+        "update": "24h"
+    }
+]

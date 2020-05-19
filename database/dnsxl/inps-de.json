@@ -1,0 +1,17 @@
+[
+    {
+        "disabled": true,
+        "id": "inps.de",
+        "class": "dnsxl",
+        "name": "inps.de-DNSWL",
+        "web": "http://dnswl.inps.de/",
+        "category": "whitelist",
+        "resources": [
+            "ip4"
+        ],
+        "source": "dnswl.inps.de",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

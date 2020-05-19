@@ -1,0 +1,27 @@
+[
+    {
+        "disabled": true,
+        "id": "leadmon.net",
+        "class": "dnsxl",
+        "name": "Leadmon.Net's SpamGuard Listings (LNSG)",
+        "web": "http://www.leadmon.net/spamguard/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "spamguard.leadmon.net",
+        "opts": {
+            "dnscodes": {
+                "127.0.0.2": "Dial-Up/Cable/DSL IP Addresses",
+                "127.0.0.3": "Individual SPAM Sources",
+                "127.0.0.4": "Bulk mailers",
+                "127.0.0.5": "Single-Stage Open Relays",
+                "127.0.0.6": "Multi-Stage Open Relays",
+                "127.0.0.7": "SpamBlock Sites"
+            }
+        }
+    }
+]

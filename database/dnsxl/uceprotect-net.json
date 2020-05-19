@@ -1,0 +1,110 @@
+[
+    {
+        "disabled": true,
+        "id": "uceprotect.net-level0",
+        "class": "dnsxl",
+        "name": "UCEPROTECT Level 0",
+        "web": "http://www.uceprotect.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dnsbl-0.uceprotect.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "uceprotect.net-level1",
+        "class": "dnsxl",
+        "name": "UCEPROTECT Level 1",
+        "web": "http://www.uceprotect.net/en/index.php?m=3&s=3",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dnsbl-1.uceprotect.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "uceprotect.net-level2",
+        "class": "dnsxl",
+        "name": "UCEPROTECT Level 2",
+        "web": "http://www.uceprotect.net/en/index.php?m=3&s=4",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dnsbl-2.uceprotect.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "uceprotect.net-level3",
+        "class": "dnsxl",
+        "name": "UCEPROTECT Level 3",
+        "web": "http://www.uceprotect.net/en/index.php?m=3&s=5",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dnsbl-3.uceprotect.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "backscatterer.org",
+        "class": "dnsxl",
+        "name": "Whitelisted.org",
+        "web": "http://www.backscatterer.org/",
+        "category": "blacklist",
+        "tags": [
+            "backscatter"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "ips.backscatterer.org",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "whitelisted.org",
+        "class": "dnsxl",
+        "name": "Whitelisted.org",
+        "web": "http://www.whitelisted.org/",
+        "category": "whitelist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "ips.whitelisted.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

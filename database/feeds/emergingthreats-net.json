@@ -1,0 +1,16 @@
+[
+    {
+        "disabled": true,
+        "id": "emergingthreats.net",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://rules.emergingthreats.net/open/suricata/rules/compromised-ips.txt"
+            }
+        ],
+        "update": "24h"
+    }
+]

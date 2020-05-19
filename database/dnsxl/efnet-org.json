@@ -1,0 +1,56 @@
+[
+    {
+        "disabled": true,
+        "id": "efnetrbl.org",
+        "class": "dnsxl",
+        "name": "EFnet RBL",
+        "web": "http://efnetrbl.org/",
+        "category": "blacklist",
+        "tags": [
+            "spam",
+            "openproxy",
+            "torexit",
+            "drone"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "rbl.efnet.org",
+        "opts": {
+            "dnscodes": {
+                "127.0.0.1": "Open Proxy",
+                "127.0.0.2": "spamtrap666",
+                "127.0.0.3": "spamtrap50",
+                "127.0.0.4": "TOR",
+                "127.0.0.5": "Drones / Flooding"
+            }
+        }
+    },
+    {
+        "disabled": true,
+        "id": "efnetrbl.org-mirror",
+        "class": "dnsxl",
+        "name": "EFnet RBL mirror",
+        "web": "http://efnetrbl.org/",
+        "category": "blacklist",
+        "tags": [
+            "spam",
+            "openproxy",
+            "torexit",
+            "drone"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "rbl.efnetrbl.org",
+        "opts": {
+            "dnscodes": {
+                "127.0.0.1": "Open Proxy",
+                "127.0.0.2": "spamtrap666",
+                "127.0.0.3": "spamtrap50",
+                "127.0.0.4": "TOR",
+                "127.0.0.5": "Drones / Flooding"
+            }
+        }
+    }
+]

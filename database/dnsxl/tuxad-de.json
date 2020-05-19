@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "tuxad.de-dunk",
+        "class": "dnsxl",
+        "name": "tuxad dunk.dnsbl",
+        "web": "http://www.tuxad.de/hartkore.html",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dunk.dnsbl.tuxad.de",
+        "opts": {
+            "halfping": true,
+            "resolvreason": false
+        }
+    }
+]

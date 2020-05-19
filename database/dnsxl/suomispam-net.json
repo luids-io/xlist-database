@@ -1,0 +1,38 @@
+[
+    {
+        "disabled": true,
+        "id": "suomispam.net-ip",
+        "class": "dnsxl",
+        "name": "Suomispam Blacklist",
+        "web": "http://suomispam.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "bl.suomispam.net",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "suomispam.net-domain",
+        "class": "dnsxl",
+        "name": "Suomispam Domain Blacklist",
+        "web": "http://suomispam.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "dbl.suomispam.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

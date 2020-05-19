@@ -1,0 +1,22 @@
+[
+    {
+        "disabled": true,
+        "id": "dnsrbl.org",
+        "class": "dnsxl",
+        "name": "DNSRBL - DNS Real-time Blackhole List",
+        "web": "http://dnsrbl.org/",
+        "category": "blacklist",
+        "tags": [
+            "spam",
+            "malware",
+            "phising"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dnsrbl.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

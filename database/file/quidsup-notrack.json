@@ -1,0 +1,38 @@
+[
+    {
+        "disabled": true,
+        "id": "quidsup.net-notrack",
+        "class": "file",
+        "name": "quidsup.net NoTrack blocklist notrack",
+        "web": "https://quidsup.net/notrack/",
+        "category": "blacklist",
+        "tags": [
+            "tracking"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'quidsup.net-notrack'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "quidsup.net-malware",
+        "class": "file",
+        "name": "quidsup.net NoTrack blocklist malware",
+        "web": "https://quidsup.net/notrack/",
+        "category": "blacklist",
+        "tags": [
+            "malware"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'quidsup.net-malware'"
+        }
+    }
+]

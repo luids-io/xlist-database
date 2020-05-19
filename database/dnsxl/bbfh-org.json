@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "bbfh.org",
+        "class": "dnsxl",
+        "name": "BBFH Level 1",
+        "web": "http://www.bbfh.org/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "list.bbfh.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

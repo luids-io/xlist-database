@@ -1,0 +1,309 @@
+[
+    {
+        "disabled": true,
+        "id": "blocklist.site-ads",
+        "class": "file",
+        "name": "Blocklist Site ADS",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "ads"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-ads'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-crypto",
+        "class": "file",
+        "name": "Blocklist Site Crypto",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "crypto"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-crypto'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-drugs",
+        "class": "file",
+        "name": "Blocklist Site Drugs",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "drugs"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-drugs'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-fraud",
+        "class": "file",
+        "name": "Blocklist Site Fraud",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "fraud"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-fraud'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-fakenews",
+        "class": "file",
+        "name": "Blocklist Site Fakenews",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "fakenews"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-fakenews'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-gambling",
+        "class": "file",
+        "name": "Blocklist Site Gambling",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "gambling"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-gambling'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-malware",
+        "class": "file",
+        "name": "Blocklist Site Malware",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "malware"
+        ],
+        "resources": [
+            "ip4",
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-malware'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-phishing",
+        "class": "file",
+        "name": "Blocklist Site Phishing",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "phishing"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-phishing'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-piracy",
+        "class": "file",
+        "name": "Blocklist Site Piracy",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "piracy"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-piracy'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-porn",
+        "class": "file",
+        "name": "Blocklist Site Porn",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "porn"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-porn'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-proxy",
+        "class": "file",
+        "name": "Blocklist Site Proxy",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "proxy"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-proxy'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-ransomware",
+        "class": "file",
+        "name": "Blocklist Site Ransomware",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "ransomware"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-ransomware'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-redirect",
+        "class": "file",
+        "name": "Blocklist Site Redirect",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "redirect"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-redirect'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-scam",
+        "class": "file",
+        "name": "Blocklist Site Scam",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "scam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-scam'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-spam",
+        "class": "file",
+        "name": "Blocklist Site Spam",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-spam'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-torrent",
+        "class": "file",
+        "name": "Blocklist Site Torrent",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "torrent"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-torrent'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-tracking",
+        "class": "file",
+        "name": "Blocklist Site Tracking",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "tracking"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-tracking'"
+        }
+    }
+]

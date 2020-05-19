@@ -1,0 +1,50 @@
+[
+    {
+        "disabled": true,
+        "id": "fusionzero.com",
+        "class": "dnsxl",
+        "name": "0spam DNSBL",
+        "web": "http://0spam.fusionzero.com/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "0spam.fusionzero.com",
+        "opts": {
+            "pingdns": "0spam.fusionzero.com",
+            "dnscodes": {
+                "127.0.0.1": "general spam, Sending spam to our spam traps.",
+                "127.0.0.2": "Removal request made but missing required information, please make a new request and be sure to complete the form properly.",
+                "127.0.0.3": "Does not follow valid can-spam rules for newsletters / lists.",
+                "127.0.0.4": "Not RFC compliant, server errors or improper configuration.",
+                "127.0.0.5": "Repeat offenders, these are IP's that have been removed and listed again (3) or more times in a short period of time.",
+                "127.0.0.6": "Bouncing email to the wrong server, NON RFC compliant configurations.",
+                "127.0.0.7": "Relay or Open relay with reports of spam.",
+                "127.0.0.8": "bouncing spoofed emails, you need to disable bounce of spoofed emails in order to get de listed.",
+                "127.0.0.9": "Fraud/Scam emails, malware or illegal/abusive content."
+            }
+        }
+    },
+    {
+        "disabled": true,
+        "id": "fusionzero.com-trust",
+        "class": "dnsxl",
+        "name": "0spam DNSWL",
+        "web": "http://0spam.fusionzero.com/",
+        "category": "whitelist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "0spamtrust.fusionzero.com",
+        "opts": {
+            "pingdns": "0spamtrust.fusionzero.com",
+            "resolvreason": true
+        }
+    }
+]

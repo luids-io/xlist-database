@@ -1,0 +1,17 @@
+[
+    {
+        "disabled": true,
+        "id": "cruzit.com",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://www.cruzit.com/xxwbl2txt.php",
+                "filename": "blocklist.txt"
+            }
+        ],
+        "update": "24h"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "disabled": true,
+        "id": "rymsho.ru-ip",
+        "class": "dnsxl",
+        "name": "Rymsho's DNSBL",
+        "web": "http://spam.rymsho.ru/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dnsbl.rymsho.ru",
+        "opts": {
+            "resolvreason": true
+        }
+    },
+    {
+        "disabled": true,
+        "id": "rymsho.ru-domain",
+        "class": "dnsxl",
+        "name": "Rymsho's RHSBL",
+        "web": "http://spam.rymsho.ru/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "rhsbl.rymsho.ru",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]
