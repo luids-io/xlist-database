@@ -1,14 +1,28 @@
 [
     {
         "disabled": true,
-        "id": "blocklist.site-ads",
+        "id": "blocklist.site-abuse",
         "sources": [
             {
-                "format": "flat",
+                "format": "hosts",
                 "resources": [
                     "domain"
                 ],
-                "uri": "https://blocklist.site/app/dl/ads"
+                "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/abuse.txt"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-ads",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt"
             }
         ],
         "update": "24h"
@@ -18,11 +32,11 @@
         "id": "blocklist.site-crypto",
         "sources": [
             {
-                "format": "flat",
+                "format": "hosts",
                 "resources": [
                     "domain"
                 ],
-                "uri": "https://blocklist.site/app/dl/crypto"
+                "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/crypto.txt"
             }
         ],
         "update": "24h"
@@ -32,11 +46,25 @@
         "id": "blocklist.site-drugs",
         "sources": [
             {
-                "format": "flat",
+                "format": "hosts",
                 "resources": [
                     "domain"
                 ],
-                "uri": "https://blocklist.site/app/dl/drugs"
+                "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/drugs.txt"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-facebook",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/facebook.txt"
             }
         ],
         "update": "24h"
@@ -46,25 +74,11 @@
         "id": "blocklist.site-fraud",
         "sources": [
             {
-                "format": "flat",
+                "format": "hosts",
                 "resources": [
                     "domain"
                 ],
-                "uri": "https://blocklist.site/app/dl/fraud"
-            }
-        ],
-        "update": "24h"
-    },
-    {
-        "disabled": true,
-        "id": "blocklist.site-fakenews",
-        "sources": [
-            {
-                "format": "flat",
-                "resources": [
-                    "domain"
-                ],
-                "uri": "https://blocklist.site/app/dl/fakenews"
+                "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/fraud.txt"
             }
         ],
         "update": "24h"
@@ -74,11 +88,11 @@
         "id": "blocklist.site-gambling",
         "sources": [
             {
-                "format": "flat",
+                "format": "hosts",
                 "resources": [
                     "domain"
                 ],
-                "uri": "https://blocklist.site/app/dl/gambling"
+                "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/gambling.txt"
             }
         ],
         "update": "24h"
@@ -88,12 +102,12 @@
         "id": "blocklist.site-malware",
         "sources": [
             {
-                "format": "flat",
+                "format": "hosts",
                 "resources": [
                     "ip4",
                     "domain"
                 ],
-                "uri": "https://blocklist.site/app/dl/malware"
+                "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.txt"
             }
         ],
         "update": "24h"
@@ -103,11 +117,11 @@
         "id": "blocklist.site-phishing",
         "sources": [
             {
-                "format": "flat",
+                "format": "hosts",
                 "resources": [
                     "domain"
                 ],
-                "uri": "https://blocklist.site/app/dl/phishing"
+                "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt"
             }
         ],
         "update": "24h"
@@ -117,11 +131,11 @@
         "id": "blocklist.site-piracy",
         "sources": [
             {
-                "format": "flat",
+                "format": "hosts",
                 "resources": [
                     "domain"
                 ],
-                "uri": "https://blocklist.site/app/dl/piracy"
+                "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/piracy.txt"
             }
         ],
         "update": "24h"
@@ -131,25 +145,11 @@
         "id": "blocklist.site-porn",
         "sources": [
             {
-                "format": "flat",
+                "format": "hosts",
                 "resources": [
                     "domain"
                 ],
-                "uri": "https://blocklist.site/app/dl/porn"
-            }
-        ],
-        "update": "24h"
-    },
-    {
-        "disabled": true,
-        "id": "blocklist.site-proxy",
-        "sources": [
-            {
-                "format": "flat",
-                "resources": [
-                    "domain"
-                ],
-                "uri": "https://blocklist.site/app/dl/proxy"
+                "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt"
             }
         ],
         "update": "24h"
@@ -159,11 +159,11 @@
         "id": "blocklist.site-ransomware",
         "sources": [
             {
-                "format": "flat",
+                "format": "hosts",
                 "resources": [
                     "domain"
                 ],
-                "uri": "https://blocklist.site/app/dl/ransomware"
+                "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt"
             }
         ],
         "update": "24h"
@@ -173,11 +173,11 @@
         "id": "blocklist.site-redirect",
         "sources": [
             {
-                "format": "flat",
+                "format": "hosts",
                 "resources": [
                     "domain"
                 ],
-                "uri": "https://blocklist.site/app/dl/redirect"
+                "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/redirect.txt"
             }
         ],
         "update": "24h"
@@ -187,25 +187,25 @@
         "id": "blocklist.site-scam",
         "sources": [
             {
-                "format": "flat",
+                "format": "hosts",
                 "resources": [
                     "domain"
                 ],
-                "uri": "https://blocklist.site/app/dl/scam"
+                "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/scam.txt"
             }
         ],
         "update": "24h"
     },
     {
         "disabled": true,
-        "id": "blocklist.site-spam",
+        "id": "blocklist.site-tiktok",
         "sources": [
             {
-                "format": "flat",
+                "format": "hosts",
                 "resources": [
                     "domain"
                 ],
-                "uri": "https://blocklist.site/app/dl/spam"
+                "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/tiktok.txt"
             }
         ],
         "update": "24h"
@@ -215,11 +215,11 @@
         "id": "blocklist.site-torrent",
         "sources": [
             {
-                "format": "flat",
+                "format": "hosts",
                 "resources": [
                     "domain"
                 ],
-                "uri": "https://blocklist.site/app/dl/torrent"
+                "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/torrent.txt"
             }
         ],
         "update": "24h"
@@ -229,11 +229,25 @@
         "id": "blocklist.site-tracking",
         "sources": [
             {
-                "format": "flat",
+                "format": "hosts",
                 "resources": [
                     "domain"
                 ],
-                "uri": "https://blocklist.site/app/dl/tracking"
+                "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt"
+            }
+        ],
+        "update": "24h"
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-youtube",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/youtube.txt"
             }
         ],
         "update": "24h"

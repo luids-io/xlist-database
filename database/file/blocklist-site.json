@@ -1,6 +1,24 @@
 [
     {
         "disabled": true,
+        "id": "blocklist.site-abuse",
+        "class": "file",
+        "name": "Blocklist Site Abuse",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "abuse"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-abuse'"
+        }
+    },
+    {
+        "disabled": true,
         "id": "blocklist.site-ads",
         "class": "file",
         "name": "Blocklist Site ADS",
@@ -55,6 +73,24 @@
     },
     {
         "disabled": true,
+        "id": "blocklist.site-fakebook",
+        "class": "file",
+        "name": "Blocklist Site Facebook",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "facebook"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-facebook'"
+        }
+    },
+    {
+        "disabled": true,
         "id": "blocklist.site-fraud",
         "class": "file",
         "name": "Blocklist Site Fraud",
@@ -69,24 +105,6 @@
         "opts": {
             "autoreload": true,
             "reason": "found in 'blocklist.site-fraud'"
-        }
-    },
-    {
-        "disabled": true,
-        "id": "blocklist.site-fakenews",
-        "class": "file",
-        "name": "Blocklist Site Fakenews",
-        "web": "https://blocklist.site",
-        "category": "blacklist",
-        "tags": [
-            "fakenews"
-        ],
-        "resources": [
-            "domain"
-        ],
-        "opts": {
-            "autoreload": true,
-            "reason": "found in 'blocklist.site-fakenews'"
         }
     },
     {
@@ -182,24 +200,6 @@
     },
     {
         "disabled": true,
-        "id": "blocklist.site-proxy",
-        "class": "file",
-        "name": "Blocklist Site Proxy",
-        "web": "https://blocklist.site",
-        "category": "blacklist",
-        "tags": [
-            "proxy"
-        ],
-        "resources": [
-            "domain"
-        ],
-        "opts": {
-            "autoreload": true,
-            "reason": "found in 'blocklist.site-proxy'"
-        }
-    },
-    {
-        "disabled": true,
         "id": "blocklist.site-ransomware",
         "class": "file",
         "name": "Blocklist Site Ransomware",
@@ -254,20 +254,20 @@
     },
     {
         "disabled": true,
-        "id": "blocklist.site-spam",
+        "id": "blocklist.site-tiktok",
         "class": "file",
-        "name": "Blocklist Site Spam",
+        "name": "Blocklist Site Tiktok",
         "web": "https://blocklist.site",
         "category": "blacklist",
         "tags": [
-            "spam"
+            "tiktok"
         ],
         "resources": [
             "domain"
         ],
         "opts": {
             "autoreload": true,
-            "reason": "found in 'blocklist.site-spam'"
+            "reason": "found in 'blocklist.site-tiktok'"
         }
     },
     {
@@ -304,6 +304,24 @@
         "opts": {
             "autoreload": true,
             "reason": "found in 'blocklist.site-tracking'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "blocklist.site-youtube",
+        "class": "file",
+        "name": "Blocklist Site Youtube",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "youtube"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-youtube'"
         }
     }
 ]
