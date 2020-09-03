@@ -1400,6 +1400,13 @@ link:./csv/summary-file.csv[download csv]
 |ip4
 |link:http://www.blocklist.de/[web]
 
+|link:./database/file/blocklist-site.json[blocklist.site-abuse]
+|Blocklist Site Abuse
+|blacklist
+|abuse
+|domain
+|link:https://blocklist.site[web]
+
 |link:./database/file/blocklist-site.json[blocklist.site-ads]
 |Blocklist Site ADS
 |blacklist
@@ -1421,17 +1428,17 @@ link:./csv/summary-file.csv[download csv]
 |domain
 |link:https://blocklist.site[web]
 
+|link:./database/file/blocklist-site.json[blocklist.site-fakebook]
+|Blocklist Site Facebook
+|blacklist
+|facebook
+|domain
+|link:https://blocklist.site[web]
+
 |link:./database/file/blocklist-site.json[blocklist.site-fraud]
 |Blocklist Site Fraud
 |blacklist
 |fraud
-|domain
-|link:https://blocklist.site[web]
-
-|link:./database/file/blocklist-site.json[blocklist.site-fakenews]
-|Blocklist Site Fakenews
-|blacklist
-|fakenews
 |domain
 |link:https://blocklist.site[web]
 
@@ -1470,13 +1477,6 @@ link:./csv/summary-file.csv[download csv]
 |domain
 |link:https://blocklist.site[web]
 
-|link:./database/file/blocklist-site.json[blocklist.site-proxy]
-|Blocklist Site Proxy
-|blacklist
-|proxy
-|domain
-|link:https://blocklist.site[web]
-
 |link:./database/file/blocklist-site.json[blocklist.site-ransomware]
 |Blocklist Site Ransomware
 |blacklist
@@ -1498,10 +1498,10 @@ link:./csv/summary-file.csv[download csv]
 |domain
 |link:https://blocklist.site[web]
 
-|link:./database/file/blocklist-site.json[blocklist.site-spam]
-|Blocklist Site Spam
+|link:./database/file/blocklist-site.json[blocklist.site-tiktok]
+|Blocklist Site Tiktok
 |blacklist
-|spam
+|tiktok
 |domain
 |link:https://blocklist.site[web]
 
@@ -1516,6 +1516,13 @@ link:./csv/summary-file.csv[download csv]
 |Blocklist Site Tracking
 |blacklist
 |tracking
+|domain
+|link:https://blocklist.site[web]
+
+|link:./database/file/blocklist-site.json[blocklist.site-youtube]
+|Blocklist Site Youtube
+|blacklist
+|youtube
 |domain
 |link:https://blocklist.site[web]
 
@@ -1971,6 +1978,9 @@ link:./csv/summary-file.csv[download csv]
 |link:./database/feeds/blocklist-de.json[blocklist.de]
 |12h
 
+|link:./database/feeds/blocklist-site.json[blocklist.site-abuse]
+|24h
+
 |link:./database/feeds/blocklist-site.json[blocklist.site-ads]
 |24h
 
@@ -1980,10 +1990,10 @@ link:./csv/summary-file.csv[download csv]
 |link:./database/feeds/blocklist-site.json[blocklist.site-drugs]
 |24h
 
-|link:./database/feeds/blocklist-site.json[blocklist.site-fraud]
+|link:./database/feeds/blocklist-site.json[blocklist.site-facebook]
 |24h
 
-|link:./database/feeds/blocklist-site.json[blocklist.site-fakenews]
+|link:./database/feeds/blocklist-site.json[blocklist.site-fraud]
 |24h
 
 |link:./database/feeds/blocklist-site.json[blocklist.site-gambling]
@@ -2001,9 +2011,6 @@ link:./csv/summary-file.csv[download csv]
 |link:./database/feeds/blocklist-site.json[blocklist.site-porn]
 |24h
 
-|link:./database/feeds/blocklist-site.json[blocklist.site-proxy]
-|24h
-
 |link:./database/feeds/blocklist-site.json[blocklist.site-ransomware]
 |24h
 
@@ -2013,13 +2020,16 @@ link:./csv/summary-file.csv[download csv]
 |link:./database/feeds/blocklist-site.json[blocklist.site-scam]
 |24h
 
-|link:./database/feeds/blocklist-site.json[blocklist.site-spam]
+|link:./database/feeds/blocklist-site.json[blocklist.site-tiktok]
 |24h
 
 |link:./database/feeds/blocklist-site.json[blocklist.site-torrent]
 |24h
 
 |link:./database/feeds/blocklist-site.json[blocklist.site-tracking]
+|24h
+
+|link:./database/feeds/blocklist-site.json[blocklist.site-youtube]
 |24h
 
 |link:./database/feeds/cameleon.json[cameleon]
