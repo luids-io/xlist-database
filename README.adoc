@@ -1806,27 +1806,6 @@ link:./csv/summary-file.csv[download csv]
 |ip4 ip6
 |link:https://myip.ms[web]
 
-|link:./database/file/nothink-org.json[nothink.org-snmp]
-|nothink.org honeypots SNMP
-|blacklist
-|bruteforce
-|ip4
-|link:http://www.nothink.org[web]
-
-|link:./database/file/nothink-org.json[nothink.org-ssh]
-|nothink.org honeypots SSH
-|blacklist
-|bruteforce
-|ip4
-|link:http://www.nothink.org[web]
-
-|link:./database/file/nothink-org.json[nothink.org-telnet]
-|nothink.org honeypots Telnet
-|blacklist
-|bruteforce
-|ip4
-|link:http://www.nothink.org[web]
-
 |link:./database/file/phishing-army.json[phishing.army]
 |phishing.army
 |blacklist
@@ -2162,15 +2141,6 @@ link:./csv/summary-file.csv[download csv]
 |24h
 
 |link:./database/feeds/myip-ms.json[myip.ms-full]
-|24h
-
-|link:./database/feeds/nothink-org.json[nothink.org-snmp]
-|24h
-
-|link:./database/feeds/nothink-org.json[nothink.org-ssh]
-|24h
-
-|link:./database/feeds/nothink-org.json[nothink.org-telnet]
 |24h
 
 |link:./database/feeds/phishing-army.json[phishing.army]
