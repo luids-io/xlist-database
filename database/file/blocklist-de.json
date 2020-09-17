@@ -10,7 +10,8 @@
             "bruteforce"
         ],
         "resources": [
-            "ip4"
+            "ip4",
+            "ip6"
         ],
         "opts": {
             "autoreload": true,

@@ -1397,7 +1397,7 @@ link:./csv/summary-file.csv[download csv]
 |blocklist.de Fail2Ban Reporting Service
 |blacklist
 |bruteforce
-|ip4
+|ip4 ip6
 |link:http://www.blocklist.de/[web]
 
 |link:./database/file/blocklist-site.json[blocklist.site-abuse]
