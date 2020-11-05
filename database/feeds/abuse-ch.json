@@ -22,6 +22,9 @@
                 "resources": [
                     "domain"
                 ],
+                "convertopts": {
+                    "tldplusone": true
+                },
                 "uri": "https://urlhaus.abuse.ch/downloads/hostfile/",
                 "filename": "hostfile.txt"
             }
