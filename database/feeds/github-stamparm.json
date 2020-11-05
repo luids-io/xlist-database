@@ -8,12 +8,15 @@
                 "formatopts": {
                     "header": true,
                     "indexes": [
-                        2
+                        0
                     ]
                 },
                 "resources": [
                     "domain"
                 ],
+                "convertopts": {
+                    "tldplusone": true
+                },
                 "uri": "https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.csv"
             }
         ],
