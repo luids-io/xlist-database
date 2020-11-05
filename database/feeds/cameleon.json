@@ -8,7 +8,10 @@
                 "resources": [
                     "domain"
                 ],
-                "uri": "http://sysctl.org/cameleon/hosts"
+                "convertopts": {
+                    "tldplusone": true
+                },
+		"uri": "http://sysctl.org/cameleon/hosts"
             }
         ],
         "update": "24h"
