@@ -8,6 +8,9 @@
                 "resources": [
                     "domain"
                 ],
+                "convertopts": {
+                    "tldplusone": true
+                },
                 "uri": "https://zerodot1.gitlab.io/CoinBlockerLists/list.txt"
             },
             {
@@ -15,6 +18,9 @@
                 "resources": [
                     "domain"
                 ],
+                "convertopts": {
+                    "tldplusone": true
+                },
                 "uri": "https://zerodot1.gitlab.io/CoinBlockerLists/list_browser.txt"
             },
             {
@@ -22,6 +28,9 @@
                 "resources": [
                     "domain"
                 ],
+                "convertopts": {
+                    "tldplusone": true
+                },
                 "uri": "https://zerodot1.gitlab.io/CoinBlockerLists/list_optional.txt"
             }
         ],
