@@ -20,3 +20,11 @@ jq -s '[.[][]]' ${DBDIR}/dnsxl/*.json | jq -s '.[][]' \
 	| jq -r '{ id: .id, name: .name, category: .category, tags: (.tags // empty) |join(";") , resources: .resources|join(";"), web: .web}' \
 	| jq -r '[.id, .name, .category, .tags, .resources, .web] | @csv' >> $CSVFILE
 
+## create sblookup csv
+CSVFILE=${CSVDIR}/summary-sblookup.csv
+echo '"id","name","category","tags","resources","web"' > $CSVFILE
+jq -s '[.[][]]' ${DBDIR}/sblookup/*.json | jq -s '.[][]' \
+	| jq -r '{ id: .id, name: .name, category: .category, tags: (.tags // empty) |join(";") , resources: .resources|join(";"), web: .web}' \
+	| jq -r '[.id, .name, .category, .tags, .resources, .web] | @csv' >> $CSVFILE
+
+

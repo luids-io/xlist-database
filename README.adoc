@@ -6,8 +6,10 @@ The database has been classified according to the _class_ used in its
 configuration.
 
 WARNING: Each list provider has its own usage policy, check its website
-before using it.
+before using it. In order to use Google Safe Browsing API, you will need
+to obtain an API key.
 
+* <<xlist-class-sblookup>>
 * <<xlist-class-dnsxl>>
 * <<xlist-class-file>>
 
@@ -17,6 +19,29 @@ be used and this tool needs the configuration of the feeds.
 
 * <<xlget-feeds>>
 
+
+[[xlist-class-sblookup]]
+== `sblookup` data sources
+
+link:./csv/summary-sblookup.csv[download csv]
+
+|===
+| ID | Name | Category | Tags | Resources | Web
+
+|link:./database/sblookup/safebrowsing.json[safebrowsing-phising]
+|Google Safe Browsing - Phising
+|blacklist
+|phising
+|domain
+|link:https://safebrowsing.google.com/[web]
+
+|link:./database/sblookup/safebrowsing.json[safebrowsing-malware]
+|Google Safe Browsing - Malware, Unwanted software
+|blacklist
+|malware
+|domain
+|link:https://safebrowsing.google.com/[web]
+|===
 
 [[xlist-class-dnsxl]]
 == `dnsxl` data sources

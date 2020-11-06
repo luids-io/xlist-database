@@ -15,8 +15,10 @@ The database has been classified according to the _class_ used in its
 configuration.
 
 WARNING: Each list provider has its own usage policy, check its website
-before using it.
+before using it. In order to use Google Safe Browsing API, you will need
+to obtain an API key.
 
+* <<xlist-class-sblookup>>
 * <<xlist-class-dnsxl>>
 * <<xlist-class-file>>
 
@@ -43,7 +45,7 @@ function genTableClass() {
 		| jq -r '{ id: .id, name: .name, category: .category, tags: (.tags // empty) |join(" ") , resources: .resources|join(" "), web: .web}' \
 		| jq -r '[.id, .name, .category, .tags, .resources, .web] | @tsv' |
 	while IFS=$'\t' read -r id name category tags resources web; do
-		sourcefile=`grep "$id" ${DBDIR}/${class}/*.json | cut -f1 -d ":"`
+		sourcefile=`grep -H "$id" ${DBDIR}/${class}/*.json | cut -f1 -d ":"`
 		sourcefile=`basename "$sourcefile"`
 	
 		echo "" >> $OUTPUT
@@ -78,10 +80,16 @@ function genTableFeeds() {
 	echo "|===" >> $OUTPUT
 }
 
+echo "[[xlist-class-sblookup]]" >> $OUTPUT
+genTableClass "sblookup"
+
+echo "" >> $OUTPUT
+
 echo "[[xlist-class-dnsxl]]" >> $OUTPUT
 genTableClass "dnsxl"
 
 echo "" >> $OUTPUT
+
 
 echo "[[xlist-class-file]]" >> $OUTPUT
 genTableClass "file"

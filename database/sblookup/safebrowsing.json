@@ -1,0 +1,38 @@
+[
+    {
+        "disabled": true,
+        "id": "safebrowsing-phising",
+        "class": "sblookup",
+        "name": "Google Safe Browsing - Phising",
+        "web": "https://safebrowsing.google.com/",
+        "category": "blacklist",
+        "tags": [
+            "phising"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "threats": [ "phising" ],
+            "reason": "found in 'safebrowsing-phising'"
+        }
+    },
+    {
+        "disabled": true,
+        "id": "safebrowsing-malware",
+        "class": "sblookup",
+        "name": "Google Safe Browsing - Malware, Unwanted software",
+        "web": "https://safebrowsing.google.com/",
+        "category": "blacklist",
+        "tags": [
+            "malware"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "threats": [ "malware", "unwanted" ],
+            "reason": "found in 'safebrowsing-malware'"
+        }
+    }
+]

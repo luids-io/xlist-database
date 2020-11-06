@@ -1,0 +1,3 @@
+"id","name","category","tags","resources","web"
+"safebrowsing-phising","Google Safe Browsing - Phising","blacklist","phising","domain","https://safebrowsing.google.com/"
+"safebrowsing-malware","Google Safe Browsing - Malware, Unwanted software","blacklist","malware","domain","https://safebrowsing.google.com/"
