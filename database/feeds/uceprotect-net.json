@@ -8,7 +8,8 @@
                 "resources": [
                     "ip4"
                 ],
-                "uri": "http://wget-mirrors.uceprotect.net/rbldnsd-all/dnsbl-1.uceprotect.net.gz"
+                "uri": "http://wget-mirrors.uceprotect.net/rbldnsd-all/dnsbl-1.uceprotect.net.gz",
+		"filename": "dnsbl1-uceprotect.txt"
             }
         ],
         "update": "24h"
@@ -22,7 +23,8 @@
                 "resources": [
                     "ip4"
                 ],
-                "uri": "http://wget-mirrors.uceprotect.net/rbldnsd-all/dnsbl-2.uceprotect.net.gz"
+                "uri": "http://wget-mirrors.uceprotect.net/rbldnsd-all/dnsbl-2.uceprotect.net.gz",
+		"filename": "dnsbl2-uceprotect.txt"
             }
         ],
         "update": "24h"
@@ -36,7 +38,8 @@
                 "resources": [
                     "ip4"
                 ],
-                "uri": "http://wget-mirrors.uceprotect.net/rbldnsd-all/dnsbl-3.uceprotect.net.gz"
+                "uri": "http://wget-mirrors.uceprotect.net/rbldnsd-all/dnsbl-3.uceprotect.net.gz",
+		"filename": "dnsbl3-uceprotect.txt"
             }
         ],
         "update": "24h"
