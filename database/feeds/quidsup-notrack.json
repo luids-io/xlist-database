@@ -8,6 +8,9 @@
                 "resources": [
                     "domain"
                 ],
+                "convertopts": {
+                    "tldplusone": true
+                },
                 "uri": "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt",
                 "filename": "notrack-blocklist.txt"
             }
@@ -23,6 +26,9 @@
                 "resources": [
                     "domain"
                 ],
+                "convertopts": {
+                    "tldplusone": true
+                },
                 "uri": "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt",
                 "filename": "notrack-malware.txt"
             }
