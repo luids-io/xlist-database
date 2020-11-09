@@ -8,12 +8,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
 		"uri": "http://sysctl.org/cameleon/hosts"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     }
 ]

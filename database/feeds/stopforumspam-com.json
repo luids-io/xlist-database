@@ -15,12 +15,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://www.stopforumspam.com/downloads/toxic_domains_whole.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     }
 ]

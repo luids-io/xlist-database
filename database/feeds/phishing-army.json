@@ -8,12 +8,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
 		"uri": "https://phishing.army/download/phishing_army_blocklist_extended.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "6h"
     }
 ]

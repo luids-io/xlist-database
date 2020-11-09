@@ -14,12 +14,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.csv"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     }
 ]

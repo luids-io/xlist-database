@@ -8,12 +8,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
 		"uri": "https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -25,12 +25,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -42,12 +42,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {

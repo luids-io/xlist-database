@@ -8,12 +8,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
 		"uri": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -25,12 +25,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://github.com/StevenBlack/hosts/raw/master/extensions/fakenews/hosts"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -42,12 +42,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://github.com/StevenBlack/hosts/raw/master/extensions/gambling/hosts"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -59,9 +59,6 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://github.com/StevenBlack/hosts/raw/master/extensions/porn/clefspeare13/hosts",
                 "filename": "clefspeare13-hosts"
             },
@@ -70,9 +67,6 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://github.com/StevenBlack/hosts/raw/master/extensions/porn/sinfonietta-snuff/hosts",
                 "filename": "sinfonietta-snuff-hosts"
             },
@@ -81,13 +75,13 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://github.com/StevenBlack/hosts/raw/master/extensions/porn/sinfonietta/hosts",
                 "filename": "sinfonietta-hosts"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -99,9 +93,6 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://github.com/StevenBlack/hosts/raw/master/extensions/social/tiuxo/hosts",
                 "filename": "tiuxo-hosts"
             },
@@ -110,13 +101,13 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://github.com/StevenBlack/hosts/raw/master/extensions/social/sinfonietta/hosts",
 		"filename": "sinfonietta-hosts"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     }
 ]

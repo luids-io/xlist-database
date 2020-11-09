@@ -9,12 +9,12 @@
                     "ip4",
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
 		"uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/abuse.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -26,12 +26,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -43,12 +43,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/crypto.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -60,12 +60,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/drugs.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -77,12 +77,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/facebook.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -94,12 +94,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/fraud.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -111,12 +111,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/gambling.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -129,12 +129,12 @@
                     "ip4",
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -146,12 +146,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -163,12 +163,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/piracy.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -180,12 +180,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -197,12 +197,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -214,12 +214,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/redirect.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -231,12 +231,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/scam.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -248,12 +248,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/tiktok.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -265,12 +265,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/torrent.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -282,12 +282,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     },
     {
@@ -299,12 +299,12 @@
                 "resources": [
                     "domain"
                 ],
-                "convertopts": {
-                    "tldplusone": true
-                },
                 "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/youtube.txt"
             }
         ],
+        "transforms": {
+            "tldplusone": true
+        },
         "update": "24h"
     }
 ]
