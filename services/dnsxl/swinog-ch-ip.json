@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "swinog.ch-ip",
+        "class": "dnsxl",
+        "name": "Swiss Network Operators Group DNSRBL",
+        "web": "https://www.swinog.ch",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dnsrbl.swinog.ch",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

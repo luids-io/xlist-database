@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "github-stevenblack-porn",
+        "class": "file",
+        "name": "StevenBlack porn",
+        "web": "https://github.com/StevenBlack/hosts",
+        "category": "blacklist",
+        "tags": [
+            "porn"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'github-stevenblack-porn'"
+        }
+    }
+]

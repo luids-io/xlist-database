@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "junkemailfilter.com-black",
+        "class": "dnsxl",
+        "name": "Hostkarma blacklist",
+        "web": "http://wiki.junkemailfilter.com/index.php/Spam_DNS_Lists",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4",
+            "domain"
+        ],
+        "source": "black.junkemailfilter.com",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

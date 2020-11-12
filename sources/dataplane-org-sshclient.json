@@ -1,0 +1,24 @@
+[
+    {
+        "disabled": true,
+        "id": "dataplane.org-sshclient",
+        "sources": [
+            {
+                "format": "csv",
+                "formatopts": {
+                    "comments": true,
+                    "lazyquotes": true,
+                    "comma": "|",
+                    "indexes": [
+                        2
+                    ]
+                },
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://dataplane.org/sshclient.txt"
+            }
+        ],
+        "update": "24h"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "blockedservers.com-netscan",
+        "class": "dnsxl",
+        "name": "BlockedServers NetScan RBL",
+        "web": "http://www.blockedservers.com/",
+        "category": "blacklist",
+        "tags": [
+            "netscan"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "netscan.rbl.blockedservers.com",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

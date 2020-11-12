@@ -1,0 +1,30 @@
+[
+    {
+        "disabled": true,
+        "id": "uribl.com-multi",
+        "class": "dnsxl",
+        "name": "URIBL multi",
+        "web": "http://www.uribl.com/",
+        "category": "mixedlist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "multi.uribl.com",
+        "opts": {
+            "nsresolvers": true,
+            "halfping": true,
+            "dnscodes": {
+                "127.0.0.2": "Listed in the URIBL blacklist",
+                "127.0.0.4": "Listed in the URIBL greylist",
+                "127.0.0.8": "Listed in the URIBL redlist",
+                "127.0.0.16": "Test registry"
+            },
+            "errcodes": {
+                "127.0.0.1": "The query to URBL was blocked"
+            }
+        }
+    }
+]

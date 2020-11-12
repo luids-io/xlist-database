@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "sorbs.net-socks",
+        "class": "dnsxl",
+        "name": "SORBS Open SOCKS Proxies",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "openproxy"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "socks.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

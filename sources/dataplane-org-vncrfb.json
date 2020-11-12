@@ -1,0 +1,24 @@
+[
+    {
+        "disabled": true,
+        "id": "dataplane.org-vncrfb",
+        "sources": [
+            {
+                "format": "csv",
+                "formatopts": {
+                    "comments": true,
+                    "lazyquotes": true,
+                    "comma": "|",
+                    "indexes": [
+                        2
+                    ]
+                },
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://dataplane.org/vncrfb.txt"
+            }
+        ],
+        "update": "24h"
+    }
+]

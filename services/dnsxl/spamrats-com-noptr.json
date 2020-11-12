@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "spamrats.com-noptr",
+        "class": "dnsxl",
+        "name": "SpamRATS! NoPtr",
+        "web": "http://www.spamrats.com/rats-noptr.php",
+        "category": "blacklist",
+        "tags": [
+            "noptr"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "noptr.spamrats.com",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

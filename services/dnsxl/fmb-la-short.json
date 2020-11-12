@@ -1,0 +1,23 @@
+[
+    {
+        "disabled": true,
+        "id": "fmb.la-short",
+        "class": "dnsxl",
+        "name": "short.fmb.la URL shortener",
+        "web": "http://fmb.la/",
+        "category": "blacklist",
+        "tags": [
+            "shortener"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "short.fmb.la",
+        "opts": {
+            "halfping": true,
+            "dnscodes": {
+                "127.0.0.2": "Domain hosts a URL shortener"
+            }
+        }
+    }
+]

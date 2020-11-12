@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "sorbs.net-block",
+        "class": "dnsxl",
+        "name": "SORBS Hosts demanding never be tested by SORBS",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "block.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "disabled": true,
+        "id": "hosts-file.net-pup",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://hosts-file.net/pup.txt"
+            }
+        ],
+        "update": "48h"
+    }
+]

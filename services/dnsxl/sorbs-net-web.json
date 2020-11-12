@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "sorbs.net-web",
+        "class": "dnsxl",
+        "name": "SORBS Vulnerable formmailers",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "openproxy"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "web.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

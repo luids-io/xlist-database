@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "sorbs.net-zombie",
+        "class": "dnsxl",
+        "name": "SORBS hijacked networks",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "exploit"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "zombie.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

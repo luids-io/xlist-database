@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "sorbs.net-old",
+        "class": "dnsxl",
+        "name": "SORBS Spamhost (last year)",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "old.spam.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

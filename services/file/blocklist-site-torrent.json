@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "blocklist.site-torrent",
+        "class": "file",
+        "name": "Blocklist Site Torrent",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "torrent"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-torrent'"
+        }
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "disabled": true,
+        "id": "hosts-file.net-exp",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://hosts-file.net/exp.txt"
+            }
+        ],
+        "update": "48h"
+    }
+]

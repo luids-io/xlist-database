@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "stopspam.org-block",
+        "class": "dnsxl",
+        "name": "StopSpam.org block",
+        "web": "http://www.stopspam.org/rblcheck/index.php",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "block.stopspam.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "mailspike.net-zero",
+        "class": "dnsxl",
+        "name": "Mailspike Zero-hour Data",
+        "web": "http://mailspike.org/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "z.mailspike.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "uceprotect.net-level2",
+        "class": "dnsxl",
+        "name": "UCEPROTECT Level 2",
+        "web": "http://www.uceprotect.net/en/index.php?m=3&s=4",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dnsbl-2.uceprotect.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

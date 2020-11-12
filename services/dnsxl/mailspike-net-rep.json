@@ -1,0 +1,32 @@
+[
+    {
+        "disabled": true,
+        "id": "mailspike.net-rep",
+        "class": "dnsxl",
+        "name": "Mailspike Reputation",
+        "web": "http://mailspike.org/",
+        "category": "mixedlist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "rep.mailspike.net",
+        "opts": {
+            "dnscodes": {
+                "127.0.0.10": "Worst possible reputation",
+                "127.0.0.11": "Very bad reputation",
+                "127.0.0.12": "Bad reputation",
+                "127.0.0.13": "Suspicious behavior",
+                "127.0.0.14": "Neutral - Probably spam",
+                "127.0.0.15": "Neutral",
+                "127.0.0.16": "Neutral - Probably legit",
+                "127.0.0.17": "Possible legit sender",
+                "127.0.0.18": "Good Reputation",
+                "127.0.0.19": "Very good Reputation",
+                "127.0.0.20": "Excellent Reputation"
+            }
+        }
+    }
+]

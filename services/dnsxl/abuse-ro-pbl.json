@@ -1,0 +1,23 @@
+[
+    {
+        "disabled": true,
+        "id": "abuse.ro-pbl",
+        "class": "dnsxl",
+        "name": "abuse.ro (Romanian) IP non-mta, residential IPs",
+        "web": "http://www.abuse.ro/",
+        "category": "blacklist",
+        "tags": [
+            "non-mta",
+            "residential"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "pbl.abuse.ro",
+        "opts": {
+            "dnscodes": {
+                "127.0.0.9": "residential end-user IP block"
+            }
+        }
+    }
+]

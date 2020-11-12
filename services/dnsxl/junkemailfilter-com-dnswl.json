@@ -1,0 +1,22 @@
+[
+    {
+        "disabled": true,
+        "id": "junkemailfilter.com-dnswl",
+        "class": "dnsxl",
+        "name": "Hostkarma shitelist",
+        "web": "http://wiki.junkemailfilter.com/index.php/Spam_DNS_Lists",
+        "category": "whitelist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4",
+            "domain"
+        ],
+        "source": "dnswl.junkemailfilter.com",
+        "opts": {
+            "halfping": true,
+            "resolvreason": true
+        }
+    }
+]

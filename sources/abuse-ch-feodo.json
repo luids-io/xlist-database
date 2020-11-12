@@ -1,0 +1,16 @@
+[
+    {
+        "disabled": true,
+        "id": "abuse.ch-feodo",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://feodotracker.abuse.ch/downloads/ipblocklist.txt"
+            }
+        ],
+        "update": "12h"
+    }
+]

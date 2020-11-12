@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "github-stevenblack-fakenews",
+        "class": "file",
+        "name": "StevenBlack fakenews",
+        "web": "https://github.com/StevenBlack/hosts",
+        "category": "blacklist",
+        "tags": [
+            "fakenews"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'github-stevenblack-fakenews'"
+        }
+    }
+]

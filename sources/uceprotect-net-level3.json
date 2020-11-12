@@ -1,0 +1,17 @@
+[
+    {
+        "disabled": true,
+        "id": "uceprotect.net-level3",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "http://wget-mirrors.uceprotect.net/rbldnsd-all/dnsbl-3.uceprotect.net.gz",
+		"filename": "dnsbl3-uceprotect.txt"
+            }
+        ],
+        "update": "24h"
+    }
+]

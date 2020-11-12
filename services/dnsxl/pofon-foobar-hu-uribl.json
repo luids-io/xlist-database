@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "pofon.foobar.hu-uribl",
+        "class": "dnsxl",
+        "name": "pofon.foobar.hu URI Blacklist",
+        "web": "https://rbl.foobar.hu/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "uribl.pofon.foobar.hu",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

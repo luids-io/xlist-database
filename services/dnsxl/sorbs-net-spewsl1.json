@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "sorbs.net-spewsl1",
+        "class": "dnsxl",
+        "name": "SPEWS Level one listings",
+        "web": "http://www.sorbs.net/general/using.shtml",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "l1.spews.dnsbl.sorbs.net",
+        "opts": {
+            "nsresolver": true,
+            "resolvreason": true
+        }
+    }
+]

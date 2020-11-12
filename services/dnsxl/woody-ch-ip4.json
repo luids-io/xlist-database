@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "woody.ch-ip4",
+        "class": "dnsxl",
+        "name": "Woody's SMTP Blacklist IPv4",
+        "web": "http://blacklist.woody.ch/rblcheck.php3",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "blacklist.woody.ch",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

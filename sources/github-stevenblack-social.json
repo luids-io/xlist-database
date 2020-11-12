@@ -1,0 +1,28 @@
+[
+    {
+        "disabled": true,
+        "id": "github-stevenblack-social",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://github.com/StevenBlack/hosts/raw/master/extensions/social/tiuxo/hosts",
+                "filename": "tiuxo-hosts"
+            },
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://github.com/StevenBlack/hosts/raw/master/extensions/social/sinfonietta/hosts",
+		"filename": "sinfonietta-hosts"
+            }
+        ],
+        "transforms": {
+            "tldplusone": true
+        },
+        "update": "24h"
+    }
+]

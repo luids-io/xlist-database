@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "spameatingmonkey.net-netbl",
+        "class": "dnsxl",
+        "name": "Spam Eating Monkey SEM-NETBLACK",
+        "web": "http://spameatingmonkey.com/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "netbl.spameatingmonkey.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

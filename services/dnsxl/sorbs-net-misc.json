@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "sorbs.net-misc",
+        "class": "dnsxl",
+        "name": "SORBS Open other Proxies",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "openproxy"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "misc.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "rymsho.ru-domain",
+        "class": "dnsxl",
+        "name": "Rymsho's RHSBL",
+        "web": "http://spam.rymsho.ru/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "rhsbl.rymsho.ru",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

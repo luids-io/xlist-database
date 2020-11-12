@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "spameatingmonkey.net-urired",
+        "class": "dnsxl",
+        "name": "Spam Eating Monkey SEM-URIRED",
+        "web": "http://spameatingmonkey.com/",
+        "tags": [
+            "spam"
+        ],
+        "category": "blacklist",
+        "resources": [
+            "domain"
+        ],
+        "source": "urired.spameatingmonkey.net",
+        "opts": {
+            "pingdns": "_DNSBL_.test.urired.spameatingmonkey.net",
+            "resolvreason": true
+        }
+    }
+]

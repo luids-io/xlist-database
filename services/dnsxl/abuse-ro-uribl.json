@@ -1,0 +1,24 @@
+[
+    {
+        "disabled": true,
+        "id": "abuse.ro-uribl",
+        "class": "dnsxl",
+        "name": "abuse.ro (Romanian) URI RBL for spamvertized domains",
+        "web": "http://www.abuse.ro/",
+        "category": "blacklist",
+        "tags": [
+            "spamvertized"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "uribl.abuse.ro",
+        "opts": {
+            "dnscodes": {
+                "127.0.0.2": "heavily spamvertized domain",
+                "127.0.0.4": "spamvertized domain",
+                "127.0.0.9": "dynamic domain"
+            }
+        }
+    }
+]

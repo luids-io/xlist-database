@@ -27,24 +27,5 @@
                 "127.0.0.9": "Fraud/Scam emails, malware or illegal/abusive content."
             }
         }
-    },
-    {
-        "disabled": true,
-        "id": "fusionzero.com-trust",
-        "class": "dnsxl",
-        "name": "0spam DNSWL",
-        "web": "http://0spam.fusionzero.com/",
-        "category": "whitelist",
-        "tags": [
-            "spam"
-        ],
-        "resources": [
-            "ip4"
-        ],
-        "source": "0spamtrust.fusionzero.com",
-        "opts": {
-            "pingdns": "0spamtrust.fusionzero.com",
-            "resolvreason": true
-        }
     }
 ]

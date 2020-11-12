@@ -1,0 +1,24 @@
+[
+    {
+        "disabled": true,
+        "id": "dataplane.org-sshpwauth",
+        "sources": [
+            {
+                "format": "csv",
+                "formatopts": {
+                    "comments": true,
+                    "lazyquotes": true,
+                    "comma": "|",
+                    "indexes": [
+                        2
+                    ]
+                },
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://dataplane.org/sshpwauth.txt"
+            }
+        ],
+        "update": "24h"
+    }
+]

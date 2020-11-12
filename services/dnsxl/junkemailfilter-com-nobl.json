@@ -1,0 +1,22 @@
+[
+    {
+        "disabled": true,
+        "id": "junkemailfilter.com-nobl",
+        "class": "dnsxl",
+        "name": "Hostkarma no blacklist",
+        "web": "http://wiki.junkemailfilter.com/index.php/Spam_DNS_Lists",
+        "category": "whitelist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4",
+            "domain"
+        ],
+        "source": "nobl.junkemailfilter.com",
+        "opts": {
+            "halfping": true,
+            "resolvreason": true
+        }
+    }
+]

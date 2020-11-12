@@ -1,0 +1,22 @@
+[
+    {
+        "disabled": true,
+        "id": "imp.ch-worm",
+        "class": "dnsxl",
+        "name": "ImproWare IP based wormlist",
+        "web": "http://antispam.imp.ch/03-wormlist.html?lng=1",
+        "category": "blacklist",
+        "tags": [
+            "malware"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "wormrbl.imp.ch",
+        "opts": {
+            "dnscodes": {
+                "127.0.0.5": "is infected with a virus or worm!"
+            }
+        }
+    }
+]

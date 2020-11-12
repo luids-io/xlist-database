@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "sorbs.net-dul",
+        "class": "dnsxl",
+        "name": "SORBS Dynamic IP Addresses",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "dynamic"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dul.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

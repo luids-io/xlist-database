@@ -1,0 +1,19 @@
+[
+    {
+        "disabled": true,
+        "id": "blocklist.site-phishing",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt"
+            }
+        ],
+        "transforms": {
+            "tldplusone": true
+        },
+        "update": "24h"
+    }
+]

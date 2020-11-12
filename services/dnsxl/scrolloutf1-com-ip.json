@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "scrolloutf1.com-ip",
+        "class": "dnsxl",
+        "name": "Scrollout F1 Reputation IP",
+        "web": "http://www.scrolloutf1.com/rbl",
+        "category": "mixedlist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "reputation-ip.rbl.scrolloutf1.com",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

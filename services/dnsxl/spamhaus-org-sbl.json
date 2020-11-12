@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "spamhaus.org-sbl",
+        "class": "dnsxl",
+        "name": "Spamhaus SBL Spamhaus Block List",
+        "web": "http://www.spamhaus.org/sbl/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "sbl.spamhaus.org",
+        "opts": {
+            "nsresolvers": true,
+            "resolvreason": true
+        }
+    }
+]

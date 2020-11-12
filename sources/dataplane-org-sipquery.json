@@ -1,0 +1,24 @@
+[
+    {
+        "disabled": true,
+        "id": "dataplane.org-sipquery",
+        "sources": [
+            {
+                "format": "csv",
+                "formatopts": {
+                    "comments": true,
+                    "lazyquotes": true,
+                    "comma": "|",
+                    "indexes": [
+                        2
+                    ]
+                },
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://dataplane.org/sipquery.txt"
+            }
+        ],
+        "update": "24h"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "rfc-clueless.org-bogusmx",
+        "class": "dnsxl",
+        "name": "RFC-Clueless (RFC2) BogusMX RBL",
+        "web": "http://rfc-clueless.org/",
+        "category": "blacklist",
+        "tags": [
+            "compliance"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "bogusmx.rfc-clueless.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

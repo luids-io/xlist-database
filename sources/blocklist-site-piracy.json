@@ -1,0 +1,19 @@
+[
+    {
+        "disabled": true,
+        "id": "blocklist.site-piracy",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/piracy.txt"
+            }
+        ],
+        "transforms": {
+            "tldplusone": true
+        },
+        "update": "24h"
+    }
+]

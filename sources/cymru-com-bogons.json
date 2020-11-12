@@ -1,0 +1,16 @@
+[
+    {
+        "disabled": true,
+        "id": "cymru.com-bogons",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://www.team-cymru.org/Services/Bogons/bogon-bn-nonagg.txt"
+            }
+        ],
+        "update": "96h"
+    }
+]

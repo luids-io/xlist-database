@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "blockedservers.com-torexit",
+        "class": "dnsxl",
+        "name": "BlockedServers Torexit RBL",
+        "web": "http://www.blockedservers.com/",
+        "category": "blacklist",
+        "tags": [
+            "torexit"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "torexit.rbl.blockedservers.com",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "nordspam.com-domain",
+        "class": "dnsxl",
+        "name": "NordSpam Domain Blacklist",
+        "web": "https://www.nordspam.com/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "dbl.nordspam.com",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

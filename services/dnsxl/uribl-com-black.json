@@ -1,0 +1,22 @@
+[
+    {
+        "disabled": true,
+        "id": "uribl.com-black",
+        "class": "dnsxl",
+        "name": "URIBL black",
+        "web": "http://www.uribl.com/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "black.uribl.com",
+        "opts": {
+            "nsresolvers": true,
+            "halfping": true,
+            "resolvreason": true
+        }
+    }
+]

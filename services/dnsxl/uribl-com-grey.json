@@ -1,0 +1,22 @@
+[
+    {
+        "disabled": true,
+        "id": "uribl.com-grey",
+        "class": "dnsxl",
+        "name": "URIBL grey",
+        "web": "http://www.uribl.com/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "grey.uribl.com",
+        "opts": {
+            "nsresolvers": true,
+            "halfping": true,
+            "resolvreason": true
+        }
+    }
+]

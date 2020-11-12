@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "surgate.net-srnblack",
+        "class": "dnsxl",
+        "name": "SurGATE Reputation Network Blacklist",
+        "web": "http://www.srntools.com/",
+        "category": "mixedlist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "srnblack.surgate.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

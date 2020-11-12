@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "mailspike.net-wl",
+        "class": "dnsxl",
+        "name": "Mailspike Whitelist",
+        "web": "http://mailspike.org/",
+        "category": "whitelist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "wl.mailspike.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

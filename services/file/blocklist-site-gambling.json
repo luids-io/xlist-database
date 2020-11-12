@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "blocklist.site-gambling",
+        "class": "file",
+        "name": "Blocklist Site Gambling",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "gambling"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-gambling'"
+        }
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "spamrats.com-auth",
+        "class": "dnsxl",
+        "name": "SpamRATS! all",
+        "web": "http://www.spamrats.com/",
+        "category": "blacklist",
+        "tags": [
+            "bruteforce"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "auth.spamrats.com",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

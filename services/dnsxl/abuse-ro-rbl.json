@@ -1,0 +1,24 @@
+[
+    {
+        "disabled": true,
+        "id": "abuse.ro-rbl",
+        "class": "dnsxl",
+        "name": "abuse.ro (Romanian) IP RBL",
+        "web": "http://www.abuse.ro/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "rbl.abuse.ro",
+        "opts": {
+            "dnscodes": {
+                "127.0.0.2": "spam sending IP",
+                "127.0.0.3": "abused or infected IP",
+                "127.0.0.4": "spam sending class"
+            }
+        }
+    }
+]

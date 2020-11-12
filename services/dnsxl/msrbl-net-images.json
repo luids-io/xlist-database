@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "msrbl.net-images",
+        "class": "dnsxl",
+        "name": "MSRBL images",
+        "web": "http://www.msrbl.com/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "images.rbl.msrbl.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

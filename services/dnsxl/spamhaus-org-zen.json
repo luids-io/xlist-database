@@ -1,0 +1,34 @@
+[
+    {
+        "disabled": true,
+        "id": "spamhaus.org-zen",
+        "class": "dnsxl",
+        "name": "Spamhaus ZEN Combined Block List",
+        "web": "http://www.spamhaus.org/zen/",
+        "category": "blacklist",
+        "tags": [
+            "spam",
+            "openproxy",
+            "malware",
+            "non-mta"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "zen.spamhaus.org",
+        "opts": {
+            "nsresolvers": true,
+            "dnscodes": {
+                "127.0.0.2": "ZEN2: Direct UBE sources, spam operations & spam services",
+                "127.0.0.3": "ZEN3: Direct snowshoe spam sources detected via automation",
+                "127.0.0.4": "ZEN4: CBL (3rd party exploits such as proxies, trojans, etc.)",
+                "127.0.0.5": "ZEN5: CBL (3rd party exploits such as proxies, trojans, etc.)",
+                "127.0.0.6": "ZEN6: CBL (3rd party exploits such as proxies, trojans, etc.)",
+                "127.0.0.7": "ZEN7: CBL (3rd party exploits such as proxies, trojans, etc.)",
+                "127.0.0.9": "ZEN9: All networks in DROP and EDROP",
+                "127.0.0.10": "ZEN10: End-user Non-MTA IP addresses set by ISP outbound mail policy",
+                "127.0.0.11": "ZEN11: End-user Non-MTA IP addresses set by ISP outbound mail policy"
+            }
+        }
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "dataplane.org-sshpwauth",
+        "class": "file",
+        "name": "dataplane.org SSH password authentication",
+        "web": "https://dataplane.org",
+        "category": "blacklist",
+        "tags": [
+            "bruteforce"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'dataplane.org-sshpwauth'"
+        }
+    }
+]

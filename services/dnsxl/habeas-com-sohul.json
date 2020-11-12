@@ -1,0 +1,17 @@
+[
+    {
+        "disabled": true,
+        "id": "habeas.com-sohul",
+        "class": "dnsxl",
+        "name": "Habeas User List (including Non-Verified-Optin)",
+        "web": "http://www.habeas.com/",
+        "category": "whitelist",
+        "resources": [
+            "ip4"
+        ],
+        "source": "sohul.habeas.com",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

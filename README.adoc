@@ -28,17 +28,17 @@ link:./csv/summary-sblookup.csv[download csv]
 |===
 | ID | Name | Category | Tags | Resources | Web
 
-|link:.//services/sblookup/safebrowsing.json[safebrowsing-phising]
-|Google Safe Browsing - Phising
-|blacklist
-|phising
-|domain
-|link:https://safebrowsing.google.com/[web]
-
-|link:.//services/sblookup/safebrowsing.json[safebrowsing-malware]
+|link:.//services/sblookup/safebrowsing-malware.json[safebrowsing-malware]
 |Google Safe Browsing - Malware, Unwanted software
 |blacklist
 |malware
+|domain
+|link:https://safebrowsing.google.com/[web]
+
+|link:.//services/sblookup/safebrowsing-phising.json[safebrowsing-phising]
+|Google Safe Browsing - Phising
+|blacklist
+|phising
 |domain
 |link:https://safebrowsing.google.com/[web]
 |===
@@ -51,26 +51,26 @@ link:./csv/summary-file.csv[download csv]
 |===
 | ID | Name | Category | Tags | Resources | Web
 
-|link:.//services/file/abuse-ch.json[abuse.ch-feodo]
+|link:.//services/file/abuse-ch-feodo.json[abuse.ch-feodo]
 |Feodo Tracker C&C Abuse.ch
 |blacklist
 |malware
 |ip4
 |link:https://feodotracker.abuse.ch/[web]
 
-|link:.//services/file/abuse-ch.json[abuse.ch-urlhaus]
-|URLhaus Abuse.ch
-|blacklist
-|malware
-|domain
-|link:https://urlhaus.abuse.ch/[web]
-
-|link:.//services/file/abuse-ch.json[abuse.ch-ssl]
+|link:.//services/file/abuse-ch-ssl.json[abuse.ch-ssl]
 |SSL blacklist Abuse.ch
 |blacklist
 |malware
 |ip4 md5 sha1
 |link:https://sslbl.abuse.ch[web]
+
+|link:.//services/file/abuse-ch-urlhaus.json[abuse.ch-urlhaus]
+|URLhaus Abuse.ch
+|blacklist
+|malware
+|domain
+|link:https://urlhaus.abuse.ch/[web]
 
 |link:.//services/file/alienvault-com.json[alienvault.com]
 |alienvault reputation
@@ -93,126 +93,126 @@ link:./csv/summary-file.csv[download csv]
 |ip4 ip6
 |link:http://www.blocklist.de/[web]
 
-|link:.//services/file/blocklist-site.json[blocklist.site-abuse]
+|link:.//services/file/blocklist-site-abuse.json[blocklist.site-abuse]
 |Blocklist Site Abuse
 |blacklist
 |abuse
 |domain
 |link:https://blocklist.site[web]
 
-|link:.//services/file/blocklist-site.json[blocklist.site-ads]
+|link:.//services/file/blocklist-site-ads.json[blocklist.site-ads]
 |Blocklist Site ADS
 |blacklist
 |ads
 |domain
 |link:https://blocklist.site[web]
 
-|link:.//services/file/blocklist-site.json[blocklist.site-crypto]
+|link:.//services/file/blocklist-site-crypto.json[blocklist.site-crypto]
 |Blocklist Site Crypto
 |blacklist
 |crypto
 |domain
 |link:https://blocklist.site[web]
 
-|link:.//services/file/blocklist-site.json[blocklist.site-drugs]
+|link:.//services/file/blocklist-site-drugs.json[blocklist.site-drugs]
 |Blocklist Site Drugs
 |blacklist
 |drugs
 |domain
 |link:https://blocklist.site[web]
 
-|link:.//services/file/blocklist-site.json[blocklist.site-fakebook]
+|link:.//services/file/blocklist-site-fakebook.json[blocklist.site-fakebook]
 |Blocklist Site Facebook
 |blacklist
 |facebook
 |domain
 |link:https://blocklist.site[web]
 
-|link:.//services/file/blocklist-site.json[blocklist.site-fraud]
+|link:.//services/file/blocklist-site-fraud.json[blocklist.site-fraud]
 |Blocklist Site Fraud
 |blacklist
 |fraud
 |domain
 |link:https://blocklist.site[web]
 
-|link:.//services/file/blocklist-site.json[blocklist.site-gambling]
+|link:.//services/file/blocklist-site-gambling.json[blocklist.site-gambling]
 |Blocklist Site Gambling
 |blacklist
 |gambling
 |domain
 |link:https://blocklist.site[web]
 
-|link:.//services/file/blocklist-site.json[blocklist.site-malware]
+|link:.//services/file/blocklist-site-malware.json[blocklist.site-malware]
 |Blocklist Site Malware
 |blacklist
 |malware
 |ip4 domain
 |link:https://blocklist.site[web]
 
-|link:.//services/file/blocklist-site.json[blocklist.site-phishing]
+|link:.//services/file/blocklist-site-phishing.json[blocklist.site-phishing]
 |Blocklist Site Phishing
 |blacklist
 |phishing
 |domain
 |link:https://blocklist.site[web]
 
-|link:.//services/file/blocklist-site.json[blocklist.site-piracy]
+|link:.//services/file/blocklist-site-piracy.json[blocklist.site-piracy]
 |Blocklist Site Piracy
 |blacklist
 |piracy
 |domain
 |link:https://blocklist.site[web]
 
-|link:.//services/file/blocklist-site.json[blocklist.site-porn]
+|link:.//services/file/blocklist-site-porn.json[blocklist.site-porn]
 |Blocklist Site Porn
 |blacklist
 |porn
 |domain
 |link:https://blocklist.site[web]
 
-|link:.//services/file/blocklist-site.json[blocklist.site-ransomware]
+|link:.//services/file/blocklist-site-ransomware.json[blocklist.site-ransomware]
 |Blocklist Site Ransomware
 |blacklist
 |ransomware
 |domain
 |link:https://blocklist.site[web]
 
-|link:.//services/file/blocklist-site.json[blocklist.site-redirect]
+|link:.//services/file/blocklist-site-redirect.json[blocklist.site-redirect]
 |Blocklist Site Redirect
 |blacklist
 |redirect
 |domain
 |link:https://blocklist.site[web]
 
-|link:.//services/file/blocklist-site.json[blocklist.site-scam]
+|link:.//services/file/blocklist-site-scam.json[blocklist.site-scam]
 |Blocklist Site Scam
 |blacklist
 |scam
 |domain
 |link:https://blocklist.site[web]
 
-|link:.//services/file/blocklist-site.json[blocklist.site-tiktok]
+|link:.//services/file/blocklist-site-tiktok.json[blocklist.site-tiktok]
 |Blocklist Site Tiktok
 |blacklist
 |tiktok
 |domain
 |link:https://blocklist.site[web]
 
-|link:.//services/file/blocklist-site.json[blocklist.site-torrent]
+|link:.//services/file/blocklist-site-torrent.json[blocklist.site-torrent]
 |Blocklist Site Torrent
 |blacklist
 |torrent
 |domain
 |link:https://blocklist.site[web]
 
-|link:.//services/file/blocklist-site.json[blocklist.site-tracking]
+|link:.//services/file/blocklist-site-tracking.json[blocklist.site-tracking]
 |Blocklist Site Tracking
 |blacklist
 |tracking
 |domain
 |link:https://blocklist.site[web]
 
-|link:.//services/file/blocklist-site.json[blocklist.site-youtube]
+|link:.//services/file/blocklist-site-youtube.json[blocklist.site-youtube]
 |Blocklist Site Youtube
 |blacklist
 |youtube
@@ -240,19 +240,33 @@ link:./csv/summary-file.csv[download csv]
 |ip4
 |link:https://www.cruzit.com/[web]
 
-|link:.//services/file/cymru-com.json[cymru.com-bogons]
+|link:.//services/file/cymru-com-bogons.json[cymru.com-bogons]
 |Cymru Bogon List
 |blacklist
 |bogon
 |ip4
 |link:http://www.team-cymru.com/bogon-reference.html[web]
 
-|link:.//services/file/cymru-com.json[cymru.com-fullbogons4]
+|link:.//services/file/cymru-com-fullbogons4.json[cymru.com-fullbogons4]
 |Cymru Fullbogon IPv4 List
 |blacklist
 |bogon
 |ip4
 |link:http://www.team-cymru.com/bogon-reference.html[web]
+
+|link:.//services/file/dan-me-uk-torexit.json[dan.me.uk-torexit]
+|dan.me.uk (only tor exit nodes)
+|blacklist
+|torexit
+|ip4
+|link:https://www.dan.me.uk/tornodes[web]
+
+|link:.//services/file/dan-me-uk-tor.json[dan.me.uk-tor]
+|dan.me.uk (all tor nodes)
+|blacklist
+|torexit
+|ip4
+|link:https://www.dan.me.uk/tornodes[web]
 
 |link:.//services/file/darklist-de.json[darklist.de]
 |darklist.de
@@ -261,63 +275,63 @@ link:./csv/summary-file.csv[download csv]
 |ip4
 |link:https://darklist.de/[web]
 
-|link:.//services/file/dataplane-org.json[dataplane.org-dnsrd]
-|dataplane.org DNS recursion desired
-|blacklist
-|netscan
-|ip4
-|link:https://dataplane.org[web]
-
-|link:.//services/file/dataplane-org.json[dataplane.org-dnsrdany]
+|link:.//services/file/dataplane-org-dnsrdany.json[dataplane.org-dnsrdany]
 |dataplane.org DNS recursion desired IN ANY
 |blacklist
 |netscan
 |ip4
 |link:https://dataplane.org[web]
 
-|link:.//services/file/dataplane-org.json[dataplane.org-dnsversion]
+|link:.//services/file/dataplane-org-dnsrd.json[dataplane.org-dnsrd]
+|dataplane.org DNS recursion desired
+|blacklist
+|netscan
+|ip4
+|link:https://dataplane.org[web]
+
+|link:.//services/file/dataplane-org-dnsversion.json[dataplane.org-dnsversion]
 |dataplane.org DNS CH TXT version.bind
 |blacklist
 |netscan
 |ip4
 |link:https://dataplane.org[web]
 
-|link:.//services/file/dataplane-org.json[dataplane.org-sipinvitation]
+|link:.//services/file/dataplane-org-sipinvitation.json[dataplane.org-sipinvitation]
 |dataplane.org SIP invitation
 |blacklist
 |netscan
 |ip4
 |link:https://dataplane.org[web]
 
-|link:.//services/file/dataplane-org.json[dataplane.org-sipquery]
+|link:.//services/file/dataplane-org-sipquery.json[dataplane.org-sipquery]
 |dataplane.org SIP query
 |blacklist
 |netscan
 |ip4
 |link:https://dataplane.org[web]
 
-|link:.//services/file/dataplane-org.json[dataplane.org-sipregistration]
+|link:.//services/file/dataplane-org-sipregistration.json[dataplane.org-sipregistration]
 |dataplane.org SIP registration
 |blacklist
 |netscan
 |ip4
 |link:https://dataplane.org[web]
 
-|link:.//services/file/dataplane-org.json[dataplane.org-sshclient]
+|link:.//services/file/dataplane-org-sshclient.json[dataplane.org-sshclient]
 |dataplane.org SSH client connection
 |blacklist
 |netscan
 |ip4
 |link:https://dataplane.org[web]
 
-|link:.//services/file/dataplane-org.json[dataplane.org-sshpwauth]
+|link:.//services/file/dataplane-org-sshpwauth.json[dataplane.org-sshpwauth]
 |dataplane.org SSH password authentication
 |blacklist
 |bruteforce
 |ip4
 |link:https://dataplane.org[web]
 
-|link:.//services/file/dataplane-org.json[dataplane.org-vncrfb]
+|link:.//services/file/dataplane-org-vncrfb.json[dataplane.org-vncrfb]
 |dataplane.org VNC RFB
 |blacklist
 |bruteforce
@@ -338,63 +352,63 @@ link:./csv/summary-file.csv[download csv]
 |ip4
 |link:https://rules.emergingthreats.net/[web]
 
-|link:.//services/file/github-anudeepnd.json[github-anudeepnd-ads]
+|link:.//services/file/github-anudeepnd-ads.json[github-anudeepnd-ads]
 |anudeepND blacklist block ads
 |blacklist
 |ads
 |domain
 |link:https://github.com/anudeepND/blacklist[web]
 
-|link:.//services/file/github-anudeepnd.json[github-anudeepnd-crypto]
+|link:.//services/file/github-anudeepnd-crypto.json[github-anudeepnd-crypto]
 |anudeepND blacklist block crypto
 |blacklist
 |crypto
 |domain
 |link:https://github.com/anudeepND/blacklist[web]
 
-|link:.//services/file/github-anudeepnd.json[github-anudeepnd-facebook]
+|link:.//services/file/github-anudeepnd-facebook.json[github-anudeepnd-facebook]
 |anudeepND blacklist block facebook
 |blacklist
 |facebook
 |domain
 |link:https://github.com/anudeepND/blacklist[web]
 
-|link:.//services/file/github-stamparm.json[github-stamparm-blackbook]
+|link:.//services/file/github-stamparm-blackbook.json[github-stamparm-blackbook]
 |stamparm blackbook with historical malware domains
 |blacklist
 |malware
 |domain
 |link:https://github.com/stamparm/blackbook[web]
 
-|link:.//services/file/github-stevenblack.json[github-stevenblack]
-|StevenBlack Unified hosts
-|blacklist
-|malware
-|domain
-|link:https://github.com/StevenBlack/hosts[web]
-
-|link:.//services/file/github-stevenblack.json[github-stevenblack-fakenews]
+|link:.//services/file/github-stevenblack-fakenews.json[github-stevenblack-fakenews]
 |StevenBlack fakenews
 |blacklist
 |fakenews
 |domain
 |link:https://github.com/StevenBlack/hosts[web]
 
-|link:.//services/file/github-stevenblack.json[github-stevenblack-gambling]
+|link:.//services/file/github-stevenblack-gambling.json[github-stevenblack-gambling]
 |StevenBlack gambling
 |blacklist
 |gambling
 |domain
 |link:https://github.com/StevenBlack/hosts[web]
 
-|link:.//services/file/github-stevenblack.json[github-stevenblack-porn]
+|link:.//services/file/github-stevenblack-social.json[github-stevenblack]
+|StevenBlack Unified hosts
+|blacklist
+|malware
+|domain
+|link:https://github.com/StevenBlack/hosts[web]
+
+|link:.//services/file/github-stevenblack-porn.json[github-stevenblack-porn]
 |StevenBlack porn
 |blacklist
 |porn
 |domain
 |link:https://github.com/StevenBlack/hosts[web]
 
-|link:.//services/file/github-stevenblack.json[github-stevenblack-social]
+|link:.//services/file/github-stevenblack-social.json[github-stevenblack-social]
 |StevenBlack social
 |blacklist
 |social
@@ -408,42 +422,42 @@ link:./csv/summary-file.csv[download csv]
 |ip4
 |link:https://www.greensnow.co[web]
 
-|link:.//services/file/hosts-file-net.json[hosts-file.net-adt]
+|link:.//services/file/hosts-file-net-adt.json[hosts-file.net-adt]
 |hpHosts Online ad/tracking servers
 |blacklist
 |ads
 |domain
 |link:https://hosts-file.net[web]
 
-|link:.//services/file/hosts-file-net.json[hosts-file.net-emd]
+|link:.//services/file/hosts-file-net-emd.json[hosts-file.net-emd]
 |hpHosts Online malware sites
 |blacklist
 |malware
 |domain
 |link:https://hosts-file.net[web]
 
-|link:.//services/file/hosts-file-net.json[hosts-file.net-exp]
+|link:.//services/file/hosts-file-net-exp.json[hosts-file.net-exp]
 |hpHosts Online exploit sites
 |blacklist
 |exploit
 |domain
 |link:https://hosts-file.net[web]
 
-|link:.//services/file/hosts-file-net.json[hosts-file.net-fsa]
+|link:.//services/file/hosts-file-net-fsa.json[hosts-file.net-fsa]
 |hpHosts Online fraud sites
 |blacklist
 |fraud
 |domain
 |link:https://hosts-file.net[web]
 
-|link:.//services/file/hosts-file-net.json[hosts-file.net-psh]
+|link:.//services/file/hosts-file-net-psh.json[hosts-file.net-psh]
 |hpHosts Online phishing
 |blacklist
 |phising
 |domain
 |link:https://hosts-file.net[web]
 
-|link:.//services/file/hosts-file-net.json[hosts-file.net-pup]
+|link:.//services/file/hosts-file-net-pup.json[hosts-file.net-pup]
 |hpHosts Online Potentially Unwanted Programs
 |blacklist
 |malware
@@ -457,7 +471,7 @@ link:./csv/summary-file.csv[download csv]
 |ip4
 |link:http://rbl.interserver.net/[web]
 
-|link:.//services/file/isc-sans-edu.json[isc.sans.edu-domains]
+|link:.//services/file/isc-sans-edu-domains.json[isc.sans.edu-domains]
 |SANS Internet Storm Center suspicious domains
 |blacklist
 |reputation
@@ -485,15 +499,15 @@ link:./csv/summary-file.csv[download csv]
 |domain
 |link:http://www.malwaredomains.com/[web]
 
-|link:.//services/file/myip-ms.json[myip.ms]
-|my-ip.ms 
+|link:.//services/file/myip-ms-full.json[myip.ms-full]
+|my-ip.ms full database
 |blacklist
 |reputation
 |ip4 ip6
 |link:https://myip.ms[web]
 
-|link:.//services/file/myip-ms.json[myip.ms-full]
-|my-ip.ms full database
+|link:.//services/file/myip-ms.json[myip.ms]
+|my-ip.ms 
 |blacklist
 |reputation
 |ip4 ip6
@@ -506,17 +520,17 @@ link:./csv/summary-file.csv[download csv]
 |domain
 |link:https://phishing.army/[web]
 
-|link:.//services/file/quidsup-notrack.json[quidsup.net-notrack]
-|quidsup.net NoTrack blocklist notrack
-|blacklist
-|tracking
-|domain
-|link:https://quidsup.net/notrack/[web]
-
-|link:.//services/file/quidsup-notrack.json[quidsup.net-malware]
+|link:.//services/file/quidsup-net-malware.json[quidsup.net-malware]
 |quidsup.net NoTrack blocklist malware
 |blacklist
 |malware
+|domain
+|link:https://quidsup.net/notrack/[web]
+
+|link:.//services/file/quidsup-net-notrack.json[quidsup.net-notrack]
+|quidsup.net NoTrack blocklist notrack
+|blacklist
+|tracking
 |domain
 |link:https://quidsup.net/notrack/[web]
 
@@ -534,7 +548,7 @@ link:./csv/summary-file.csv[download csv]
 |ip4
 |link:https://sblam.com/[web]
 
-|link:.//services/file/spamhaus-org.json[spamhaus.org-drop]
+|link:.//services/file/spamhaus-org-drop.json[spamhaus.org-drop]
 |Spamhaus Don't Route Or Peer Lists
 |blacklist
 |hijacked
@@ -555,20 +569,6 @@ link:./csv/summary-file.csv[download csv]
 |ip4
 |link:https://www.talosintelligence.com[web]
 
-|link:.//services/file/tor-dan-me.json[dan.me.uk-tor]
-|dan.me.uk (all tor nodes)
-|blacklist
-|torexit
-|ip4
-|link:https://www.dan.me.uk/tornodes[web]
-
-|link:.//services/file/tor-dan-me.json[dan.me.uk-torexit]
-|dan.me.uk (only tor exit nodes)
-|blacklist
-|torexit
-|ip4
-|link:https://www.dan.me.uk/tornodes[web]
-
 |link:.//services/file/torstatus-blutmagie-de.json[torstatus.blutmagie.de]
 |torstatus.blutmagie.de tor status
 |blacklist
@@ -583,21 +583,21 @@ link:./csv/summary-file.csv[download csv]
 |ip4
 |link:https://www.turris.cz[web]
 
-|link:.//services/file/uceprotect-net.json[uceprotect.net-level1]
+|link:.//services/file/uceprotect-net-level1.json[uceprotect.net-level1]
 |UCEPROTECT Network Project Level 1
 |blacklist
 |spam
 |ip4
 |link:http://www.uceprotect.net/en/index.php[web]
 
-|link:.//services/file/uceprotect-net.json[uceprotect.net-level2]
+|link:.//services/file/uceprotect-net-level2.json[uceprotect.net-level2]
 |UCEPROTECT Network Project Level 2
 |blacklist
 |spam
 |ip4
 |link:http://www.uceprotect.net/en/index.php[web]
 
-|link:.//services/file/uceprotect-net.json[uceprotect.net-level3]
+|link:.//services/file/uceprotect-net-level3.json[uceprotect.net-level3]
 |UCEPROTECT Network Project Level 3
 |blacklist
 |spam
@@ -634,35 +634,42 @@ link:./csv/summary-dnsxl.csv[download csv]
 |===
 | ID | Name | Category | Tags | Resources | Web
 
-|link:.//services/dnsxl/abuse-ro.json[abuse.ro-rbl]
-|abuse.ro (Romanian) IP RBL
+|link:.//services/dnsxl/abuseat-org-cbl.json[abuseat.org-cbl]
+|CBL
 |blacklist
 |spam
 |ip4
-|link:http://www.abuse.ro/[web]
+|link:https://www.abuseat.org/[web]
 
-|link:.//services/dnsxl/abuse-ro.json[abuse.ro-pbl]
-|abuse.ro (Romanian) IP non-mta, residential IPs
-|blacklist
-|non-mta residential
-|ip4
-|link:http://www.abuse.ro/[web]
-
-|link:.//services/dnsxl/abuse-ro.json[abuse.ro-uribl]
-|abuse.ro (Romanian) URI RBL for spamvertized domains
-|blacklist
-|spamvertized
-|domain
-|link:http://www.abuse.ro/[web]
-
-|link:.//services/dnsxl/abuse-ro.json[abuse.ro-dbl]
+|link:.//services/dnsxl/abuse-ro-dbl.json[abuse.ro-dbl]
 |abuse.ro (Romanian) URI RBL for spam domains
 |blacklist
 |spam
 |domain
 |link:http://www.abuse.ro/[web]
 
-|link:.//services/dnsxl/abusix-org.json[abusix.org-contacts]
+|link:.//services/dnsxl/abuse-ro-pbl.json[abuse.ro-pbl]
+|abuse.ro (Romanian) IP non-mta, residential IPs
+|blacklist
+|non-mta residential
+|ip4
+|link:http://www.abuse.ro/[web]
+
+|link:.//services/dnsxl/abuse-ro-rbl.json[abuse.ro-rbl]
+|abuse.ro (Romanian) IP RBL
+|blacklist
+|spam
+|ip4
+|link:http://www.abuse.ro/[web]
+
+|link:.//services/dnsxl/abuse-ro-uribl.json[abuse.ro-uribl]
+|abuse.ro (Romanian) URI RBL for spamvertized domains
+|blacklist
+|spamvertized
+|domain
+|link:http://www.abuse.ro/[web]
+
+|link:.//services/dnsxl/abusix-org-contacts.json[abusix.org-contacts]
 |abusix.org Abuse Contact DB
 |infolist
 |info
@@ -676,35 +683,35 @@ link:./csv/summary-dnsxl.csv[download csv]
 |ip4
 |link:http://www.anonmails.de/dnsbl.php[web]
 
-|link:.//services/dnsxl/anticaptcha-net.json[anticaptcha.net-dnsbl]
-|AntiCaptcha.NET IPv4
-|blacklist
-|spam
-|ip4
-|link:http://anticaptcha.net/[web]
-
-|link:.//services/dnsxl/anticaptcha-net.json[anticaptcha.net-dnsbl6]
+|link:.//services/dnsxl/anticaptcha-net-dnsbl6.json[anticaptcha.net-dnsbl6]
 |AntiCaptcha.NET IPv6
 |blacklist
 |spam
 |ip6
 |link:http://anticaptcha.net/[web]
 
-|link:.//services/dnsxl/uceprotect-net.json[backscatterer.org]
-|Backscatterer.org
+|link:.//services/dnsxl/anticaptcha-net-dnsbl.json[anticaptcha.net-dnsbl]
+|AntiCaptcha.NET IPv4
+|blacklist
+|spam
+|ip4
+|link:http://anticaptcha.net/[web]
+
+|link:.//services/dnsxl/backscatterer-org.json[backscatterer.org]
+|Whitelisted.org
 |blacklist
 |backscatter
 |ip4
 |link:http://www.backscatterer.org/[web]
 
-|link:.//services/dnsxl/barracudacentral-org.json[barracudacentral.org]
+|link:.//services/dnsxl/barracudacentral-org-sa.json[barracudacentral.org]
 |Barracuda Reputation Block List
 |blacklist
 |spam
 |ip4
 |link:http://www.barracudacentral.org/rbl/[web]
 
-|link:.//services/dnsxl/barracudacentral-org.json[barracudacentral.org-sa]
+|link:.//services/dnsxl/barracudacentral-org-sa.json[barracudacentral.org-sa]
 |Barracuda Reputation Block List (for SpamAssassin)
 |blacklist
 |spam
@@ -718,31 +725,31 @@ link:./csv/summary-dnsxl.csv[download csv]
 |ip4
 |link:http://www.bbfh.org/[web]
 
-|link:.//services/dnsxl/blockedservers-com.json[blockedservers.com-netscan]
+|link:.//services/dnsxl/blockedservers-com-torexit.json[blockedservers.com]
+|BlockedServers RBL
+|blacklist
+|spam netscan torexit
+|ip4
+|link:http://www.blockedservers.com/[web]
+
+|link:.//services/dnsxl/blockedservers-com-netscan.json[blockedservers.com-netscan]
 |BlockedServers NetScan RBL
 |blacklist
 |netscan
 |ip4
 |link:http://www.blockedservers.com/[web]
 
-|link:.//services/dnsxl/blockedservers-com.json[blockedservers.com-spam]
+|link:.//services/dnsxl/blockedservers-com-spam.json[blockedservers.com-spam]
 |BlockedServers Spam RBL
 |blacklist
 |spam
 |ip4
 |link:http://www.blockedservers.com/[web]
 
-|link:.//services/dnsxl/blockedservers-com.json[blockedservers.com-torexit]
+|link:.//services/dnsxl/blockedservers-com-torexit.json[blockedservers.com-torexit]
 |BlockedServers Torexit RBL
 |blacklist
 |torexit
-|ip4
-|link:http://www.blockedservers.com/[web]
-
-|link:.//services/dnsxl/blockedservers-com.json[blockedservers.com]
-|BlockedServers RBL
-|blacklist
-|spam netscan torexit
 |ip4
 |link:http://www.blockedservers.com/[web]
 
@@ -753,28 +760,28 @@ link:./csv/summary-dnsxl.csv[download csv]
 |ip4
 |link:http://www.blocklist.de/[web]
 
-|link:.//services/dnsxl/borderware-com.json[borderware.com-dnsbl1]
+|link:.//services/dnsxl/borderware-com-dnsbl1.json[borderware.com-dnsbl1]
 |borderware.com DNSBL1
 |blacklist
 |spam
 |ip4
 |link:http://www.borderware.com/[web]
 
-|link:.//services/dnsxl/borderware-com.json[borderware.com-dnsbl2]
+|link:.//services/dnsxl/borderware-com-dnsbl2.json[borderware.com-dnsbl2]
 |borderware.com DNSBL2
 |blacklist
 |spam
 |ip4
 |link:http://www.borderware.com/[web]
 
-|link:.//services/dnsxl/borderware-com.json[borderware.com-dnsbl3]
+|link:.//services/dnsxl/borderware-com-dnsbl3.json[borderware.com-dnsbl3]
 |borderware.com DNSBL3
 |blacklist
 |spam
 |ip4
 |link:http://www.borderware.com/[web]
 
-|link:.//services/dnsxl/borderware-com.json[borderware.com-dul]
+|link:.//services/dnsxl/borderware-com-dul.json[borderware.com-dul]
 |borderware.com DUL
 |blacklist
 |spam
@@ -788,26 +795,40 @@ link:./csv/summary-dnsxl.csv[download csv]
 |ip4
 |link:http://filterdb.iss.net/dnsblinfo/[web]
 
-|link:.//services/dnsxl/cymru-com.json[cymru.com-bogons]
+|link:.//services/dnsxl/cymru-com-bogons.json[cymru.com-bogons]
 |Cymru Bogon List
 |blacklist
 |bogon
 |ip4
 |link:http://www.team-cymru.com/bogon-reference.html[web]
 
-|link:.//services/dnsxl/cymru-com.json[cymru.com-fullbogons4]
+|link:.//services/dnsxl/cymru-com-fullbogons4.json[cymru.com-fullbogons4]
 |Cymru Fullbogon IPv4 List
 |blacklist
 |bogon
 |ip4
 |link:http://www.team-cymru.com/bogon-reference.html[web]
 
-|link:.//services/dnsxl/cymru-com.json[cymru.com-fullbogons6]
+|link:.//services/dnsxl/cymru-com-fullbogons6.json[cymru.com-fullbogons6]
 |Cymru Fullbogon IPv6 List
 |blacklist
 |bogon
 |ip6
 |link:http://www.team-cymru.com/bogon-reference.html[web]
+
+|link:.//services/dnsxl/dan-me-uk-torexit.json[dan.me.uk-torexit]
+|dan.me.uk (only tor exit nodes)
+|blacklist
+|torexit
+|ip4
+|link:https://www.dan.me.uk/dnsbl[web]
+
+|link:.//services/dnsxl/dan-me-uk-tor.json[dan.me.uk-tor]
+|dan.me.uk (all tor nodes)
+|blacklist
+|torexit
+|ip4
+|link:https://www.dan.me.uk/dnsbl[web]
 
 |link:.//services/dnsxl/darklist-de.json[darklist.de]
 |darklist.de
@@ -837,14 +858,14 @@ link:./csv/summary-dnsxl.csv[download csv]
 |ip4 ip6
 |link:http://www.dronebl.org/[web]
 
-|link:.//services/dnsxl/efnet-org.json[efnetrbl.org]
+|link:.//services/dnsxl/efnet-org-mirror.json[efnetrbl.org]
 |EFnet RBL
 |blacklist
 |spam openproxy torexit drone
 |ip4
 |link:http://efnetrbl.org/[web]
 
-|link:.//services/dnsxl/efnet-org.json[efnetrbl.org-mirror]
+|link:.//services/dnsxl/efnet-org-mirror.json[efnetrbl.org-mirror]
 |EFnet RBL mirror
 |blacklist
 |spam openproxy torexit drone
@@ -858,35 +879,35 @@ link:./csv/summary-dnsxl.csv[download csv]
 |ip4
 |link:http://www.spamsources.fabel.dk/[web]
 
-|link:.//services/dnsxl/fmb-la.json[fmb.la]
-|bl.fmb.la composite blacklist
-|blacklist
-|spam
-|ip4 domain
-|link:http://fmb.la/[web]
-
-|link:.//services/dnsxl/fmb-la.json[fmb.la-short]
-|short.fmb.la URL shortener
-|blacklist
-|shortener
-|domain
-|link:http://fmb.la/[web]
-
-|link:.//services/dnsxl/fmb-la.json[fmb.la-short]
+|link:.//services/dnsxl/fmb-la-fresh.json[fmb.la-fresh]
 |fresh.fmb.la FRESH domains
 |blacklist
 |fresh
 |domain
 |link:http://fmb.la/[web]
 
-|link:.//services/dnsxl/fusionzero-com.json[fusionzero.com]
+|link:.//services/dnsxl/fmb-la-short.json[fmb.la]
+|bl.fmb.la composite blacklist
+|blacklist
+|spam
+|ip4 domain
+|link:http://fmb.la/[web]
+
+|link:.//services/dnsxl/fmb-la-short.json[fmb.la-short]
+|short.fmb.la URL shortener
+|blacklist
+|shortener
+|domain
+|link:http://fmb.la/[web]
+
+|link:.//services/dnsxl/fusionzero-com-trust.json[fusionzero.com]
 |0spam DNSBL
 |blacklist
 |spam
 |ip4
 |link:http://0spam.fusionzero.com/[web]
 
-|link:.//services/dnsxl/fusionzero-com.json[fusionzero.com-trust]
+|link:.//services/dnsxl/fusionzero-com-trust.json[fusionzero.com-trust]
 |0spam DNSWL
 |whitelist
 |spam
@@ -900,33 +921,33 @@ link:./csv/summary-dnsxl.csv[download csv]
 |ip4
 |link:http://www.gbudb.com/truncate/index.jsp[web]
 
-|link:.//services/dnsxl/habeas-com.json[habeas.com]
+|link:.//services/dnsxl/habeas-com-sohul.json[habeas.com]
 |Habeas SafeList
 |whitelist
 |spam
 |ip4
 |link:http://www.habeas.com/[web]
 
-|link:.//services/dnsxl/habeas-com.json[habeas.com-sa]
+|link:.//services/dnsxl/habeas-com-sa.json[habeas.com-sa]
 |Habeas SafeList (for SpamAssassin)
 |whitelist
 |spam
 |ip4
 |link:http://www.habeas.com/[web]
 
-|link:.//services/dnsxl/imp-ch.json[imp.ch-worm]
-|ImproWare IP based wormlist
-|blacklist
-|malware
-|ip4
-|link:http://antispam.imp.ch/03-wormlist.html?lng=1[web]
-
-|link:.//services/dnsxl/imp-ch.json[imp.ch-spam]
+|link:.//services/dnsxl/imp-ch-spam.json[imp.ch-spam]
 |ImproWare IP based spamlist
 |blacklist
 |spam
 |ip4
 |link:http://antispam.imp.ch/06-dnsbl.php?lng=1[web]
+
+|link:.//services/dnsxl/imp-ch-worm.json[imp.ch-worm]
+|ImproWare IP based wormlist
+|blacklist
+|malware
+|ip4
+|link:http://antispam.imp.ch/03-wormlist.html?lng=1[web]
 
 |link:.//services/dnsxl/interserver-net.json[interserver.net]
 |InterServer BL
@@ -935,21 +956,21 @@ link:./csv/summary-dnsxl.csv[download csv]
 |ip4
 |link:http://rbl.interserver.net/[web]
 
-|link:.//services/dnsxl/isipp-com.json[isipp.com-iadb]
-|ISIPP Accreditation Database
-|whitelist
-|spam
-|ip4
-|link:http://www.isipp.com/[web]
-
-|link:.//services/dnsxl/isipp-com.json[isipp.com-iadb2]
+|link:.//services/dnsxl/isipp-com-iadb2.json[isipp.com-iadb2]
 |ISIPP Accreditation Database (IADB2)
 |whitelist
 |spam
 |ip4
 |link:http://www.isipp.com/[web]
 
-|link:.//services/dnsxl/isipp-com.json[isipp.com-wadb]
+|link:.//services/dnsxl/isipp-com-iadb.json[isipp.com-iadb]
+|ISIPP Accreditation Database
+|whitelist
+|spam
+|ip4
+|link:http://www.isipp.com/[web]
+
+|link:.//services/dnsxl/isipp-com-wadb.json[isipp.com-wadb]
 |ISIPP Accreditation Database (WADB)
 |whitelist
 |spam
@@ -963,28 +984,28 @@ link:./csv/summary-dnsxl.csv[download csv]
 |ip4
 |link:http://blacklist.jippg.org/[web]
 
-|link:.//services/dnsxl/junkemailfilter-com.json[junkemailfilter.com-hostkarma]
-|Hostkarma
-|mixedlist
-|spam
-|ip4 domain
-|link:http://wiki.junkemailfilter.com/index.php/Spam_DNS_Lists[web]
-
-|link:.//services/dnsxl/junkemailfilter-com.json[junkemailfilter.com-black]
+|link:.//services/dnsxl/junkemailfilter-com-black.json[junkemailfilter.com-black]
 |Hostkarma blacklist
 |blacklist
 |spam
 |ip4 domain
 |link:http://wiki.junkemailfilter.com/index.php/Spam_DNS_Lists[web]
 
-|link:.//services/dnsxl/junkemailfilter-com.json[junkemailfilter.com-dnswl]
+|link:.//services/dnsxl/junkemailfilter-com-dnswl.json[junkemailfilter.com-dnswl]
 |Hostkarma shitelist
 |whitelist
 |spam
 |ip4 domain
 |link:http://wiki.junkemailfilter.com/index.php/Spam_DNS_Lists[web]
 
-|link:.//services/dnsxl/junkemailfilter-com.json[junkemailfilter.com-nobl]
+|link:.//services/dnsxl/junkemailfilter-com-hostkarma.json[junkemailfilter.com-hostkarma]
+|Hostkarma
+|mixedlist
+|spam
+|ip4 domain
+|link:http://wiki.junkemailfilter.com/index.php/Spam_DNS_Lists[web]
+
+|link:.//services/dnsxl/junkemailfilter-com-nobl.json[junkemailfilter.com-nobl]
 |Hostkarma no blacklist
 |whitelist
 |spam
@@ -1040,28 +1061,28 @@ link:./csv/summary-dnsxl.csv[download csv]
 |ip4
 |link:https://www.madavi.de/madavibl/[web]
 
-|link:.//services/dnsxl/mailspike-net.json[mailspike.net-bl]
+|link:.//services/dnsxl/mailspike-net-bl.json[mailspike.net-bl]
 |Mailspike Blacklist
 |blacklist
 |spam
 |ip4
 |link:http://mailspike.org/[web]
 
-|link:.//services/dnsxl/mailspike-net.json[mailspike.net-rep]
+|link:.//services/dnsxl/mailspike-net-rep.json[mailspike.net-rep]
 |Mailspike Reputation
 |mixedlist
 |spam
 |ip4
 |link:http://mailspike.org/[web]
 
-|link:.//services/dnsxl/mailspike-net.json[mailspike.net-wl]
+|link:.//services/dnsxl/mailspike-net-wl.json[mailspike.net-wl]
 |Mailspike Whitelist
 |whitelist
 |spam
 |ip4
 |link:http://mailspike.org/[web]
 
-|link:.//services/dnsxl/mailspike-net.json[mailspike.net-zero]
+|link:.//services/dnsxl/mailspike-net-zero.json[mailspike.net-zero]
 |Mailspike Zero-hour Data
 |blacklist
 |spam
@@ -1089,56 +1110,56 @@ link:./csv/summary-dnsxl.csv[download csv]
 |ip4
 |link:https://www.megarbl.net/[web]
 
-|link:.//services/dnsxl/msrbl-net.json[msrbl.net-combined]
+|link:.//services/dnsxl/msrbl-net-combined.json[msrbl.net-combined]
 |MSRBL combined
 |blacklist
 |spam phising malware
 |ip4
 |link:http://www.msrbl.com/[web]
 
-|link:.//services/dnsxl/msrbl-net.json[msrbl.net-images]
+|link:.//services/dnsxl/msrbl-net-images.json[msrbl.net-images]
 |MSRBL images
 |blacklist
 |spam
 |ip4
 |link:http://www.msrbl.com/[web]
 
-|link:.//services/dnsxl/msrbl-net.json[msrbl.net-phishing]
+|link:.//services/dnsxl/msrbl-net-phishing.json[msrbl.net-phishing]
 |MSRBL phishing
 |blacklist
 |phising
 |ip4
 |link:http://www.msrbl.com/[web]
 
-|link:.//services/dnsxl/msrbl-net.json[msrbl.net-spam]
+|link:.//services/dnsxl/msrbl-net-spam.json[msrbl.net-spam]
 |MSRBL spam
 |blacklist
 |spam
 |ip4
 |link:http://www.msrbl.com/[web]
 
-|link:.//services/dnsxl/msrbl-net.json[msrbl.net-virus]
+|link:.//services/dnsxl/msrbl-net-virus.json[msrbl.net-virus]
 |MSRBL virus
 |blacklist
 |malware
 |ip4
 |link:http://www.msrbl.com/[web]
 
-|link:.//services/dnsxl/msrbl-net.json[msrbl.net-web]
+|link:.//services/dnsxl/msrbl-net-web.json[msrbl.net-web]
 |MSRBL web
 |blacklist
 |spam
 |ip4
 |link:http://www.msrbl.com/[web]
 
-|link:.//services/dnsxl/nordspam-com.json[nordspam.com-domain]
+|link:.//services/dnsxl/nordspam-com-domain.json[nordspam.com-domain]
 |NordSpam Domain Blacklist
 |blacklist
 |spam
 |domain
 |link:https://www.nordspam.com/[web]
 
-|link:.//services/dnsxl/nordspam-com.json[nordspam.com-ip]
+|link:.//services/dnsxl/nordspam-com-ip.json[nordspam.com-ip]
 |NordSpam IP Blacklist
 |blacklist
 |spam
@@ -1152,40 +1173,26 @@ link:./csv/summary-dnsxl.csv[download csv]
 |ip4
 |link:http://www.pedantic.org/[web]
 
-|link:.//services/dnsxl/pofon-foobar-hu.json[pofon.foobar.hu]
-|pofon.foobar.hu IP Blacklist
-|blacklist
-|spam
-|ip4 ip6
-|link:https://rbl.foobar.hu/[web]
-
-|link:.//services/dnsxl/pofon-foobar-hu.json[pofon.foobar.hu-uribl]
-|pofon.foobar.hu URI Blacklist
-|blacklist
-|spam
-|domain
-|link:https://rbl.foobar.hu/[web]
-
-|link:.//services/dnsxl/pofon-foobar-hu.json[pofon.foobar.hu-ispmx]
+|link:.//services/dnsxl/pofon-foobar-hu-ispmx.json[pofon.foobar.hu-ispmx]
 |pofon.foobar.hu ISP mail relay whitelist
 |whitelist
 |spam
 |ip4 ip6
 |link:https://rbl.foobar.hu/[web]
 
-|link:.//services/dnsxl/psbl-surriel-com.json[surriel.com-psbl]
-|PSBL (Passive Spam Block List)
+|link:.//services/dnsxl/pofon-foobar-hu-uribl.json[pofon.foobar.hu]
+|pofon.foobar.hu IP Blacklist
 |blacklist
 |spam
-|ip4
-|link:https://psbl.org/[web]
+|ip4 ip6
+|link:https://rbl.foobar.hu/[web]
 
-|link:.//services/dnsxl/psbl-surriel-com.json[surriel.com-whitelist]
-|PSBL whitelist
-|whitelist
+|link:.//services/dnsxl/pofon-foobar-hu-uribl.json[pofon.foobar.hu-uribl]
+|pofon.foobar.hu URI Blacklist
+|blacklist
 |spam
-|ip4
-|link:http://www.dnswl.org/[web]
+|domain
+|link:https://rbl.foobar.hu/[web]
 
 |link:.//services/dnsxl/psky-me.json[psky.me]
 |Protected SKY
@@ -1215,67 +1222,67 @@ link:./csv/summary-dnsxl.csv[download csv]
 |ip4
 |link:https://www.redhawk.org/[web]
 
-|link:.//services/dnsxl/rfc-clueless-org.json[rfc-clueless.org-abuse]
+|link:.//services/dnsxl/rfc-clueless-org-abuse.json[rfc-clueless.org-abuse]
 |RFC-Clueless (RFC2) abuse RBL
 |blacklist
 |compliance
 |domain
 |link:http://rfc-clueless.org/[web]
 
-|link:.//services/dnsxl/rfc-clueless-org.json[rfc-clueless.org-bogusmx]
+|link:.//services/dnsxl/rfc-clueless-org-bogusmx.json[rfc-clueless.org-bogusmx]
 |RFC-Clueless (RFC2) BogusMX RBL
 |blacklist
 |compliance
 |domain
 |link:http://rfc-clueless.org/[web]
 
-|link:.//services/dnsxl/rfc-clueless-org.json[rfc-clueless.org-dsn]
+|link:.//services/dnsxl/rfc-clueless-org-dsn.json[rfc-clueless.org-dsn]
 |RFC-Clueless (RFC2) DSN RBL
 |blacklist
 |compliance
 |domain
 |link:http://rfc-clueless.org/[web]
 
-|link:.//services/dnsxl/rfc-clueless-org.json[rfc-clueless.org-elitist]
+|link:.//services/dnsxl/rfc-clueless-org-elitist.json[rfc-clueless.org-elitist]
 |RFC-Clueless (RFC2) Elitist RBL
 |blacklist
 |compliance
 |domain
 |link:http://rfc-clueless.org/pages/listing_policy-elitist[web]
 
-|link:.//services/dnsxl/rfc-clueless-org.json[rfc-clueless.org-fulldom]
+|link:.//services/dnsxl/rfc-clueless-org-fulldom.json[rfc-clueless.org-fulldom]
 |RFC-Clueless (RFC2) Metalist RBL
 |blacklist
 |compliance
 |domain
 |link:http://rfc-clueless.org/[web]
 
-|link:.//services/dnsxl/rfc-clueless-org.json[rfc-clueless.org-postmaster]
+|link:.//services/dnsxl/rfc-clueless-org-postmaster.json[rfc-clueless.org-postmaster]
 |RFC-Clueless (RFC2) postmaster RBL
 |blacklist
 |compliance
 |domain
 |link:http://rfc-clueless.org/[web]
 
-|link:.//services/dnsxl/rfc-clueless-org.json[rfc-clueless.org-whois]
+|link:.//services/dnsxl/rfc-clueless-org-whois.json[rfc-clueless.org-whois]
 |RFC-Clueless (RFC2) whois RBL
 |blacklist
 |compliance
 |domain
 |link:http://rfc-clueless.org/[web]
 
-|link:.//services/dnsxl/rymsho-ru.json[rymsho.ru-ip]
-|Rymsho's DNSBL
-|blacklist
-|spam
-|ip4
-|link:http://spam.rymsho.ru/[web]
-
-|link:.//services/dnsxl/rymsho-ru.json[rymsho.ru-domain]
+|link:.//services/dnsxl/rymsho-ru-domain.json[rymsho.ru-domain]
 |Rymsho's RHSBL
 |blacklist
 |spam
 |domain
+|link:http://spam.rymsho.ru/[web]
+
+|link:.//services/dnsxl/rymsho-ru-ip.json[rymsho.ru-ip]
+|Rymsho's DNSBL
+|blacklist
+|spam
+|ip4
 |link:http://spam.rymsho.ru/[web]
 
 |link:.//services/dnsxl/s5h-net.json[s5h.net]
@@ -1299,35 +1306,35 @@ link:./csv/summary-dnsxl.csv[download csv]
 |ip4
 |link:http://rbl.schulte.org/[web]
 
-|link:.//services/dnsxl/scientificspam-net.json[scientificspam.net-domain]
+|link:.//services/dnsxl/scientificspam-net-domain.json[scientificspam.net-domain]
 |scientificspam.net Domain list
 |blacklist
 |spam
 |domain
 |link:http://www.scientificspam.net/[web]
 
-|link:.//services/dnsxl/scientificspam-net.json[scientificspam.net-ip]
+|link:.//services/dnsxl/scientificspam-net-ip.json[scientificspam.net-ip]
 |scientificspam.net IP list
 |blacklist
 |spam
 |ip4
 |link:http://www.scientificspam.net/[web]
 
-|link:.//services/dnsxl/scrolloutf1-com.json[scrolloutf1.com-domain]
+|link:.//services/dnsxl/scrolloutf1-com-domain.json[scrolloutf1.com-domain]
 |Scrollout F1 Reputation Domain
 |mixedlist
 |spam
 |domain
 |link:http://www.scrolloutf1.com/rbl[web]
 
-|link:.//services/dnsxl/scrolloutf1-com.json[scrolloutf1.com-ip]
+|link:.//services/dnsxl/scrolloutf1-com-ip.json[scrolloutf1.com-ip]
 |Scrollout F1 Reputation IP
 |mixedlist
 |spam
 |ip4
 |link:http://www.scrolloutf1.com/rbl[web]
 
-|link:.//services/dnsxl/scrolloutf1-com.json[scrolloutf1.com-ns]
+|link:.//services/dnsxl/scrolloutf1-com-ns.json[scrolloutf1.com-ns]
 |Scrollout F1 Reputation NS
 |mixedlist
 |spam
@@ -1341,150 +1348,150 @@ link:./csv/summary-dnsxl.csv[download csv]
 |ip4
 |link:http://www.senderscore.org/[web]
 
-|link:.//services/dnsxl/sorbs-net.json[sorbs.net-aspews]
+|link:.//services/dnsxl/sorbs-net-aspews.json[sorbs.net-aspews]
 |ASPEWS Listings
 |blacklist
 |spam
 |ip4
 |link:http://www.aspews.org/[web]
 
-|link:.//services/dnsxl/sorbs-net.json[sorbs.net-spewsl1]
-|SPEWS Level one listings
-|blacklist
-|spam
-|ip4
-|link:http://www.sorbs.net/general/using.shtml[web]
-
-|link:.//services/dnsxl/sorbs-net.json[sorbs.net-spewsl2]
-|SPEWS Level two listings
-|blacklist
-|spam
-|ip4
-|link:http://www.sorbs.net/general/using.shtml[web]
-
-|link:.//services/dnsxl/sorbs-net.json[sorbs.net]
-|SORBS Aggregate zone
-|blacklist
-|spam openproxy exploit
-|ip4
-|link:http://www.sorbs.net/[web]
-
-|link:.//services/dnsxl/sorbs-net.json[sorbs.net-problems]
-|SORBS Aggregate zone (problems)
-|blacklist
-|spam openproxy exploit
-|ip4
-|link:http://www.sorbs.net/[web]
-
-|link:.//services/dnsxl/sorbs-net.json[sorbs.net-proxies]
-|SORBS Aggregate zone (proxies)
-|blacklist
-|openproxy
-|ip4
-|link:http://www.sorbs.net/[web]
-
-|link:.//services/dnsxl/sorbs-net.json[sorbs.net-relays]
-|SORBS Aggregate zone (relays)
-|blacklist
-|openproxy
-|ip4
-|link:http://www.sorbs.net/[web]
-
-|link:.//services/dnsxl/sorbs-net.json[sorbs.net-safe]
-|SORBS Aggregate zone (safe)
-|blacklist
-|spam
-|ip4
-|link:http://www.sorbs.net/[web]
-
-|link:.//services/dnsxl/sorbs-net.json[sorbs.net-dul]
-|SORBS Dynamic IP Addresses
-|blacklist
-|dynamic
-|ip4
-|link:http://www.sorbs.net/[web]
-
-|link:.//services/dnsxl/sorbs-net.json[sorbs.net-zombie]
-|SORBS hijacked networks
-|blacklist
-|exploit
-|ip4
-|link:http://www.sorbs.net/[web]
-
-|link:.//services/dnsxl/sorbs-net.json[sorbs.net-block]
+|link:.//services/dnsxl/sorbs-net-block.json[sorbs.net-block]
 |SORBS Hosts demanding never be tested by SORBS
 |blacklist
 |spam
 |ip4
 |link:http://www.sorbs.net/[web]
 
-|link:.//services/dnsxl/sorbs-net.json[sorbs.net-escalations]
+|link:.//services/dnsxl/sorbs-net-dul.json[sorbs.net-dul]
+|SORBS Dynamic IP Addresses
+|blacklist
+|dynamic
+|ip4
+|link:http://www.sorbs.net/[web]
+
+|link:.//services/dnsxl/sorbs-net-escalations.json[sorbs.net-escalations]
 |SORBS netblocks of spam supporting service providers
 |blacklist
 |spam
 |ip4
 |link:http://www.sorbs.net/[web]
 
-|link:.//services/dnsxl/sorbs-net.json[sorbs.net-http]
+|link:.//services/dnsxl/sorbs-net-http.json[sorbs.net-http]
 |SORBS Open HTTP Proxies
 |blacklist
 |openproxy
 |ip4
 |link:http://www.sorbs.net/[web]
 
-|link:.//services/dnsxl/sorbs-net.json[sorbs.net-misc]
+|link:.//services/dnsxl/sorbs-net-zombie.json[sorbs.net]
+|SORBS Aggregate zone
+|blacklist
+|spam openproxy exploit
+|ip4
+|link:http://www.sorbs.net/[web]
+
+|link:.//services/dnsxl/sorbs-net-misc.json[sorbs.net-misc]
 |SORBS Open other Proxies
 |blacklist
 |openproxy
 |ip4
 |link:http://www.sorbs.net/[web]
 
-|link:.//services/dnsxl/sorbs-net.json[sorbs.net-smtp]
-|SORBS Open SMTP relays
-|blacklist
-|spam
-|ip4
-|link:http://www.sorbs.net/[web]
-
-|link:.//services/dnsxl/sorbs-net.json[sorbs.net-socks]
-|SORBS Open SOCKS Proxies
-|blacklist
-|openproxy
-|ip4
-|link:http://www.sorbs.net/[web]
-
-|link:.//services/dnsxl/sorbs-net.json[sorbs.net-spam]
-|SORBS Spamhost (any time)
-|blacklist
-|spam
-|ip4
-|link:http://www.sorbs.net/[web]
-
-|link:.//services/dnsxl/sorbs-net.json[sorbs.net-recent]
-|SORBS Spamhost (last 28 days)
-|blacklist
-|spam
-|ip4
-|link:http://www.sorbs.net/[web]
-
-|link:.//services/dnsxl/sorbs-net.json[sorbs.net-new]
+|link:.//services/dnsxl/sorbs-net-new.json[sorbs.net-new]
 |SORBS Spamhost (last 48 hours)
 |blacklist
 |spam
 |ip4
 |link:http://www.sorbs.net/[web]
 
-|link:.//services/dnsxl/sorbs-net.json[sorbs.net-old]
+|link:.//services/dnsxl/sorbs-net-old.json[sorbs.net-old]
 |SORBS Spamhost (last year)
 |blacklist
 |spam
 |ip4
 |link:http://www.sorbs.net/[web]
 
-|link:.//services/dnsxl/sorbs-net.json[sorbs.net-web]
+|link:.//services/dnsxl/sorbs-net-problems.json[sorbs.net-problems]
+|SORBS Aggregate zone (problems)
+|blacklist
+|spam openproxy exploit
+|ip4
+|link:http://www.sorbs.net/[web]
+
+|link:.//services/dnsxl/sorbs-net-proxies.json[sorbs.net-proxies]
+|SORBS Aggregate zone (proxies)
+|blacklist
+|openproxy
+|ip4
+|link:http://www.sorbs.net/[web]
+
+|link:.//services/dnsxl/sorbs-net-recent.json[sorbs.net-recent]
+|SORBS Spamhost (last 28 days)
+|blacklist
+|spam
+|ip4
+|link:http://www.sorbs.net/[web]
+
+|link:.//services/dnsxl/sorbs-net-relays.json[sorbs.net-relays]
+|SORBS Aggregate zone (relays)
+|blacklist
+|openproxy
+|ip4
+|link:http://www.sorbs.net/[web]
+
+|link:.//services/dnsxl/sorbs-net-safe.json[sorbs.net-safe]
+|SORBS Aggregate zone (safe)
+|blacklist
+|spam
+|ip4
+|link:http://www.sorbs.net/[web]
+
+|link:.//services/dnsxl/sorbs-net-smtp.json[sorbs.net-smtp]
+|SORBS Open SMTP relays
+|blacklist
+|spam
+|ip4
+|link:http://www.sorbs.net/[web]
+
+|link:.//services/dnsxl/sorbs-net-socks.json[sorbs.net-socks]
+|SORBS Open SOCKS Proxies
+|blacklist
+|openproxy
+|ip4
+|link:http://www.sorbs.net/[web]
+
+|link:.//services/dnsxl/sorbs-net-spam.json[sorbs.net-spam]
+|SORBS Spamhost (any time)
+|blacklist
+|spam
+|ip4
+|link:http://www.sorbs.net/[web]
+
+|link:.//services/dnsxl/sorbs-net-spewsl1.json[sorbs.net-spewsl1]
+|SPEWS Level one listings
+|blacklist
+|spam
+|ip4
+|link:http://www.sorbs.net/general/using.shtml[web]
+
+|link:.//services/dnsxl/sorbs-net-spewsl2.json[sorbs.net-spewsl2]
+|SPEWS Level two listings
+|blacklist
+|spam
+|ip4
+|link:http://www.sorbs.net/general/using.shtml[web]
+
+|link:.//services/dnsxl/sorbs-net-web.json[sorbs.net-web]
 |SORBS Vulnerable formmailers
 |blacklist
 |openproxy
+|ip4
+|link:http://www.sorbs.net/[web]
+
+|link:.//services/dnsxl/sorbs-net-zombie.json[sorbs.net-zombie]
+|SORBS hijacked networks
+|blacklist
+|exploit
 |ip4
 |link:http://www.sorbs.net/[web]
 
@@ -1502,87 +1509,87 @@ link:./csv/summary-dnsxl.csv[download csv]
 |ip4
 |link:https://www.spamdown.org/[web]
 
-|link:.//services/dnsxl/spameatingmonkey-net.json[spameatingmonkey.net-originasn]
-|Spam Eating Monkey SEM-ASN-ORIGIN
-|infolist
-|info
-|ip4
-|link:http://spameatingmonkey.com/[web]
-
-|link:.//services/dnsxl/spameatingmonkey-net.json[spameatingmonkey.net-backscatter]
+|link:.//services/dnsxl/spameatingmonkey-net-backscatter.json[spameatingmonkey.net-backscatter]
 |Spam Eating Monkey SEM-BACKSCATTER
 |blacklist
 |spam
 |ip4
 |link:http://spameatingmonkey.com/[web]
 
-|link:.//services/dnsxl/spameatingmonkey-net.json[spameatingmonkey.net]
-|Spam Eating Monkey SEM-BLACK
-|blacklist
-|spam
-|ip4
-|link:http://spameatingmonkey.com/[web]
-
-|link:.//services/dnsxl/spameatingmonkey-net.json[spameatingmonkey.net-netbl]
-|Spam Eating Monkey SEM-NETBLACK
-|blacklist
-|spam
-|ip4
-|link:http://spameatingmonkey.com/[web]
-
-|link:.//services/dnsxl/spameatingmonkey-net.json[spameatingmonkey.net-ip6]
-|Spam Eating Monkey SEM-IPV6BL
-|blacklist
-|spam
-|ip6
-|link:http://spameatingmonkey.com/[web]
-
-|link:.//services/dnsxl/spameatingmonkey-net.json[spameatingmonkey.net-uri]
-|Spam Eating Monkey SEM-URI
-|blacklist
-|spam
-|domain
-|link:http://spameatingmonkey.com/[web]
-
-|link:.//services/dnsxl/spameatingmonkey-net.json[spameatingmonkey.net-urired]
-|Spam Eating Monkey SEM-URIRED
-|blacklist
-|spam
-|domain
-|link:http://spameatingmonkey.com/[web]
-
-|link:.//services/dnsxl/spameatingmonkey-net.json[spameatingmonkey.net-freshzero]
-|Spam Eating Monkey SEM-FRESHZERO
-|blacklist
-|fresh
-|domain
-|link:http://spameatingmonkey.com/[web]
-
-|link:.//services/dnsxl/spameatingmonkey-net.json[spameatingmonkey.net-fresh]
-|Spam Eating Monkey SEM-FRESH
-|blacklist
-|fresh
-|domain
-|link:http://spameatingmonkey.com/[web]
-
-|link:.//services/dnsxl/spameatingmonkey-net.json[spameatingmonkey.net-fresh10]
+|link:.//services/dnsxl/spameatingmonkey-net-fresh10.json[spameatingmonkey.net-fresh10]
 |Spam Eating Monkey SEM-FRESH10
 |blacklist
 |fresh
 |domain
 |link:http://spameatingmonkey.com/[web]
 
-|link:.//services/dnsxl/spameatingmonkey-net.json[spameatingmonkey.net-fresh15]
+|link:.//services/dnsxl/spameatingmonkey-net-fresh15.json[spameatingmonkey.net-fresh15]
 |Spam Eating Monkey SEM-FRESH15
 |blacklist
 |fresh
 |domain
 |link:http://spameatingmonkey.com/[web]
 
-|link:.//services/dnsxl/spameatingmonkey-net.json[spameatingmonkey.net-fresh30]
+|link:.//services/dnsxl/spameatingmonkey-net-fresh30.json[spameatingmonkey.net-fresh30]
 |Spam Eating Monkey SEM-FRESH30
 |blacklist
 |fresh
+|domain
+|link:http://spameatingmonkey.com/[web]
+
+|link:.//services/dnsxl/spameatingmonkey-net-freshzero.json[spameatingmonkey.net-fresh]
+|Spam Eating Monkey SEM-FRESH
+|blacklist
+|fresh
+|domain
+|link:http://spameatingmonkey.com/[web]
+
+|link:.//services/dnsxl/spameatingmonkey-net-freshzero.json[spameatingmonkey.net-freshzero]
+|Spam Eating Monkey SEM-FRESHZERO
+|blacklist
+|fresh
+|domain
+|link:http://spameatingmonkey.com/[web]
+
+|link:.//services/dnsxl/spameatingmonkey-net-ip6.json[spameatingmonkey.net-ip6]
+|Spam Eating Monkey SEM-IPV6BL
+|blacklist
+|spam
+|ip6
+|link:http://spameatingmonkey.com/[web]
+
+|link:.//services/dnsxl/spameatingmonkey-net-urired.json[spameatingmonkey.net]
+|Spam Eating Monkey SEM-BLACK
+|blacklist
+|spam
+|ip4
+|link:http://spameatingmonkey.com/[web]
+
+|link:.//services/dnsxl/spameatingmonkey-net-netbl.json[spameatingmonkey.net-netbl]
+|Spam Eating Monkey SEM-NETBLACK
+|blacklist
+|spam
+|ip4
+|link:http://spameatingmonkey.com/[web]
+
+|link:.//services/dnsxl/spameatingmonkey-net-originasn.json[spameatingmonkey.net-originasn]
+|Spam Eating Monkey SEM-ASN-ORIGIN
+|infolist
+|info
+|ip4
+|link:http://spameatingmonkey.com/[web]
+
+|link:.//services/dnsxl/spameatingmonkey-net-urired.json[spameatingmonkey.net-uri]
+|Spam Eating Monkey SEM-URI
+|blacklist
+|spam
+|domain
+|link:http://spameatingmonkey.com/[web]
+
+|link:.//services/dnsxl/spameatingmonkey-net-urired.json[spameatingmonkey.net-urired]
+|Spam Eating Monkey SEM-URIRED
+|blacklist
+|spam
 |domain
 |link:http://spameatingmonkey.com/[web]
 
@@ -1593,154 +1600,147 @@ link:./csv/summary-dnsxl.csv[download csv]
 |ip4
 |link:http://www.spamgrouper.to/[web]
 
-|link:.//services/dnsxl/spamhaus-org.json[spamhaus.org-dwl]
-|Spamhaus DWL Domain Whitelist
-|whitelist
-|spam
-|domain
-|link:http://www.spamhauswhitelist.com/[web]
-
-|link:.//services/dnsxl/spamhaus-org.json[spamhaus.org-swl]
-|Spamhaus SWL IP Whitelist
-|whitelist
-|spam
-|ip4 ip6
-|link:http://www.spamhauswhitelist.com/[web]
-
-|link:.//services/dnsxl/spamhaus-org.json[spamhaus.org-zen]
-|Spamhaus ZEN Combined Block List
-|blacklist
-|spam openproxy malware non-mta
-|ip4
-|link:http://www.spamhaus.org/zen/[web]
-
-|link:.//services/dnsxl/spamhaus-org.json[spamhaus.org-dbl]
+|link:.//services/dnsxl/spamhaus-org-dbl.json[spamhaus.org-dbl]
 |Spamhaus DBL Domain Block List
 |blacklist
 |spam
 |domain
 |link:http://www.spamhaus.org/dbl/[web]
 
-|link:.//services/dnsxl/spamhaus-org.json[spamhaus.org-pbl]
+|link:.//services/dnsxl/spamhaus-org-dwl.json[spamhaus.org-dwl]
+|Spamhaus DWL Domain Whitelist
+|whitelist
+|spam
+|domain
+|link:http://www.spamhauswhitelist.com/[web]
+
+|link:.//services/dnsxl/spamhaus-org-pbl.json[spamhaus.org-pbl]
 |Spamhaus PBL Policy Block List
 |blacklist
 |non-mta
 |ip4
 |link:http://www.spamhaus.org/pbl/[web]
 
-|link:.//services/dnsxl/spamhaus-org.json[spamhaus.org-sbl]
+|link:.//services/dnsxl/spamhaus-org-sbl-xbl.json[spamhaus.org-sbl]
 |Spamhaus SBL Spamhaus Block List
 |blacklist
 |spam
 |ip4
 |link:http://www.spamhaus.org/sbl/[web]
 
-|link:.//services/dnsxl/spamhaus-org.json[spamhaus.org-sbl-xbl]
+|link:.//services/dnsxl/spamhaus-org-sbl-xbl.json[spamhaus.org-sbl-xbl]
 |Spamhaus SBL-XBL Combined Block List
 |blacklist
 |spam malware
 |ip4
 |link:http://www.spamhaus.org/[web]
 
-|link:.//services/dnsxl/spamhaus-org.json[spamhaus.org-xbl]
+|link:.//services/dnsxl/spamhaus-org-swl.json[spamhaus.org-swl]
+|Spamhaus SWL IP Whitelist
+|whitelist
+|spam
+|ip4 ip6
+|link:http://www.spamhauswhitelist.com/[web]
+
+|link:.//services/dnsxl/spamhaus-org-xbl.json[spamhaus.org-xbl]
 |Spamhaus XBL Exploits Block List
 |blacklist
 |malware
 |ip4
 |link:http://www.spamhaus.org/xbl/[web]
 
-|link:.//services/dnsxl/spamhaus-org.json[abuseat.org-cbl]
-|CBL
+|link:.//services/dnsxl/spamhaus-org-zen.json[spamhaus.org-zen]
+|Spamhaus ZEN Combined Block List
 |blacklist
-|spam
+|spam openproxy malware non-mta
 |ip4
-|link:https://www.abuseat.org/[web]
+|link:http://www.spamhaus.org/zen/[web]
 
-|link:.//services/dnsxl/spamrats-com.json[spamrats.com-all]
+|link:.//services/dnsxl/spamrats-com-all.json[spamrats.com-all]
 |SpamRATS! all
 |blacklist
 |residential spam noptr bruteforce
 |ip4
 |link:http://www.spamrats.com/[web]
 
-|link:.//services/dnsxl/spamrats-com.json[spamrats.com-auth]
+|link:.//services/dnsxl/spamrats-com-auth.json[spamrats.com-auth]
 |SpamRATS! all
 |blacklist
 |bruteforce
 |ip4
 |link:http://www.spamrats.com/[web]
 
-|link:.//services/dnsxl/spamrats-com.json[spamrats.com-dyna]
+|link:.//services/dnsxl/spamrats-com-dyna.json[spamrats.com-dyna]
 |SpamRATS! Dyna
 |blacklist
 |residential
 |ip4
 |link:http://www.spamrats.com/rats-dyna.php[web]
 
-|link:.//services/dnsxl/spamrats-com.json[spamrats.com-noptr]
+|link:.//services/dnsxl/spamrats-com-noptr.json[spamrats.com-noptr]
 |SpamRATS! NoPtr
 |blacklist
 |noptr
 |ip4
 |link:http://www.spamrats.com/rats-noptr.php[web]
 
-|link:.//services/dnsxl/spamrats-com.json[spamrats.com-spam]
+|link:.//services/dnsxl/spamrats-com-spam.json[spamrats.com-spam]
 |SpamRATS! Spam
 |blacklist
 |spam
 |ip4
 |link:http://www.spamrats.com/rats-spam.php[web]
 
-|link:.//services/dnsxl/spfbl-net.json[spfbl.net-bl]
+|link:.//services/dnsxl/spfbl-net-bl.json[spfbl.net-bl]
 |SPFBL.net RBL
 |blacklist
 |spam
 |ip4 ip6 domain
 |link:http://spfbl.net/en/dnsbl/[web]
 
-|link:.//services/dnsxl/spfbl-net.json[spfbl.net-wl]
+|link:.//services/dnsxl/spfbl-net-wl.json[spfbl.net-wl]
 |SPFBL.net Whitelist
 |whitelist
 |spam
 |ip4 ip6 domain
 |link:http://spfbl.net/en/dnswl/[web]
 
-|link:.//services/dnsxl/stopspam-org.json[stopspam.org-block]
-|StopSpam.org block
-|blacklist
-|spam
-|ip4
-|link:http://www.stopspam.org/rblcheck/index.php[web]
-
-|link:.//services/dnsxl/stopspam-org.json[stopspam.org-badhost]
+|link:.//services/dnsxl/stopspam-org-badhost.json[stopspam.org-badhost]
 |StopSpam.org badhost
 |blacklist
 |noptr
 |ip4
 |link:http://www.stopspam.org/rblcheck/index.php[web]
 
-|link:.//services/dnsxl/stopspam-org.json[stopspam.org-dul]
+|link:.//services/dnsxl/stopspam-org-block.json[stopspam.org-block]
+|StopSpam.org block
+|blacklist
+|spam
+|ip4
+|link:http://www.stopspam.org/rblcheck/index.php[web]
+
+|link:.//services/dnsxl/stopspam-org-dul.json[stopspam.org-dul]
 |StopSpam.org dynamic
 |blacklist
 |dynamic
 |ip4
 |link:http://www.stopspam.org/rblcheck/index.php[web]
 
-|link:.//services/dnsxl/suomispam-net.json[suomispam.net-ip]
-|Suomispam Blacklist
-|blacklist
-|spam
-|ip4
-|link:http://suomispam.net/[web]
-
-|link:.//services/dnsxl/suomispam-net.json[suomispam.net-domain]
+|link:.//services/dnsxl/suomispam-net-domain.json[suomispam.net-domain]
 |Suomispam Domain Blacklist
 |blacklist
 |spam
 |domain
 |link:http://suomispam.net/[web]
 
-|link:.//services/dnsxl/support-intelligence-net.json[support-intelligence.net-dob]
+|link:.//services/dnsxl/suomispam-net-ip.json[suomispam.net-ip]
+|Suomispam Blacklist
+|blacklist
+|spam
+|ip4
+|link:http://suomispam.net/[web]
+
+|link:.//services/dnsxl/support-intelligence-net-dob.json[support-intelligence.net-dob]
 |The Day Old Bread List (aka DOB)
 |blacklist
 |fresh
@@ -1754,32 +1754,46 @@ link:./csv/summary-dnsxl.csv[download csv]
 |ip4 domain
 |link:http://www.surbl.org/[web]
 
-|link:.//services/dnsxl/surgate-net.json[surgate.net-srn]
-|SurGATE Reputation Network
-|mixedlist
-|spam
-|ip4
-|link:http://www.srntools.com/[web]
-
-|link:.//services/dnsxl/surgate-net.json[surgate.net-srnblack]
+|link:.//services/dnsxl/surgate-net-srnblack.json[surgate.net-srnblack]
 |SurGATE Reputation Network Blacklist
 |mixedlist
 |spam
 |ip4
 |link:http://www.srntools.com/[web]
 
-|link:.//services/dnsxl/swinog-ch.json[swinog.ch-ip]
-|Swiss Network Operators Group DNSRBL
+|link:.//services/dnsxl/surgate-net-srn.json[surgate.net-srn]
+|SurGATE Reputation Network
+|mixedlist
+|spam
+|ip4
+|link:http://www.srntools.com/[web]
+
+|link:.//services/dnsxl/surriel-com-psbl.json[surriel.com-psbl]
+|PSBL (Passive Spam Block List)
 |blacklist
 |spam
 |ip4
-|link:https://www.swinog.ch[web]
+|link:https://psbl.org/[web]
 
-|link:.//services/dnsxl/swinog-ch.json[swinog.ch-domain]
+|link:.//services/dnsxl/surriel-com-whitelist.json[surriel.com-whitelist]
+|PSBL whitelist
+|whitelist
+|spam
+|ip4
+|link:http://www.dnswl.org/[web]
+
+|link:.//services/dnsxl/swinog-ch-domain.json[swinog.ch-domain]
 |Swiss Network Operators Group URIBL
 |blacklist
 |spam
 |domain
+|link:https://www.swinog.ch[web]
+
+|link:.//services/dnsxl/swinog-ch-ip.json[swinog.ch-ip]
+|Swiss Network Operators Group DNSRBL
+|blacklist
+|spam
+|ip4
 |link:https://www.swinog.ch[web]
 
 |link:.//services/dnsxl/technovision-dk.json[technovision.dk]
@@ -1789,20 +1803,6 @@ link:./csv/summary-dnsxl.csv[download csv]
 |ip4
 |link:http://st.technovision.dk/[web]
 
-|link:.//services/dnsxl/tor-dan-me.json[dan.me.uk-tor]
-|dan.me.uk (all tor nodes)
-|blacklist
-|torexit
-|ip4
-|link:https://www.dan.me.uk/dnsbl[web]
-
-|link:.//services/dnsxl/tor-dan-me.json[dan.me.uk-torexit]
-|dan.me.uk (only tor exit nodes)
-|blacklist
-|torexit
-|ip4
-|link:https://www.dan.me.uk/dnsbl[web]
-
 |link:.//services/dnsxl/triumf-ca.json[triumf.ca]
 |TRIUMF.ca DNSBL
 |blacklist
@@ -1810,130 +1810,123 @@ link:./csv/summary-dnsxl.csv[download csv]
 |ip4
 |link:http://rbl2.triumf.ca/[web]
 
-|link:.//services/dnsxl/tuxad-de.json[tuxad.de-dunk]
+|link:.//services/dnsxl/tuxad-de-dunk.json[tuxad.de-dunk]
 |tuxad dunk.dnsbl
 |blacklist
 |spam
 |ip4
 |link:http://www.tuxad.de/hartkore.html[web]
 
-|link:.//services/dnsxl/uceprotect-net.json[uceprotect.net-level0]
+|link:.//services/dnsxl/uceprotect-net-level0.json[uceprotect.net-level0]
 |UCEPROTECT Level 0
 |blacklist
 |spam
 |ip4
 |link:http://www.uceprotect.net/[web]
 
-|link:.//services/dnsxl/uceprotect-net.json[uceprotect.net-level1]
+|link:.//services/dnsxl/uceprotect-net-level1.json[uceprotect.net-level1]
 |UCEPROTECT Level 1
 |blacklist
 |spam
 |ip4
 |link:http://www.uceprotect.net/en/index.php?m=3&s=3[web]
 
-|link:.//services/dnsxl/uceprotect-net.json[uceprotect.net-level2]
+|link:.//services/dnsxl/uceprotect-net-level2.json[uceprotect.net-level2]
 |UCEPROTECT Level 2
 |blacklist
 |spam
 |ip4
 |link:http://www.uceprotect.net/en/index.php?m=3&s=4[web]
 
-|link:.//services/dnsxl/uceprotect-net.json[uceprotect.net-level3]
+|link:.//services/dnsxl/uceprotect-net-level3.json[uceprotect.net-level3]
 |UCEPROTECT Level 3
 |blacklist
 |spam
 |ip4
 |link:http://www.uceprotect.net/en/index.php?m=3&s=5[web]
 
-|link:.//services/dnsxl/uceprotect-net.json[backscatterer.org]
-|Whitelisted.org
-|blacklist
-|backscatter
-|ip4
-|link:http://www.backscatterer.org/[web]
-
-|link:.//services/dnsxl/uceprotect-net.json[whitelisted.org]
-|Whitelisted.org
-|whitelist
-|spam
-|ip4
-|link:http://www.whitelisted.org/[web]
-
-|link:.//services/dnsxl/unsubscore-com.json[unsubscore.com-ubl]
+|link:.//services/dnsxl/unsubscore-com-ubl.json[unsubscore.com-ubl]
 |Unsubscribe Blacklist UBL
 |blacklist
 |spam
 |ip4
 |link:http://blacklist.lashback.com/[web]
 
-|link:.//services/dnsxl/uribl-com.json[uribl.com-black]
+|link:.//services/dnsxl/uribl-com-black.json[uribl.com-black]
 |URIBL black
 |blacklist
 |spam
 |domain
 |link:http://www.uribl.com/[web]
 
-|link:.//services/dnsxl/uribl-com.json[uribl.com-grey]
+|link:.//services/dnsxl/uribl-com-grey.json[uribl.com-grey]
 |URIBL grey
 |blacklist
 |spam
 |domain
 |link:http://www.uribl.com/[web]
 
-|link:.//services/dnsxl/uribl-com.json[uribl.com-multi]
+|link:.//services/dnsxl/uribl-com-multi.json[uribl.com-multi]
 |URIBL multi
 |mixedlist
 |spam
 |domain
 |link:http://www.uribl.com/[web]
 
-|link:.//services/dnsxl/uribl-com.json[uribl.com-red]
+|link:.//services/dnsxl/uribl-com-red.json[uribl.com-red]
 |URIBL red
 |mixedlist
 |spam
 |domain
 |link:http://www.uribl.com/[web]
 
-|link:.//services/dnsxl/uribl-com.json[uribl.com-white]
+|link:.//services/dnsxl/uribl-com-white.json[uribl.com-white]
 |URIBL white
 |whitelist
 |spam
 |domain
 |link:http://www.uribl.com/[web]
 
-|link:.//services/dnsxl/v4bl-org.json[v4bl.org-free]
+|link:.//services/dnsxl/v4bl-org-free.json[v4bl.org-free]
 |V4BL-FREE/DDNSBL-FREE
 |blacklist
 |spam
 |ip4
 |link:http://v4bl.org/[web]
 
-|link:.//services/dnsxl/v4bl-org.json[v4bl.org-ip]
+|link:.//services/dnsxl/v4bl-org-ip.json[v4bl.org-ip]
 |V4BL/DDNSBL
 |blacklist
 |spam
 |ip4
 |link:http://v4bl.org/[web]
 
-|link:.//services/dnsxl/woody-ch.json[woody.ch-ip4]
+|link:.//services/dnsxl/whitelisted-org.json[whitelisted.org]
+|Whitelisted.org
+|whitelist
+|spam
+|ip4
+|link:http://www.whitelisted.org/[web]
+
+|link:.//services/dnsxl/woody-ch-domain.json[woody.ch-domain]
+|Woody's SMTP Blacklist URIBL
+|blacklist
+|spam
+|domain
+|link:http://blacklist.woody.ch/rblcheck.php3[web]
+
+|link:.//services/dnsxl/woody-ch-ip4.json[woody.ch-ip4]
 |Woody's SMTP Blacklist IPv4
 |blacklist
 |spam
 |ip4
 |link:http://blacklist.woody.ch/rblcheck.php3[web]
 
-|link:.//services/dnsxl/woody-ch.json[woody.ch-ip6]
+|link:.//services/dnsxl/woody-ch-ip6.json[woody.ch-ip6]
 |Woody's SMTP Blacklist IPv6
 |blacklist
 |spam
 |ip6
-|link:http://blacklist.woody.ch/rblcheck.php3[web]
-
-|link:.//services/dnsxl/woody-ch.json[woody.ch-domain]
-|Woody's SMTP Blacklist URIBL
-|blacklist
-|spam
-|domain
 |link:http://blacklist.woody.ch/rblcheck.php3[web]
 
 |link:.//services/dnsxl/wpbl-info.json[wpbl.info]
@@ -1943,18 +1936,18 @@ link:./csv/summary-dnsxl.csv[download csv]
 |ip4
 |link:http://www.wpbl.info/[web]
 
-|link:.//services/dnsxl/zapbl-net.json[zapbl.net-ip]
-|ZapBL DNSRBL
-|blacklist
-|spam
-|ip4
-|link:http://zapbl.net/[web]
-
-|link:.//services/dnsxl/zapbl-net.json[zapbl.net-domain]
+|link:.//services/dnsxl/zapbl-net-domain.json[zapbl.net-domain]
 |ZapBL RHSBL
 |blacklist
 |spam
 |domain
+|link:http://zapbl.net/[web]
+
+|link:.//services/dnsxl/zapbl-net-ip.json[zapbl.net-ip]
+|ZapBL DNSRBL
+|blacklist
+|spam
+|ip4
 |link:http://zapbl.net/[web]
 |===
 
@@ -1964,14 +1957,14 @@ link:./csv/summary-dnsxl.csv[download csv]
 |===
 | ID | Update 
 
-|link:.//sources/abuse-ch.json[abuse.ch-feodo]
+|link:.//sources/abuse-ch-feodo.json[abuse.ch-feodo]
 |12h
 
-|link:.//sources/abuse-ch.json[abuse.ch-urlhaus]
+|link:.//sources/abuse-ch-ssl.json[abuse.ch-ssl]
+|12h
+
+|link:.//sources/abuse-ch-urlhaus.json[abuse.ch-urlhaus]
 |1h
-
-|link:.//sources/abuse-ch.json[abuse.ch-ssl]
-|12h
 
 |link:.//sources/alienvault-com.json[alienvault.com]
 |8h
@@ -1982,58 +1975,58 @@ link:./csv/summary-dnsxl.csv[download csv]
 |link:.//sources/blocklist-de.json[blocklist.de]
 |12h
 
-|link:.//sources/blocklist-site.json[blocklist.site-abuse]
+|link:.//sources/blocklist-site-abuse.json[blocklist.site-abuse]
 |24h
 
-|link:.//sources/blocklist-site.json[blocklist.site-ads]
+|link:.//sources/blocklist-site-ads.json[blocklist.site-ads]
 |24h
 
-|link:.//sources/blocklist-site.json[blocklist.site-crypto]
+|link:.//sources/blocklist-site-crypto.json[blocklist.site-crypto]
 |24h
 
-|link:.//sources/blocklist-site.json[blocklist.site-drugs]
+|link:.//sources/blocklist-site-drugs.json[blocklist.site-drugs]
 |24h
 
-|link:.//sources/blocklist-site.json[blocklist.site-facebook]
+|link:.//sources/blocklist-site-facebook.json[blocklist.site-facebook]
 |24h
 
-|link:.//sources/blocklist-site.json[blocklist.site-fraud]
+|link:.//sources/blocklist-site-fraud.json[blocklist.site-fraud]
 |24h
 
-|link:.//sources/blocklist-site.json[blocklist.site-gambling]
+|link:.//sources/blocklist-site-gambling.json[blocklist.site-gambling]
 |24h
 
-|link:.//sources/blocklist-site.json[blocklist.site-malware]
+|link:.//sources/blocklist-site-malware.json[blocklist.site-malware]
 |24h
 
-|link:.//sources/blocklist-site.json[blocklist.site-phishing]
+|link:.//sources/blocklist-site-phishing.json[blocklist.site-phishing]
 |24h
 
-|link:.//sources/blocklist-site.json[blocklist.site-piracy]
+|link:.//sources/blocklist-site-piracy.json[blocklist.site-piracy]
 |24h
 
-|link:.//sources/blocklist-site.json[blocklist.site-porn]
+|link:.//sources/blocklist-site-porn.json[blocklist.site-porn]
 |24h
 
-|link:.//sources/blocklist-site.json[blocklist.site-ransomware]
+|link:.//sources/blocklist-site-ransomware.json[blocklist.site-ransomware]
 |24h
 
-|link:.//sources/blocklist-site.json[blocklist.site-redirect]
+|link:.//sources/blocklist-site-redirect.json[blocklist.site-redirect]
 |24h
 
-|link:.//sources/blocklist-site.json[blocklist.site-scam]
+|link:.//sources/blocklist-site-scam.json[blocklist.site-scam]
 |24h
 
-|link:.//sources/blocklist-site.json[blocklist.site-tiktok]
+|link:.//sources/blocklist-site-tiktok.json[blocklist.site-tiktok]
 |24h
 
-|link:.//sources/blocklist-site.json[blocklist.site-torrent]
+|link:.//sources/blocklist-site-torrent.json[blocklist.site-torrent]
 |24h
 
-|link:.//sources/blocklist-site.json[blocklist.site-tracking]
+|link:.//sources/blocklist-site-tracking.json[blocklist.site-tracking]
 |24h
 
-|link:.//sources/blocklist-site.json[blocklist.site-youtube]
+|link:.//sources/blocklist-site-youtube.json[blocklist.site-youtube]
 |24h
 
 |link:.//sources/cameleon.json[cameleon]
@@ -2045,40 +2038,46 @@ link:./csv/summary-dnsxl.csv[download csv]
 |link:.//sources/cruzit-com.json[cruzit.com]
 |24h
 
-|link:.//sources/cymru-com.json[cymru.com-bogons]
+|link:.//sources/cymru-com-bogons.json[cymru.com-bogons]
 |96h
 
-|link:.//sources/cymru-com.json[cymru.com-fullbogons4]
+|link:.//sources/cymru-com-fullbogons4.json[cymru.com-fullbogons4]
 |12h
+
+|link:.//sources/dan-me-uk-torexit.json[dan.me.uk-torexit]
+|1h
+
+|link:.//sources/dan-me-uk-tor.json[dan.me.uk-tor]
+|1h
 
 |link:.//sources/darklist-de.json[darklist.de]
 |24h
 
-|link:.//sources/dataplane-org.json[dataplane.org-dnsrd]
+|link:.//sources/dataplane-org-dnsrdany.json[dataplane.org-dnsrdany]
 |24h
 
-|link:.//sources/dataplane-org.json[dataplane.org-dnsrdany]
+|link:.//sources/dataplane-org-dnsrd.json[dataplane.org-dnsrd]
 |24h
 
-|link:.//sources/dataplane-org.json[dataplane.org-dnsversion]
+|link:.//sources/dataplane-org-dnsversion.json[dataplane.org-dnsversion]
 |24h
 
-|link:.//sources/dataplane-org.json[dataplane.org-sipinvitation]
+|link:.//sources/dataplane-org-sipinvitation.json[dataplane.org-sipinvitation]
 |24h
 
-|link:.//sources/dataplane-org.json[dataplane.org-sipquery]
+|link:.//sources/dataplane-org-sipquery.json[dataplane.org-sipquery]
 |24h
 
-|link:.//sources/dataplane-org.json[dataplane.org-sipregistration]
+|link:.//sources/dataplane-org-sipregistration.json[dataplane.org-sipregistration]
 |24h
 
-|link:.//sources/dataplane-org.json[dataplane.org-sshclient]
+|link:.//sources/dataplane-org-sshclient.json[dataplane.org-sshclient]
 |24h
 
-|link:.//sources/dataplane-org.json[dataplane.org-sshpwauth]
+|link:.//sources/dataplane-org-sshpwauth.json[dataplane.org-sshpwauth]
 |24h
 
-|link:.//sources/dataplane-org.json[dataplane.org-vncrfb]
+|link:.//sources/dataplane-org-vncrfb.json[dataplane.org-vncrfb]
 |24h
 
 |link:.//sources/dshield-org.json[dshield.org]
@@ -2087,70 +2086,70 @@ link:./csv/summary-dnsxl.csv[download csv]
 |link:.//sources/emergingthreats-net.json[emergingthreats.net]
 |24h
 
-|link:.//sources/github-anudeepnd.json[github-anudeepnd-ads]
+|link:.//sources/github-anudeepnd-ads.json[github-anudeepnd-ads]
 |24h
 
-|link:.//sources/github-anudeepnd.json[github-anudeepnd-crypto]
+|link:.//sources/github-anudeepnd-crypto.json[github-anudeepnd-crypto]
 |24h
 
-|link:.//sources/github-anudeepnd.json[github-anudeepnd-facebook]
+|link:.//sources/github-anudeepnd-facebook.json[github-anudeepnd-facebook]
 |24h
 
-|link:.//sources/github-anudeepnd.json[github-anudeepnd-whitelist]
+|link:.//sources/github-anudeepnd-whitelist.json[github-anudeepnd-whitelist]
 |24h
 
-|link:.//sources/github-stamparm.json[github-stamparm-blackbook]
+|link:.//sources/github-stamparm-blackbook.json[github-stamparm-blackbook]
 |24h
 
-|link:.//sources/github-stevenblack.json[github-stevenblack]
+|link:.//sources/github-stevenblack-fakenews.json[github-stevenblack-fakenews]
 |24h
 
-|link:.//sources/github-stevenblack.json[github-stevenblack-fakenews]
+|link:.//sources/github-stevenblack-gambling.json[github-stevenblack-gambling]
 |24h
 
-|link:.//sources/github-stevenblack.json[github-stevenblack-gambling]
+|link:.//sources/github-stevenblack-social.json[github-stevenblack]
 |24h
 
-|link:.//sources/github-stevenblack.json[github-stevenblack-porn]
+|link:.//sources/github-stevenblack-porn.json[github-stevenblack-porn]
 |24h
 
-|link:.//sources/github-stevenblack.json[github-stevenblack-social]
+|link:.//sources/github-stevenblack-social.json[github-stevenblack-social]
 |24h
 
 |link:.//sources/greensnow-co.json[greensnow.co]
 |8h
 
-|link:.//sources/hosts-file-net.json[hosts-file.net-adt]
+|link:.//sources/hosts-file-net-adt.json[hosts-file.net-adt]
 |48h
 
-|link:.//sources/hosts-file-net.json[hosts-file.net-emd]
+|link:.//sources/hosts-file-net-emd.json[hosts-file.net-emd]
 |48h
 
-|link:.//sources/hosts-file-net.json[hosts-file.net-exp]
+|link:.//sources/hosts-file-net-exp.json[hosts-file.net-exp]
 |48h
 
-|link:.//sources/hosts-file-net.json[hosts-file.net-fsa]
+|link:.//sources/hosts-file-net-fsa.json[hosts-file.net-fsa]
 |48h
 
-|link:.//sources/hosts-file-net.json[hosts-file.net-psh]
+|link:.//sources/hosts-file-net-psh.json[hosts-file.net-psh]
 |48h
 
-|link:.//sources/hosts-file-net.json[hosts-file.net-pup]
+|link:.//sources/hosts-file-net-pup.json[hosts-file.net-pup]
 |48h
 
 |link:.//sources/interserver-net.json[interserver.net]
 |12h
 
-|link:.//sources/isc-sans-edu.json[isc.sans.edu-domains]
+|link:.//sources/isc-sans-edu-domains.json[isc.sans.edu-domains]
 |8h
 
 |link:.//sources/isx-fr.json[isx.fr]
 |1h
 
-|link:.//sources/majestic-com.json[majestic.com]
+|link:.//sources/majestic-com-1000.json[majestic.com-1000]
 |48h
 
-|link:.//sources/majestic-com.json[majestic.com-1000]
+|link:.//sources/majestic-com.json[majestic.com]
 |48h
 
 |link:.//sources/malc0de-com.json[malc0de.com]
@@ -2162,19 +2161,19 @@ link:./csv/summary-dnsxl.csv[download csv]
 |link:.//sources/malwaredomains-com.json[malwaredomains.com]
 |24h
 
-|link:.//sources/myip-ms.json[myip.ms]
+|link:.//sources/myip-ms-full.json[myip.ms-full]
 |24h
 
-|link:.//sources/myip-ms.json[myip.ms-full]
+|link:.//sources/myip-ms.json[myip.ms]
 |24h
 
 |link:.//sources/phishing-army.json[phishing.army]
 |6h
 
-|link:.//sources/quidsup-notrack.json[quidsup.net-notrack]
+|link:.//sources/quidsup-net-malware.json[quidsup.net-malware]
 |24h
 
-|link:.//sources/quidsup-notrack.json[quidsup.net-malware]
+|link:.//sources/quidsup-net-notrack.json[quidsup.net-notrack]
 |24h
 
 |link:.//sources/rutgers-edu.json[rutgers.edu]
@@ -2183,7 +2182,7 @@ link:./csv/summary-dnsxl.csv[download csv]
 |link:.//sources/sblam-com.json[sblam.com]
 |8h
 
-|link:.//sources/spamhaus-org.json[spamhaus.org-drop]
+|link:.//sources/spamhaus-org-drop.json[spamhaus.org-drop]
 |6h
 
 |link:.//sources/stopforumspam-com.json[stopforumspam.com]
@@ -2192,25 +2191,19 @@ link:./csv/summary-dnsxl.csv[download csv]
 |link:.//sources/talosintelligence-com.json[talosintelligence.com]
 |8h
 
-|link:.//sources/tor-dan-me.json[dan.me.uk-tor]
-|1h
-
-|link:.//sources/tor-dan-me.json[dan.me.uk-torexit]
-|1h
-
 |link:.//sources/torstatus-blutmagie-de.json[torstatus.blutmagie.de]
 |8h
 
 |link:.//sources/turris-cz.json[turris.cz]
 |24h
 
-|link:.//sources/uceprotect-net.json[uceprotect.net-level1]
+|link:.//sources/uceprotect-net-level1.json[uceprotect.net-level1]
 |24h
 
-|link:.//sources/uceprotect-net.json[uceprotect.net-level2]
+|link:.//sources/uceprotect-net-level2.json[uceprotect.net-level2]
 |24h
 
-|link:.//sources/uceprotect-net.json[uceprotect.net-level3]
+|link:.//sources/uceprotect-net-level3.json[uceprotect.net-level3]
 |24h
 
 |link:.//sources/urlvir-com.json[urlvir.com]

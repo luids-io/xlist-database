@@ -1,0 +1,19 @@
+[
+    {
+        "disabled": true,
+        "id": "github-anudeepnd-crypto",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt"
+            }
+        ],
+        "transforms": {
+            "tldplusone": true
+        },
+        "update": "24h"
+    }
+]

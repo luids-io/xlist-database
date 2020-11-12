@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "woody.ch-domain",
+        "class": "dnsxl",
+        "name": "Woody's SMTP Blacklist URIBL",
+        "web": "http://blacklist.woody.ch/rblcheck.php3",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "uri.blacklist.woody.ch",
+        "opts": {
+            "halfping": true,
+            "resolvreason": true
+        }
+    }
+]

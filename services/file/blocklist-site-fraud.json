@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "blocklist.site-fraud",
+        "class": "file",
+        "name": "Blocklist Site Fraud",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "fraud"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-fraud'"
+        }
+    }
+]

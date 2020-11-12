@@ -1,0 +1,22 @@
+[
+    {
+        "disabled": true,
+        "id": "msrbl.net-combined",
+        "class": "dnsxl",
+        "name": "MSRBL combined",
+        "web": "http://www.msrbl.com/",
+        "category": "blacklist",
+        "tags": [
+            "spam",
+            "phising",
+            "malware"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "combined.rbl.msrbl.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

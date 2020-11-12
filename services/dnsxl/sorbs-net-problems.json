@@ -1,0 +1,22 @@
+[
+    {
+        "disabled": true,
+        "id": "sorbs.net-problems",
+        "class": "dnsxl",
+        "name": "SORBS Aggregate zone (problems)",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "spam",
+            "openproxy",
+            "exploit"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "problems.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

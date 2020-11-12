@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "isipp.com-iadb",
+        "class": "dnsxl",
+        "name": "ISIPP Accreditation Database",
+        "web": "http://www.isipp.com/",
+        "category": "whitelist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "iadb.isipp.com",
+        "opts": {
+            "halfping": true,
+            "resolvreason": true
+        }
+    }
+]

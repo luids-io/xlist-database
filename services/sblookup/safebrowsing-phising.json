@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "safebrowsing-phising",
+        "class": "sblookup",
+        "name": "Google Safe Browsing - Phising",
+        "web": "https://safebrowsing.google.com/",
+        "category": "blacklist",
+        "tags": [
+            "phising"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "threats": [ "phising" ],
+            "reason": "found in 'safebrowsing-phising'"
+        }
+    }
+]

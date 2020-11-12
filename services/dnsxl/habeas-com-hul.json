@@ -1,0 +1,17 @@
+[
+    {
+        "disabled": true,
+        "id": "habeas.com-hul",
+        "class": "dnsxl",
+        "name": "Habeas User List",
+        "web": "http://www.habeas.com/",
+        "category": "whitelist",
+        "resources": [
+            "ip4"
+        ],
+        "source": "hul.habeas.com",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

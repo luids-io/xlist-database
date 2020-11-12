@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "abuseat.org-cbl",
+        "class": "dnsxl",
+        "name": "CBL",
+        "web": "https://www.abuseat.org/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "cbl.abuseat.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

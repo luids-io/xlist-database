@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "hosts-file.net-psh",
+        "class": "file",
+        "name": "hpHosts Online phishing",
+        "web": "https://hosts-file.net",
+        "category": "blacklist",
+        "tags": [
+            "phising"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'hosts-file.net-psh'"
+        }
+    }
+]

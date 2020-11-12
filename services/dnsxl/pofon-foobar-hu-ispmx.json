@@ -1,0 +1,22 @@
+[
+    {
+        "disabled": true,
+        "id": "pofon.foobar.hu-ispmx",
+        "class": "dnsxl",
+        "name": "pofon.foobar.hu ISP mail relay whitelist",
+        "web": "https://rbl.foobar.hu/",
+        "category": "whitelist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4",
+            "ip6"
+        ],
+        "source": "ispmx.pofon.foobar.hu",
+        "opts": {
+            "pingdns": "pofon.foobar.hu",
+            "resolvreason": true
+        }
+    }
+]

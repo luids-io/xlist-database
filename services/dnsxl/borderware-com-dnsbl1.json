@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "borderware.com-dnsbl1",
+        "class": "dnsxl",
+        "name": "borderware.com DNSBL1",
+        "web": "http://www.borderware.com/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dnsbl1.dnsbl.borderware.com",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

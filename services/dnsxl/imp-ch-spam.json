@@ -1,0 +1,22 @@
+[
+    {
+        "disabled": true,
+        "id": "imp.ch-spam",
+        "class": "dnsxl",
+        "name": "ImproWare IP based spamlist",
+        "web": "http://antispam.imp.ch/06-dnsbl.php?lng=1",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "spamrbl.imp.ch",
+        "opts": {
+            "dnscodes": {
+                "127.0.0.5": "has sent spam and may be a possible spamsource!"
+            }
+        }
+    }
+]

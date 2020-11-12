@@ -1,0 +1,18 @@
+[
+    {
+        "disabled": true,
+        "id": "dan.me.uk-torexit",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4",
+                    "ip6"
+                ],
+                "uri": "https://www.dan.me.uk/torlist/?exit",
+                "filename": "torlist-exit.txt"
+            }
+        ],
+        "update": "1h"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "github-anudeepnd-facebook",
+        "class": "file",
+        "name": "anudeepND blacklist block facebook",
+        "web": "https://github.com/anudeepND/blacklist",
+        "category": "blacklist",
+        "tags": [
+            "facebook"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'github-anudeepnd-facebook'"
+        }
+    }
+]

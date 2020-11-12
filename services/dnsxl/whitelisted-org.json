@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "whitelisted.org",
+        "class": "dnsxl",
+        "name": "Whitelisted.org",
+        "web": "http://www.whitelisted.org/",
+        "category": "whitelist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "ips.whitelisted.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

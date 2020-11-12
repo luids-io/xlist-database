@@ -1,0 +1,28 @@
+[
+    {
+        "disabled": true,
+        "id": "spamrats.com-all",
+        "class": "dnsxl",
+        "name": "SpamRATS! all",
+        "web": "http://www.spamrats.com/",
+        "category": "blacklist",
+        "tags": [
+            "residential",
+            "spam",
+            "noptr",
+            "bruteforce"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "all.spamrats.com",
+        "opts": {
+            "dnscodes": {
+                "127.0.0.36": "RATS-Dyna.",
+                "127.0.0.37": "RATS-NoPtr.",
+                "127.0.0.38": "RATS-Spam.",
+                "127.0.0.43": "RATS-Auth."
+            }
+        }
+    }
+]

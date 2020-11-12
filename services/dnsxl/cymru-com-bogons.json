@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "cymru.com-bogons",
+        "class": "dnsxl",
+        "name": "Cymru Bogon List",
+        "web": "http://www.team-cymru.com/bogon-reference.html",
+        "category": "blacklist",
+        "tags": [
+            "bogon"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "bogons.cymru.com",
+        "opts": {
+            "halfping": true,
+            "resolvreason": true
+        }
+    }
+]

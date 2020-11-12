@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "spamhaus.org-pbl",
+        "class": "dnsxl",
+        "name": "Spamhaus PBL Policy Block List",
+        "web": "http://www.spamhaus.org/pbl/",
+        "category": "blacklist",
+        "tags": [
+            "non-mta"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "pbl.spamhaus.org",
+        "opts": {
+            "nsresolvers": true,
+            "resolvreason": true
+        }
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "msrbl.net-phishing",
+        "class": "dnsxl",
+        "name": "MSRBL phishing",
+        "web": "http://www.msrbl.com/",
+        "category": "blacklist",
+        "tags": [
+            "phising"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "phishing.rbl.msrbl.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "sorbs.net-aspews",
+        "class": "dnsxl",
+        "name": "ASPEWS Listings",
+        "web": "http://www.aspews.org/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "aspews.ext.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

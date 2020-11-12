@@ -1,0 +1,24 @@
+[
+    {
+        "disabled": true,
+        "id": "fmb.la-fresh",
+        "class": "dnsxl",
+        "name": "fresh.fmb.la FRESH domains",
+        "web": "http://fmb.la/",
+        "category": "blacklist",
+        "tags": [
+            "fresh"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "fresh.fmb.la",
+        "opts": {
+            "halfping": true,
+            "dnscodes": {
+                "127.0.0.2": "Domain registered in last 7 days",
+                "127.0.0.14": "Domain registered in last 7-14 days"
+            }
+        }
+    }
+]

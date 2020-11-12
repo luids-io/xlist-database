@@ -1,0 +1,16 @@
+[
+    {
+        "disabled": true,
+        "id": "hosts-file.net-emd",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://hosts-file.net/emd.txt"
+            }
+        ],
+        "update": "48h"
+    }
+]

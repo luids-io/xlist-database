@@ -1,0 +1,22 @@
+[
+    {
+        "disabled": true,
+        "id": "uribl.com-white",
+        "class": "dnsxl",
+        "name": "URIBL white",
+        "web": "http://www.uribl.com/",
+        "category": "whitelist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "white.uribl.com",
+        "opts": {
+            "nsresolvers": true,
+            "halfping": true,
+            "resolvreason": true
+        }
+    }
+]

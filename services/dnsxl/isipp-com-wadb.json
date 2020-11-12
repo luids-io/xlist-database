@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "isipp.com-wadb",
+        "class": "dnsxl",
+        "name": "ISIPP Accreditation Database (WADB)",
+        "web": "http://www.isipp.com/",
+        "category": "whitelist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "wadb.isipp.com",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "disabled": true,
+        "id": "uribl.com-red",
+        "class": "dnsxl",
+        "name": "URIBL red",
+        "web": "http://www.uribl.com/",
+        "category": "mixedlist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "red.uribl.com",
+        "opts": {
+            "nsresolvers": true,
+            "halfping": true,
+            "resolvreason": true
+        }
+    }
+]

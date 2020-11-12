@@ -3,7 +3,7 @@
         "disabled": true,
         "id": "backscatterer.org",
         "class": "dnsxl",
-        "name": "Backscatterer.org",
+        "name": "Whitelisted.org",
         "web": "http://www.backscatterer.org/",
         "category": "blacklist",
         "tags": [

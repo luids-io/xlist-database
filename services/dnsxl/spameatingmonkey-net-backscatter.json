@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "spameatingmonkey.net-backscatter",
+        "class": "dnsxl",
+        "name": "Spam Eating Monkey SEM-BACKSCATTER",
+        "web": "http://spameatingmonkey.com/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "backscatter.spameatingmonkey.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

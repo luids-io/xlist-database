@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "surriel.com-whitelist",
+        "class": "dnsxl",
+        "name": "PSBL whitelist",
+        "web": "http://www.dnswl.org/",
+        "category": "whitelist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "whitelist.surriel.com",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

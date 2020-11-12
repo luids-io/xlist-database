@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "msrbl.net-spam",
+        "class": "dnsxl",
+        "name": "MSRBL spam",
+        "web": "http://www.msrbl.com/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "spam.rbl.msrbl.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

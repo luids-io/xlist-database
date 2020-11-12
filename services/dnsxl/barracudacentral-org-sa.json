@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "barracudacentral.org-sa",
+        "class": "dnsxl",
+        "name": "Barracuda Reputation Block List (for SpamAssassin)",
+        "web": "http://www.barracudacentral.org/rbl/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "bb.barracudacentral.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

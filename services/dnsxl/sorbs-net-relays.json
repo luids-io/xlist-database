@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "sorbs.net-relays",
+        "class": "dnsxl",
+        "name": "SORBS Aggregate zone (relays)",
+        "web": "http://www.sorbs.net/",
+        "category": "blacklist",
+        "tags": [
+            "openproxy"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "relays.dnsbl.sorbs.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

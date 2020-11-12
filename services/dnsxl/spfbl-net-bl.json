@@ -1,0 +1,22 @@
+[
+    {
+        "disabled": true,
+        "id": "spfbl.net-bl",
+        "class": "dnsxl",
+        "name": "SPFBL.net RBL",
+        "web": "http://spfbl.net/en/dnsbl/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4",
+            "ip6",
+            "domain"
+        ],
+        "source": "dnsbl.spfbl.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

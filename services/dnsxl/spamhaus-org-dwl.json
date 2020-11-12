@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "spamhaus.org-dwl",
+        "class": "dnsxl",
+        "name": "Spamhaus DWL Domain Whitelist",
+        "web": "http://www.spamhauswhitelist.com/",
+        "category": "whitelist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "_vouch.dwl.spamhaus.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

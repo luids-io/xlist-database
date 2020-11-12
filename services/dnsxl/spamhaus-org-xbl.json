@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "spamhaus.org-xbl",
+        "class": "dnsxl",
+        "name": "Spamhaus XBL Exploits Block List",
+        "web": "http://www.spamhaus.org/xbl/",
+        "category": "blacklist",
+        "tags": [
+            "malware"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "xbl.spamhaus.org",
+        "opts": {
+            "nsresolvers": true,
+            "resolvreason": true
+        }
+    }
+]

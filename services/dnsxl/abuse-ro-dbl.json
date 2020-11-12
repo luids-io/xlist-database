@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "abuse.ro-dbl",
+        "class": "dnsxl",
+        "name": "abuse.ro (Romanian) URI RBL for spam domains",
+        "web": "http://www.abuse.ro/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "dbl.abuse.ro",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

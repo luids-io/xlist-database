@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "scrolloutf1.com-ns",
+        "class": "dnsxl",
+        "name": "Scrollout F1 Reputation NS",
+        "web": "http://www.scrolloutf1.com/rbl",
+        "category": "mixedlist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "reputation-ns.rbl.scrolloutf1.com",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

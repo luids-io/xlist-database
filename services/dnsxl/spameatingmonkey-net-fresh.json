@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "spameatingmonkey.net-fresh",
+        "class": "dnsxl",
+        "name": "Spam Eating Monkey SEM-FRESH",
+        "web": "http://spameatingmonkey.com/",
+        "tags": [
+            "fresh"
+        ],
+        "category": "blacklist",
+        "resources": [
+            "domain"
+        ],
+        "source": "fresh.spameatingmonkey.net",
+        "opts": {
+            "pingdns": "_DNSBL_.test.fresh.spameatingmonkey.net",
+            "resolvreason": true
+        }
+    }
+]

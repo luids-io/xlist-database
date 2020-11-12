@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "spameatingmonkey.net-ip6",
+        "class": "dnsxl",
+        "name": "Spam Eating Monkey SEM-IPV6BL",
+        "web": "http://spameatingmonkey.com/",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip6"
+        ],
+        "source": "bl.ipv6.spameatingmonkey.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "disabled": true,
+        "id": "blocklist.site-gambling",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://raw.githubusercontent.com/blocklistproject/Lists/master/gambling.txt"
+            }
+        ],
+        "transforms": {
+            "tldplusone": true
+        },
+        "update": "24h"
+    }
+]

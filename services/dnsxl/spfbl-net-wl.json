@@ -1,0 +1,22 @@
+[
+    {
+        "disabled": true,
+        "id": "spfbl.net-wl",
+        "class": "dnsxl",
+        "name": "SPFBL.net Whitelist",
+        "web": "http://spfbl.net/en/dnswl/",
+        "category": "whitelist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4",
+            "ip6",
+            "domain"
+        ],
+        "source": "dnswl.spfbl.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

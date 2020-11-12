@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "spamrats.com-spam",
+        "class": "dnsxl",
+        "name": "SpamRATS! Spam",
+        "web": "http://www.spamrats.com/rats-spam.php",
+        "category": "blacklist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "spam.spamrats.com",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

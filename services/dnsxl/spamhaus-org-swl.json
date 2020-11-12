@@ -1,0 +1,21 @@
+[
+    {
+        "disabled": true,
+        "id": "spamhaus.org-swl",
+        "class": "dnsxl",
+        "name": "Spamhaus SWL IP Whitelist",
+        "web": "http://www.spamhauswhitelist.com/",
+        "category": "whitelist",
+        "tags": [
+            "spam"
+        ],
+        "resources": [
+            "ip4",
+            "ip6"
+        ],
+        "source": "swl.spamhaus.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

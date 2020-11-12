@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "rfc-clueless.org-elitist",
+        "class": "dnsxl",
+        "name": "RFC-Clueless (RFC2) Elitist RBL",
+        "web": "http://rfc-clueless.org/pages/listing_policy-elitist",
+        "category": "blacklist",
+        "tags": [
+            "compliance"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "source": "elitist.rfc-clueless.org",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

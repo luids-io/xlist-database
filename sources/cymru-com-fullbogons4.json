@@ -1,0 +1,16 @@
+[
+    {
+        "disabled": true,
+        "id": "cymru.com-fullbogons4",
+        "sources": [
+            {
+                "format": "flat",
+                "resources": [
+                    "ip4"
+                ],
+                "uri": "https://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt"
+            }
+        ],
+        "update": "12h"
+    }
+]

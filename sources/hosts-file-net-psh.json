@@ -1,0 +1,16 @@
+[
+    {
+        "disabled": true,
+        "id": "hosts-file.net-psh",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://hosts-file.net/psh.txt"
+            }
+        ],
+        "update": "48h"
+    }
+]

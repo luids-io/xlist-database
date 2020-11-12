@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "hosts-file.net-fsa",
+        "class": "file",
+        "name": "hpHosts Online fraud sites",
+        "web": "https://hosts-file.net",
+        "category": "blacklist",
+        "tags": [
+            "fraud"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'hosts-file.net-fsa'"
+        }
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "msrbl.net-virus",
+        "class": "dnsxl",
+        "name": "MSRBL virus",
+        "web": "http://www.msrbl.com/",
+        "category": "blacklist",
+        "tags": [
+            "malware"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "virus.rbl.msrbl.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

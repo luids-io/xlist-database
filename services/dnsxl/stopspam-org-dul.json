@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "stopspam.org-dul",
+        "class": "dnsxl",
+        "name": "StopSpam.org dynamic",
+        "web": "http://www.stopspam.org/rblcheck/index.php",
+        "category": "blacklist",
+        "tags": [
+            "dynamic"
+        ],
+        "resources": [
+            "ip4"
+        ],
+        "source": "dul.pacifier.net",
+        "opts": {
+            "resolvreason": true
+        }
+    }
+]

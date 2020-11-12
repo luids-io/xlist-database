@@ -1,0 +1,20 @@
+[
+    {
+        "disabled": true,
+        "id": "blocklist.site-piracy",
+        "class": "file",
+        "name": "Blocklist Site Piracy",
+        "web": "https://blocklist.site",
+        "category": "blacklist",
+        "tags": [
+            "piracy"
+        ],
+        "resources": [
+            "domain"
+        ],
+        "opts": {
+            "autoreload": true,
+            "reason": "found in 'blocklist.site-piracy'"
+        }
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "disabled": true,
+        "id": "hosts-file.net-fsa",
+        "sources": [
+            {
+                "format": "hosts",
+                "resources": [
+                    "domain"
+                ],
+                "uri": "https://hosts-file.net/fsa.txt"
+            }
+        ],
+        "update": "48h"
+    }
+]
