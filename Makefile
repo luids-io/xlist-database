@@ -16,3 +16,4 @@ database:
 	@echo "$(WHALE) $@"
 	scripts/update_csv.sh
 	scripts/update_readme.sh
+	asciidoctor README.adoc
