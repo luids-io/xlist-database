@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "sorbs.net-proxies",
         "class": "dnsxl",
         "name": "SORBS Aggregate zone (proxies)",

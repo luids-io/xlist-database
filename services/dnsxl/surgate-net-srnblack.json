@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "surgate.net-srnblack",
         "class": "dnsxl",
         "name": "SurGATE Reputation Network Blacklist",

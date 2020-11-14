@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "sorbs.net-zombie",
         "class": "dnsxl",
         "name": "SORBS hijacked networks",

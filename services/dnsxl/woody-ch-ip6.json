@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "woody.ch-ip6",
         "class": "dnsxl",
         "name": "Woody's SMTP Blacklist IPv6",

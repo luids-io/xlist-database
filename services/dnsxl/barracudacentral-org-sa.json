@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "barracudacentral.org-sa",
         "class": "dnsxl",
         "name": "Barracuda Reputation Block List (for SpamAssassin)",

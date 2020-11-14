@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "blocklist.de",
         "class": "dnsxl",
         "name": "blocklist.de Fail2Ban Reporting Service",

@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "cymru.com-bogons",
         "class": "dnsxl",
         "name": "Cymru Bogon List",

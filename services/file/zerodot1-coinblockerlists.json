@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "zerodot1-coinblockerlists",
         "class": "file",
         "name": "CoinBlockerLists by ZeroDot1",

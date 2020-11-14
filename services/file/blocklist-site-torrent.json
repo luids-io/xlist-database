@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "blocklist.site-torrent",
         "class": "file",
         "name": "Blocklist Site Torrent",

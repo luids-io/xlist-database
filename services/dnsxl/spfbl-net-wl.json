@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "spfbl.net-wl",
         "class": "dnsxl",
         "name": "SPFBL.net Whitelist",

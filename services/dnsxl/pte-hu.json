@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "pte.hu",
         "class": "dnsxl",
         "name": "SINGULARis Spam/scam blocklist",

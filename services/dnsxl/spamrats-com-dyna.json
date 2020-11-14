@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "spamrats.com-dyna",
         "class": "dnsxl",
         "name": "SpamRATS! Dyna",

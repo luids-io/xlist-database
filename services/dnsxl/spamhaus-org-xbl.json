@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "spamhaus.org-xbl",
         "class": "dnsxl",
         "name": "Spamhaus XBL Exploits Block List",

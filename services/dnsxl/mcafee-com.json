@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "mcafee.com",
         "class": "dnsxl",
         "name": "McAfee RBL",

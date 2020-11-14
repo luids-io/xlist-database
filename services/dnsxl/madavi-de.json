@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "madavi.de",
         "class": "dnsxl",
         "name": "Madavi:BL",

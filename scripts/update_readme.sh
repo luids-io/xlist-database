@@ -38,19 +38,25 @@ function genTableClass() {
 	echo "| ID | Name | Category | Tags | Resources | Web" >> $OUTPUT
 	
 	jq -s '[.[][]]' ${SERVICESDIR}/${class}/*.json | jq -s '.[][]' \
-		| jq -r '{ id: .id, name: .name, category: .category, tags: (.tags // empty) |join(" ") , resources: .resources|join(" "), web: .web}' \
-		| jq -r '[.id, .name, .category, .tags, .resources, .web] | @tsv' |
-	while IFS=$'\t' read -r id name category tags resources web; do
+		| jq -r '{ id: .id, deprecated: .deprecated, removed: .removed, name: .name, category: .category, tags: (.tags // empty) |join(" ") , resources: .resources|join(" "), web: .web}' \
+		| jq -r '[.id, .name, .deprecated, .removed, .category, .tags, .resources, .web] | @tsv' |
+	while IFS=$'\t' read -r id name deprecated removed category tags resources web; do
 		sourcefile=`grep -H "$id" ${SERVICESDIR}/${class}/*.json | cut -f1 -d ":"`
 		sourcefile=`basename "$sourcefile"`
-	
-		echo "" >> $OUTPUT
-		echo "|link:$URLBASE/services/${class}/${sourcefile}[$id]" >> $OUTPUT
-		echo "|$name" >> $OUTPUT
-		echo "|$category" >> $OUTPUT
-		echo "|$tags" >> $OUTPUT
-		echo "|$resources" >> $OUTPUT
-		echo "|link:${web}[web]" >> $OUTPUT
+		
+		if [ "$removed" == "false" ]; then
+			echo "" >> $OUTPUT
+			if [ "$deprecated" == "true" ]; then
+				echo "|link:$URLBASE/services/${class}/${sourcefile}[$id] *DEPRECATED*" >> $OUTPUT
+			else
+				echo "|link:$URLBASE/services/${class}/${sourcefile}[$id]" >> $OUTPUT
+			fi
+			echo "|$name" >> $OUTPUT
+			echo "|$category" >> $OUTPUT
+			echo "|$tags" >> $OUTPUT
+			echo "|$resources" >> $OUTPUT
+			echo "|link:${web}[web]" >> $OUTPUT
+		fi
 	done
 	echo "|===" >> $OUTPUT
 }
@@ -60,15 +66,21 @@ function genTableSources() {
 	echo "| ID | Update " >> $OUTPUT
 	
 	jq -s '[.[][]]' ${SOURCESDIR}/*.json | jq -s '.[][]' \
-		| jq -r '{ id: .id, update: .update}' \
-		| jq -r '[.id, .update] | @tsv' |
-	while IFS=$'\t' read -r id update; do
+		| jq -r '{ id: .id, deprecated: .deprecated, removed: .removed, update: .update}' \
+		| jq -r '[.id, .deprecated, .removed, .update] | @tsv' |
+	while IFS=$'\t' read -r id deprecated removed update; do
 		sourcefile=`grep "$id" ${SOURCESDIR}/*.json | cut -f1 -d ":"`
 		sourcefile=`basename "$sourcefile"`
-	
-		echo "" >> $OUTPUT
-		echo "|link:$URLBASE/sources/${sourcefile}[$id]" >> $OUTPUT
-		echo "|$update" >> $OUTPUT
+
+		if [ "$removed" == "false" ]; then	
+			echo "" >> $OUTPUT
+			if [ "$deprecated" == "true" ]; then
+				echo "|link:$URLBASE/sources/${sourcefile}[$id] *DEPRECATED*" >> $OUTPUT
+			else
+				echo "|link:$URLBASE/sources/${sourcefile}[$id]" >> $OUTPUT
+			fi
+			echo "|$update" >> $OUTPUT
+		fi
 	done
 	echo "|===" >> $OUTPUT
 }

@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "safebrowsing-phising",
         "class": "sblookup",
         "name": "Google Safe Browsing - Phising",

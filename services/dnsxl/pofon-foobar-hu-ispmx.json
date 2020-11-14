@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "pofon.foobar.hu-ispmx",
         "class": "dnsxl",
         "name": "pofon.foobar.hu ISP mail relay whitelist",

@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "inps.de",
         "class": "dnsxl",
         "name": "inps.de-DNSWL",

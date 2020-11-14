@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "uceprotect.net-level2",
         "class": "file",
         "name": "UCEPROTECT Network Project Level 2",

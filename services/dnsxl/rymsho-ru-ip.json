@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "rymsho.ru-ip",
         "class": "dnsxl",
         "name": "Rymsho's DNSBL",

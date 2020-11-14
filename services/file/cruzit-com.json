@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "cruzit.com",
         "class": "file",
         "name": "cruzit.com Server Blocklist",

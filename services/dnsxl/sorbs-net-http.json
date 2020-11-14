@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "sorbs.net-http",
         "class": "dnsxl",
         "name": "SORBS Open HTTP Proxies",

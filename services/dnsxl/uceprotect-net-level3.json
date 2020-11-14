@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "uceprotect.net-level3",
         "class": "dnsxl",
         "name": "UCEPROTECT Level 3",

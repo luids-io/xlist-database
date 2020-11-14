@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "quidsup.net-notrack",
         "class": "file",
         "name": "quidsup.net NoTrack blocklist notrack",

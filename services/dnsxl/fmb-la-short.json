@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "fmb.la-short",
         "class": "dnsxl",
         "name": "short.fmb.la URL shortener",

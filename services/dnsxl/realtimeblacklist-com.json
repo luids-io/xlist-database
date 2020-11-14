@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "realtimeblacklist.com",
         "class": "dnsxl",
         "name": "realtimeBLACKLIST.COM",

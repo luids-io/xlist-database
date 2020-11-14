@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "sorbs.net-dul",
         "class": "dnsxl",
         "name": "SORBS Dynamic IP Addresses",

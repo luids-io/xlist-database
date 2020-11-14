@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "manitu.net",
         "class": "dnsxl",
         "name": "NiX Spam DNSBL",

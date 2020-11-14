@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "abuse.ch-ssl",
         "class": "file",
         "name": "SSL blacklist Abuse.ch",

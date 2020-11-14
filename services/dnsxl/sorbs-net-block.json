@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "sorbs.net-block",
         "class": "dnsxl",
         "name": "SORBS Hosts demanding never be tested by SORBS",

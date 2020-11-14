@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "junkemailfilter.com-dnswl",
         "class": "dnsxl",
         "name": "Hostkarma shitelist",

@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "spamhaus.org-drop",
         "class": "file",
         "name": "Spamhaus Don't Route Or Peer Lists",

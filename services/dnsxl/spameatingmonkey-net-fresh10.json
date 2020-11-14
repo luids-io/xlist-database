@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "spameatingmonkey.net-fresh10",
         "class": "dnsxl",
         "name": "Spam Eating Monkey SEM-FRESH10",

@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "hosts-file.net-psh",
         "class": "file",
         "name": "hpHosts Online phishing",

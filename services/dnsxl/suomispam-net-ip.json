@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "suomispam.net-ip",
         "class": "dnsxl",
         "name": "Suomispam Blacklist",

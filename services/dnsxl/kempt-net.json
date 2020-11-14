@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "kempt.net",
         "class": "dnsxl",
         "name": "Kempt.net DNS Black List",

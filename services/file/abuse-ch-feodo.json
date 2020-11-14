@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "abuse.ch-feodo",
         "class": "file",
         "name": "Feodo Tracker C&C Abuse.ch",

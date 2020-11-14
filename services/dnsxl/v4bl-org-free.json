@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "v4bl.org-free",
         "class": "dnsxl",
         "name": "V4BL-FREE/DDNSBL-FREE",

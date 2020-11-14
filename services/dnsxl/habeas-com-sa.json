@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "habeas.com-sa",
         "class": "dnsxl",
         "name": "Habeas SafeList (for SpamAssassin)",

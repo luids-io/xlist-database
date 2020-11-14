@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "turris.cz",
         "class": "file",
         "name": "turris.cz greylist",

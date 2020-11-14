@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "abuse.ro-dbl",
         "class": "dnsxl",
         "name": "abuse.ro (Romanian) URI RBL for spam domains",

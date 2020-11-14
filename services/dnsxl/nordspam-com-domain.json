@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "nordspam.com-domain",
         "class": "dnsxl",
         "name": "NordSpam Domain Blacklist",

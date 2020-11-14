@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "stopspam.org-dul",
         "class": "dnsxl",
         "name": "StopSpam.org dynamic",

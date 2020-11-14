@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "s5h.net",
         "class": "dnsxl",
         "name": "s5h.net RBL",

@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "fmb.la",
         "class": "dnsxl",
         "name": "bl.fmb.la composite blacklist",

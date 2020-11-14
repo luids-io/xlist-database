@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "sorbs.net-spam",
         "class": "dnsxl",
         "name": "SORBS Spamhost (any time)",

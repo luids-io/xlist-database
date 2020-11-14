@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "swinog.ch-ip",
         "class": "dnsxl",
         "name": "Swiss Network Operators Group DNSRBL",

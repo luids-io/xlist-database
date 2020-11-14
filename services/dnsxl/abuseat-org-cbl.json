@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "abuseat.org-cbl",
         "class": "dnsxl",
         "name": "CBL",

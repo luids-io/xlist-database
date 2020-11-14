@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "surriel.com-whitelist",
         "class": "dnsxl",
         "name": "PSBL whitelist",

@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "sorbs.net-recent",
         "class": "dnsxl",
         "name": "SORBS Spamhost (last 28 days)",

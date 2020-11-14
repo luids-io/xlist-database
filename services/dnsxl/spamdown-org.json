@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "spamdown.org",
         "class": "dnsxl",
         "name": "Spamdown RBL spam emails in Persian",

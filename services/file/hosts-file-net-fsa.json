@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "hosts-file.net-fsa",
         "class": "file",
         "name": "hpHosts Online fraud sites",

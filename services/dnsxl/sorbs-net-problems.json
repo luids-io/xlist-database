@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "sorbs.net-problems",
         "class": "dnsxl",
         "name": "SORBS Aggregate zone (problems)",

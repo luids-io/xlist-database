@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "sorbs.net-web",
         "class": "dnsxl",
         "name": "SORBS Vulnerable formmailers",

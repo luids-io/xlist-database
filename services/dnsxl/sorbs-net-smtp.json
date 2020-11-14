@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "sorbs.net-smtp",
         "class": "dnsxl",
         "name": "SORBS Open SMTP relays",

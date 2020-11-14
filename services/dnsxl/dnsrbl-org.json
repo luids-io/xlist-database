@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "dnsrbl.org",
         "class": "dnsxl",
         "name": "DNSRBL - DNS Real-time Blackhole List",

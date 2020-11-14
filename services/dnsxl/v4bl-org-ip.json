@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "v4bl.org-ip",
         "class": "dnsxl",
         "name": "V4BL/DDNSBL",

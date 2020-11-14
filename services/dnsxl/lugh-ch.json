@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "lugh.ch",
         "class": "dnsxl",
         "name": "lugh.ch DNSBL",

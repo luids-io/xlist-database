@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "konstant.no",
         "class": "dnsxl",
         "name": "KONSTANT DNSBL",

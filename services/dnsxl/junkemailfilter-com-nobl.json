@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "junkemailfilter.com-nobl",
         "class": "dnsxl",
         "name": "Hostkarma no blacklist",

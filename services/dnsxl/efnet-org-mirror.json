@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "efnetrbl.org-mirror",
         "class": "dnsxl",
         "name": "EFnet RBL mirror",

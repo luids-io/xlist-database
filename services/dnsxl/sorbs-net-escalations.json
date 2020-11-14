@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "sorbs.net-escalations",
         "class": "dnsxl",
         "name": "SORBS netblocks of spam supporting service providers",

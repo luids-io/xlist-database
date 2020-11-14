@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "anticaptcha.net-dnsbl6",
         "class": "dnsxl",
         "name": "AntiCaptcha.NET IPv6",

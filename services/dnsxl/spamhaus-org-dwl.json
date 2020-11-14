@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "spamhaus.org-dwl",
         "class": "dnsxl",
         "name": "Spamhaus DWL Domain Whitelist",

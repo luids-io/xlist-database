@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "habeas.com-sohul",
         "class": "dnsxl",
         "name": "Habeas User List (including Non-Verified-Optin)",

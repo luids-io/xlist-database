@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "talosintelligence.com",
         "class": "file",
         "name": "talosintelligence.com CISCO ip blacklist",

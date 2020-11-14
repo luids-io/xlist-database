@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "borderware.com-dnsbl3",
         "class": "dnsxl",
         "name": "borderware.com DNSBL3",

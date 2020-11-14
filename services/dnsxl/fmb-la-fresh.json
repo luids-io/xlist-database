@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "fmb.la-fresh",
         "class": "dnsxl",
         "name": "fresh.fmb.la FRESH domains",

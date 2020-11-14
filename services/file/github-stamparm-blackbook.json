@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "github-stamparm-blackbook",
         "class": "file",
         "name": "stamparm blackbook with historical malware domains",

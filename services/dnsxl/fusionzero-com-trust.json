@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "fusionzero.com-trust",
         "class": "dnsxl",
         "name": "0spam DNSWL",

@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "rfc-clueless.org-postmaster",
         "class": "dnsxl",
         "name": "RFC-Clueless (RFC2) postmaster RBL",

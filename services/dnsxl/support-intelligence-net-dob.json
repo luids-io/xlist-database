@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "support-intelligence.net-dob",
         "class": "dnsxl",
         "name": "The Day Old Bread List (aka DOB)",

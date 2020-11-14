@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "uribl.com-multi",
         "class": "dnsxl",
         "name": "URIBL multi",

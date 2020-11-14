@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "github-stevenblack-porn",
         "class": "file",
         "name": "StevenBlack porn",

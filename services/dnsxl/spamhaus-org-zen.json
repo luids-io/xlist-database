@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "spamhaus.org-zen",
         "class": "dnsxl",
         "name": "Spamhaus ZEN Combined Block List",

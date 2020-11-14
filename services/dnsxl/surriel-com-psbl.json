@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "surriel.com-psbl",
         "class": "dnsxl",
         "name": "PSBL (Passive Spam Block List)",

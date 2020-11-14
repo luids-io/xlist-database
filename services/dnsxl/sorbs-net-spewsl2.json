@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "sorbs.net-spewsl2",
         "class": "dnsxl",
         "name": "SPEWS Level two listings",

@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "triumf.ca",
         "class": "dnsxl",
         "name": "TRIUMF.ca DNSBL",

@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "isipp.com-wadb",
         "class": "dnsxl",
         "name": "ISIPP Accreditation Database (WADB)",

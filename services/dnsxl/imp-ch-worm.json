@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "imp.ch-worm",
         "class": "dnsxl",
         "name": "ImproWare IP based wormlist",

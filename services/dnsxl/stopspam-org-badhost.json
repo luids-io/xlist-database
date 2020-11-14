@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "stopspam.org-badhost",
         "class": "dnsxl",
         "name": "StopSpam.org badhost",

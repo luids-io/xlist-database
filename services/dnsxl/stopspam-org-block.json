@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "stopspam.org-block",
         "class": "dnsxl",
         "name": "StopSpam.org block",

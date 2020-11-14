@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "rutgers.edu",
         "class": "file",
         "name": "rutgers.edu attackers",

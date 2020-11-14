@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "rfc-clueless.org-dsn",
         "class": "dnsxl",
         "name": "RFC-Clueless (RFC2) DSN RBL",

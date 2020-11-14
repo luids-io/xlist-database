@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "rymsho.ru-domain",
         "class": "dnsxl",
         "name": "Rymsho's RHSBL",

@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "sblam.com",
         "class": "file",
         "name": "Sblam.com HTTP form spam",

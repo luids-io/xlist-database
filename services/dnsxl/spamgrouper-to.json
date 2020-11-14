@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "spamgrouper.to",
         "class": "dnsxl",
         "name": "Spam Grouper Net block list",

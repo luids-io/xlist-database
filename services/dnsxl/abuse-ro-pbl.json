@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "abuse.ro-pbl",
         "class": "dnsxl",
         "name": "abuse.ro (Romanian) IP non-mta, residential IPs",

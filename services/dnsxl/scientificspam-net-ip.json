@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "scientificspam.net-ip",
         "class": "dnsxl",
         "name": "scientificspam.net IP list",

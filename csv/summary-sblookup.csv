@@ -1,3 +1,3 @@
-"id","name","category","tags","resources","web"
-"safebrowsing-malware","Google Safe Browsing - Malware, Unwanted software","blacklist","malware","domain","https://safebrowsing.google.com/"
-"safebrowsing-phising","Google Safe Browsing - Phising","blacklist","phising","domain","https://safebrowsing.google.com/"
+"id","name","deprecated","removed","category","tags","resources","web"
+"safebrowsing-malware","Google Safe Browsing - Malware, Unwanted software",false,false,"blacklist","malware","domain","https://safebrowsing.google.com/"
+"safebrowsing-phising","Google Safe Browsing - Phising",false,false,"blacklist","phising","domain","https://safebrowsing.google.com/"

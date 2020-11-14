@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "spameatingmonkey.net-urired",
         "class": "dnsxl",
         "name": "Spam Eating Monkey SEM-URIRED",

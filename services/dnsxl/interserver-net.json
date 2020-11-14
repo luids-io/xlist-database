@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "interserver.net",
         "class": "dnsxl",
         "name": "InterServer BL",

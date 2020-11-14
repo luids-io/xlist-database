@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "zapbl.net-ip",
         "class": "dnsxl",
         "name": "ZapBL DNSRBL",

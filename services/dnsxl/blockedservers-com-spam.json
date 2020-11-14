@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "blockedservers.com-spam",
         "class": "dnsxl",
         "name": "BlockedServers Spam RBL",

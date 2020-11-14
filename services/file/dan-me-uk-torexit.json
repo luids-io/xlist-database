@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "dan.me.uk-torexit",
         "class": "file",
         "name": "dan.me.uk (only tor exit nodes)",

@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "isx.fr",
         "class": "dnsxl",
         "name": "dnsbl.isx.fr",

@@ -1,6 +1,8 @@
 [
     {
-        "disabled": true,
+        "disabled": false,
+        "deprecated": false,
+        "removed": false,
         "id": "spameatingmonkey.net-backscatter",
         "class": "dnsxl",
         "name": "Spam Eating Monkey SEM-BACKSCATTER",
