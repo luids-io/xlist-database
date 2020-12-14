@@ -97,7 +97,7 @@ link:./csv/summary-file.csv[download csv]
 |Blocklist Site Abuse
 |blacklist
 |abuse
-|domain
+|ip4 domain
 |link:https://blocklist.site[web]
 
 |link:.//services/file/blocklist-site-ads.json[blocklist.site-ads]

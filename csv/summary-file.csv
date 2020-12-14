@@ -5,7 +5,7 @@
 "alienvault.com","alienvault reputation",false,false,"blacklist","reputation","ip4","https://www.alienvault.com"
 "badips.com","Bad IPs",false,false,"blacklist","bruteforce","ip4","https://badips.com/"
 "blocklist.de","blocklist.de Fail2Ban Reporting Service",false,false,"blacklist","bruteforce","ip4;ip6","http://www.blocklist.de/"
-"blocklist.site-abuse","Blocklist Site Abuse",false,false,"blacklist","abuse","domain","https://blocklist.site"
+"blocklist.site-abuse","Blocklist Site Abuse",false,false,"blacklist","abuse","ip4;domain","https://blocklist.site"
 "blocklist.site-ads","Blocklist Site ADS",false,false,"blacklist","ads","domain","https://blocklist.site"
 "blocklist.site-crypto","Blocklist Site Crypto",false,false,"blacklist","crypto","domain","https://blocklist.site"
 "blocklist.site-drugs","Blocklist Site Drugs",false,false,"blacklist","drugs","domain","https://blocklist.site"

@@ -12,6 +12,7 @@
             "abuse"
         ],
         "resources": [
+            "ip4",
             "domain"
         ],
         "opts": {
