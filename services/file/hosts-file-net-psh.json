@@ -9,7 +9,7 @@
         "web": "https://hosts-file.net",
         "category": "blacklist",
         "tags": [
-            "phising"
+            "phishing"
         ],
         "resources": [
             "domain"

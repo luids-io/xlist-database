@@ -9,7 +9,7 @@
         "web": "http://www.msrbl.com/",
         "category": "blacklist",
         "tags": [
-            "phising"
+            "phishing"
         ],
         "resources": [
             "ip4"

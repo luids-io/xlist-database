@@ -35,10 +35,10 @@ link:./csv/summary-sblookup.csv[download csv]
 |domain
 |link:https://safebrowsing.google.com/[web]
 
-|link:.//services/sblookup/safebrowsing-phising.json[safebrowsing-phising]
-|Google Safe Browsing - Phising
+|link:.//services/sblookup/safebrowsing-phishing.json[safebrowsing-phishing]
+|Google Safe Browsing - Phishing
 |blacklist
-|phising
+|phishing
 |domain
 |link:https://safebrowsing.google.com/[web]
 |===
@@ -453,7 +453,7 @@ link:./csv/summary-file.csv[download csv]
 |link:.//services/file/hosts-file-net-psh.json[hosts-file.net-psh]
 |hpHosts Online phishing
 |blacklist
-|phising
+|phishing
 |domain
 |link:https://hosts-file.net[web]
 
@@ -847,7 +847,7 @@ link:./csv/summary-dnsxl.csv[download csv]
 |link:.//services/dnsxl/dnsrbl-org.json[dnsrbl.org]
 |DNSRBL - DNS Real-time Blackhole List
 |blacklist
-|spam malware phising
+|spam malware phishing
 |ip4
 |link:http://dnsrbl.org/[web]
 
@@ -1113,7 +1113,7 @@ link:./csv/summary-dnsxl.csv[download csv]
 |link:.//services/dnsxl/msrbl-net-combined.json[msrbl.net-combined]
 |MSRBL combined
 |blacklist
-|spam phising malware
+|spam phishing malware
 |ip4
 |link:http://www.msrbl.com/[web]
 
@@ -1127,7 +1127,7 @@ link:./csv/summary-dnsxl.csv[download csv]
 |link:.//services/dnsxl/msrbl-net-phishing.json[msrbl.net-phishing]
 |MSRBL phishing
 |blacklist
-|phising
+|phishing
 |ip4
 |link:http://www.msrbl.com/[web]
 

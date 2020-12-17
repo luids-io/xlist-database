@@ -19,8 +19,7 @@ netscan
 non-mta
 noptr -> ips without a ptr register in the dns zone
 openproxy
-phising
-phising
+phishing
 piracy
 porn
 proxy

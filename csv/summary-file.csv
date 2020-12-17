@@ -56,7 +56,7 @@
 "hosts-file.net-emd","hpHosts Online malware sites",false,false,"blacklist","malware","domain","https://hosts-file.net"
 "hosts-file.net-exp","hpHosts Online exploit sites",false,false,"blacklist","exploit","domain","https://hosts-file.net"
 "hosts-file.net-fsa","hpHosts Online fraud sites",false,false,"blacklist","fraud","domain","https://hosts-file.net"
-"hosts-file.net-psh","hpHosts Online phishing",false,false,"blacklist","phising","domain","https://hosts-file.net"
+"hosts-file.net-psh","hpHosts Online phishing",false,false,"blacklist","phishing","domain","https://hosts-file.net"
 "hosts-file.net-pup","hpHosts Online Potentially Unwanted Programs",false,false,"blacklist","malware","domain","https://hosts-file.net"
 "interserver.net","InterServer BL",false,false,"blacklist","malware;spam;netscan","ip4","http://rbl.interserver.net/"
 "isc.sans.edu-domains","SANS Internet Storm Center suspicious domains",false,false,"blacklist","reputation","domain","https://isc.sans.edu"
