@@ -10,7 +10,7 @@
                 "resources": [
                     "ip4"
                 ],
-                "uri": "http://www.talosintelligence.com/feeds/ip-filter.blf"
+                "uri": "https://www.talosintelligence.com/documents/ip-blacklist"
             }
         ],
         "update": "8h"
